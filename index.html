@@ -3,90 +3,113 @@
   <head>
     <meta charset="utf-8">
     <title>Felicia Jackson | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="images/logo.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe|Muli:300,400,700|Poppins:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
   <body>
     <div class="container">
-<!--header section starts-->
-      <header>
+<!--hero section starts-->
+      <div class="hero-section">
+        <div class="marble-bg">
+          <img src="images/marble-bg.png" alt="marble background photo" style="width:1440px; height:861px;"/>
+        </div>
+
+        <div class="abstract-bg">
+          <img src="images/abstract-bg.jpg" alt="abstract background photo" style="width:1440px; height:861px;"/>
+        </div>
+        <div class="logo">
+          <img src="images/logo.png" alt="logo" style="width:83px; height:165.5px;"/>
+        </div>
+        <div class="hero-accent-border">
+          <img src="images/hero-accent-border.png" alt="accent border image" style="width:1308px; height:612px;"/>
+        </div>
+        <p class="title">Felicia Jackson | UX/UI Designer</p>
         <nav class="navbar">
-          <a href="#"><img src="logo.png"></a>
-          <h1>Felicia Jackson | UX/UI Designer</h1>
-          <ul class="links">
-            <li>Projects</li>
-            <li>About</li>
-            <li>Résumé</li>
-            <li>Contact</li>
+          <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="https://www.dropbox.com/s/9pagikaq9kiecrs/R%C3%A9sum%C3%A9%20V.2.1.pdf?dl=0">R&eacute;sum&eacute;</a></li>
+            <li><a href="mailto:jackson26@gmail.com">Contact</a></li>
           </ul>
         </nav>
-
-        <div class="hero-area">
-          <h2>Welcome, I'm Felicia</h2>
-          <p>I am a Central New Jersey-based UX/UI Designer, with a focus on turning problems into research-based solutions. I have a growth and empathic mindset, with a desire to create meaningful user experiences. </p>
-          <a href="#"><img src="portrait.png"></a>
+        <div class="hero-text">
+          <h1>Welcome,</h1>
+          <h1 class="name">I'm Felicia</h1>
+          <p class="info1">I am a Central New Jersey-based UX/UI Designer, with a focus on turning problems into research-based solutions. I have a growth and empathic mindset with a desire to create meaningful user experiences.</p>
         </div>
-      </header>
-<!--header section ends-->
+        <div class="portrait">
+          <img src="images/portrait.jpg" alt="portrait" style="width:445px; height:523px;"/>
+        </div>
+      </div>
+<!--hero section ends-->
 
 <!--project section starts-->
-      <section>
-        <h3>My Projects</h3>
+      <div>
+        <h3 id="projects">My Projects</h3>
+      </div>
 
-        <div class="accent-border">
-          <div class="tab">
-            <h3>Vaultage</h3>
-          </div>
-          <div class="card">
-            <div class="product-info">
-              <h4>Cloud Storage App</h4>
-            </div>
-            <p>A clickable high fidelity prototype. It was usability tested on several potential users. This prototype addresses the initial pain points of cloud service users based on data research.</p>
-            <button type="button" name="view case study">View Case Study</button>
-          </div>
-          <a href="#"><img src="vaultage.png"></a>
+      <section class="section1">
+        <div class="accent-border"></div>
+        <div class="product-name">
+          <h3>Vaultage</h3>
         </div>
-
-        <div class="accent-border">
-          <div class="tab">
-            <h3>Bloc Jams</h3>
-          </div>
-          <div class="card">
-            <div class="product-info">
-              <h4>Desktop Music App</h4>
-            </div>
-            <p>A fully functional music player. Displaying album information, list the songs for the album.  Includes standard music controls for playing, pausing, skipping forward, backward, and adjusting the volume. I was tasked with adding various frontend features.</p>
-            <button type="button" name="view case study">View Prototype</button>
-          </div>
-          <a href="#"><img src="bloc-jams.png"></a>
+        <div class="card">
+          <h4>Cloud Storage App</h4>
+          <p class="info2">A clickable high fidelity prototype. It was usability tested on several potential users. This prototype addresses the initial pain points of cloud service users based on data research.</p>
+          <a href="project.html" class="button">View Case Study</a>
         </div>
+        <div class="product-image">
+          <img src="images/vaultage-image.jpg" alt="vaultage-pic" style="width:663px; height:608px;"/>
+        </div>
+      </section>
 
-        <div class="accent-border">
-          <div class="tab">
-            <h3>Busy Bus</h3>
-          </div>
-          <div class="card">
-            <div class="product-info">
-              <h4>Mobile App</h4>
-            </div>
-            <p>BusyBus is a single screen prototype solution to the problem identified by Transit Officials at the Washington & State Street Bus stop. Riders wanted the ability to know when their exact bus would be arriving into the station.</p>
-            <button type="button" name="view case study">View Prototype</button>
-          </div>
-          <a href="#"><img src="busy-bus.png"></a>
+      <section class="section2">
+        <div class="accent-border2"></div>
+        <div class="product-name2">
+          <h3>Bloc Jams</h3>
+        </div>
+        <div class="card2">
+          <h4>Desktop Music App</h4>
+          <p class="info3">A fully functional music player. Displaying album information, list the songs for the album.  Includes standard music controls for playing, pausing, skipping forward, backward, and adjusting the volume. I was tasked with adding various frontend features using Javascript and jQuery.</p>
+          <a href="https://www.saphyerdesigns.com/" class="button">View Prototype</a>
+        </div>
+        <div class="bloc-jams-image">
+          <img src="images/bloc-jams.jpg" alt="bloc-jam-pic" style="width:663px; height:608px;"/>
+        </div>
+      </section>
+
+      <section class="section1">
+        <div class="accent-border"></div>
+        <div class="product-name">
+          <h3>Busy Bus</h3>
+        </div>
+        <div class="card">
+          <h4>Mobile App</h4>
+          <p class="info2">Busy Bus is a single screen prototype solution to the problem identified by Transit Officials at the Washington & State Street Bus stop. Riders wanted the ability to know when their exact bus would be arriving into the station.</p>
+          <a href="https://saphyer.github.io/FE-Challenge/" class="button">View Prototype</a>
+        </div>
+        <div class="product-image">
+          <img src="images/busy-bus.jpg" alt="busy-bus-pic" style="width:663px; height:608px;"/>
         </div>
       </section>
 <!--project section ends-->
 
 <!--Footer section starts-->
-      <footer>
-        <p>Thank you for your time, and I hope you enjoyed my work. If you have any questions, please feel free to contact me.</p>
-        <button type="button" name="let’s connect">Let’s Connect</button>
-        <p>&copy; 2019 Felicia Jackson | Designed & Developed by Felicia Jackson</p>
-        <ul class="links">
-          <li>LinkedIn
-          <li>Email</li>
-          <li>GitHub</li>
-          <li>Twitter</li>
-        </ul>
-      </footer>
+    <footer>
+      <p class="thank-you">Thank you for your time, and I hope you enjoyed my work. If you have any questions, please feel free to contact me.</p>
+      <a href="mailto:jackson26@gmail.com" class="lets-connect">Let’s Connect</a>
+      <p class="copy-right">&copy; 2019 Felicia Jackson | Designed & Developed by Felicia Jackson</p>
+      <ul class="links2">
+        <li><a href="https://www.linkedin.com/in/felicia-jackson" class="contact-links">LinkedIn</a></li>
+        <li><a href="mailto:jackson26@gmail.com" class="contact-links">Email</a></li>
+        <li><a href="https://github.com/Saphyer" class="contact-links">GitHub</a></li>
+        <li><a href="https://twitter.com/SaphyerJ?lang=en" class="contact-links">Twitter</a></li>
+      </ul>
+    </footer>
 <!--Footer section ends-->
     </div>
   </body>
