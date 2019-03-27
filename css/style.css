@@ -387,7 +387,6 @@ a.lets-connect:active {
   grid-template-columns: repeat(4, 113px);
   grid-column: 2;
   grid-row: 2;
-  margin-left: 230px;
   margin-top: -85px;
   text-align: center;
 }
