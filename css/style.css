@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -7,15 +9,22 @@ body {
   color: #2D3152;
   font-family: 'Muli', sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
+  height: 100%;
+  line-height: normal;
 }
 
+.img {
+  width: 100%
+}
+
+/* Mobile Starts */
+
 .container {
-  border: 5px solid pink;
   display: grid;
-  grid-template-columns: repeat(12,1fr);
-  grid-template-rows: 146px auto 1fr 1fr;
-  height: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 91px 900px auto 1fr 147px 32px;
+  width: 375px;
 }
 
 .header {
@@ -23,83 +32,295 @@ body {
   border-bottom: 10px solid #cda74e;
   color: #fff;
   display: grid;
-  grid-template-columns: repeat(12,1fr);
-  grid-column: 1 / -1;
-  height: 146px;
+  grid-template-columns: 1fr auto 1fr;
+  height: 94px;
 }
 
 .logo {
-  grid-column: 1;
-  grid-row: 1;
-  height: 145px;
   justify-self: end;
-  width: 70px;
 }
 
 .title {
   align-self: center;
-  grid-column: 2;
-  grid-row: 1;
+  font-size: 18px;
+  font-weight: 400;
   height: 26px;
-  width: 294px;
+  width: 250px;
 }
-
-.topnav {
-
-}
-
-.myLinks {
-  display: inline;
-}
-
-/* unvisited link */
-a:link {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-  color: #B3C7D6;
-}
-
-/* hover over link */
-a:hover {
-  color: #CDA74E;
-}
-
-/* selected link */
-a:active {
-  color: #D2D6DD;
-}
-
-
 
 .hero-section {
-
-  grid-column: 1 / -1;
-}
-
-.marble-bg {
-  grid-column: 1 / -1;
-  grid-row: 2 / 3;
-  width: 1440px;
-  z-index: -2;
+  display: grid;
+  grid-template-rows: 825px 1fr;
 }
 
 .abstract-bg {
-  grid-column: 1 / -1;
-  grid-row: 2 / 3;
+  grid-column: 1;
+  grid-row: 1;
   opacity: 0.7;
   z-index: -1;
 }
 
-.content {
-  grid-column: 1 / -1;
-  grid-row: 3;
+.mobile-portrait {
+  grid-column: 1;
+  grid-row: 1;
 }
 
-.footer {
-  grid-column: 1 / -1;
-  grid-row: 4;
+.mrDafoe {
+  align-self: center;
+  font-family: 'Mr Dafoe';
+  font-size: 60px;
+  grid-column: 1;
+  grid-row: 1;
+  height: 77px;
+  padding-left: 30px;
+  padding-top: 210px;
 }
+
+.name {
+  align-self: center;
+  font-family: 'Mr Dafoe';
+  font-size: 60px;
+  grid-column: 1;
+  grid-row: 1;
+  height: 87px;
+  padding-left: 70px;
+  padding-bottom: 0;
+  padding-top: 330px;
+}
+
+.info1 {
+  align-self: end;
+  font-weight: 300;
+  grid-column: 1;
+  grid-row:  1;
+  height: 144px;
+  justify-self: center;
+  padding-bottom: 80px;
+  width: 310px;
+}
+/* Mobile Hero Section Ends */
+
+/* Project Section Starts */
+.content {
+  display: grid;
+  grid-gap: 40px;
+}
+
+#projects {
+  grid-row: 1;
+  font-size: 30px;
+  font-weight: 400;
+  justify-self: center;
+  padding-top: 50px;
+}
+
+.section1 {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-rows: 1fr 294px 417px;
+}
+
+.product-name {
+  background-color: #2D3152;
+  color: #ffffff;
+  display: grid;
+  font-family: 'Poppins';
+  font-size: 30px;
+  font-weight: 500;
+  grid-template-rows: 1fr;
+  grid-row: 1;
+  height: 40px;
+  justify-items: center;
+  padding-bottom: 50px;
+}
+
+.product-image {
+  grid-row: 2;
+}
+
+.card {
+  background-color: #7d93a5;
+  box-shadow: 2px 2px #ecedf1;
+  color: #ffffff;
+  display: grid;
+  font-size: 20px;
+  grid-row: 3;
+  grid-template-rows: 80px 1fr 1fr;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bolder;
+  grid-row: 1;
+  padding-left: 35px;
+  padding-top: 35px;
+}
+
+.info2 {
+  font-size: 18px;
+  grid-row: 2;
+  padding-left: 35px;
+  width: 350px;
+}
+
+.button {
+  align-self: center;
+  background-color: #7D93A5;
+  border: 3px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: 2px 2px rgba(163, 163, 163, .50);
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-size: 20px;
+  grid-row: 3;
+  height: 78px;
+  justify-self: center;
+  padding: 20px 6px 15px 6px;
+  text-decoration-line: none;
+  text-align: center;
+  width: 309px;
+}
+
+.section2 {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-rows: 1fr 294px 455px;
+}
+
+.product-name2 {
+  background-color: #2D3152;
+  color: #ffffff;
+  display: grid;
+  font-family: 'Poppins';
+  font-size: 30px;
+  font-weight: 500;
+  grid-template-rows: 1fr;
+  grid-row: 1;
+  height: 40px;
+  justify-items: center;
+  padding-bottom: 50px;
+}
+
+.bloc-jams-image {
+  grid-row: 2;
+}
+
+.card2 {
+  background-color: #7d93a5;
+  box-shadow: 2px 2px #ecedf1;
+  color: #ffffff;
+  display: grid;
+  font-size: 20px;
+  grid-row: 3;
+  grid-template-rows: 80px 1fr 1fr;
+}
+
+.info3 {
+  font-size: 18px;
+  grid-row: 2;
+  padding-left: 35px;
+  width: 350px;
+}
+/* Project Section Ends */
+
+
+footer {
+  background-color: #2D3152;
+  color: #ffffff;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-rows: 340px;
+  padding-bottom: 40px;
+}
+
+.thank-you {
+  font-size: 20px;
+  font-weight: 400;
+  grid-column: 1;
+  grid-row: 1;
+  padding-left: 35px;
+  padding-top: 50px;
+  width: 340px;
+}
+
+.lets-connect {
+  align-self: end;
+  background-color: #cda74e;
+  border-top: 1px solid #cccccc;
+  border-right: 2px solid #a3a3a3;
+  border-bottom: 2px solid #a3a3a3;
+  border-left: 1px solid #cccccc;
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 400;
+  grid-column: 1;
+  grid-row: 1;
+  height: 78px;
+  justify-self: center;
+  padding: 20px 6px 20px 6px;
+  padding-bottom: 20px;
+  text-decoration-line: none;
+  text-align: center;
+  width: 309px;
+}
+
+a.lets-connect:link {
+  color: #ffffff;
+}
+
+/* visited link */
+a.lets-connect:visited {
+  color: #2d3152;
+}
+
+/* hover over link */
+a.lets-connect:hover {
+  color: #2d3152;
+}
+
+/* selected link */
+a.lets-connect:active {
+  color: #ffffff;
+}
+
+.links2 {
+  color: #2D3152;
+  display: grid;
+  font-size: 20px;
+  grid-row: 5;
+  padding-left: 35px;
+  padding-top: 20px;
+}
+
+/* unvisited link */
+a.contact-links:link {
+  color: #2D3152;
+  text-decoration: none;
+}
+
+/* visited link */
+a.contact-links:visited {
+  color: #B3C7D6;
+}
+
+/* hover over link */
+a.contact-links:hover {
+  color: #CDA74E;
+}
+
+/* selected link */
+a.contact-links:active {
+  color: #D2D6DD;
+}
+
+.copy-right {
+  color: #2D3152;
+  font-size: 10px;
+  height: 46px;
+  grid-row: 6;
+  padding-left: 35px;
+  padding-top: 20px;
+}
+
+/* Mobile Ends*/
