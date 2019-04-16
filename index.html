@@ -6,22 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="shortcut icon" href="images/logo.png"/>
+    <link rel="shortcut icon" href="images/logo.svg"/>
     <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe|Muli:300,400,700|Poppins:300,400,500" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
   <body>
     <div class="container">
-<!--hero section starts-->
+
       <header class="header">
-        <div class="logo">
-          <img src="images/logo2.png" alt="logo"/>
-        </div>
+        <picture class="logo">
+          <source srcset="images/logo2.svg" media="(max-width: 414px)">
+          <source srcset="images/logo.png">
+          <a href="index.html"><img src="images/logo2.svg" alt="smaller logo"/></a>
+        </picture>
         <h1 class="title">Felicia Jackson | UX Designer</h1>
+        <ul class="links">
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="https://www.dropbox.com/s/9pagikaq9kiecrs/R%C3%A9sum%C3%A9%20V.2.1.pdf?dl=0" target= _blank>R&eacute;sum&eacute;</a></li>
+          <li><a href="mailto:jackson26@gmail.com">Contact</a></li>
+        </ul>
       </header>
       <div class="hero-section">
         <div class="abstract-bg">
-          <img src="images/abstract-bg2.png" alt="abstract background photo"/>
+          <img src="images/abstract-bg2-mobile.svg" alt="abstract background photo"/>
         </div>
         <div class="mobile-portrait">
           <img src="images/mobile-portrait.jpg" alt="portrait"/>
@@ -30,20 +38,18 @@
         <h1 class="name">I'm Felicia</h1>
         <p class="info1">I am a Central New Jersey-based UX Designer, with a focus on turning problems into research-based solutions. I have a growth and empathic mindset with a desire to create meaningful user experiences.</p>
       </div>
-<!--hero section ends-->
 
-<!--project section starts-->
+<!-- Project section starts -->
 
-      <article class="content">
-        <h3 id="projects">My Projects</h3>
-
+      <div class="content">
         <section class="section1">
+          <h3 id="projects">My Projects</h3>
           <div class="accent-border"></div>
           <div class="product-name">
             <h3>Vaultage</h3>
           </div>
           <div class="product-image">
-            <img src="images/mobile-vaultage.jpg" alt="vaultage-pic"/>
+            <img src="images/vaultage-product-mobile.jpg" alt="vaultage-pic"/>
           </div>
           <div class="card">
             <h4>Cloud Storage App</h4>
@@ -58,44 +64,44 @@
             <h3>Bloc Jams</h3>
           </div>
           <div class="bloc-jams-image">
-            <img src="images/mobile-bloc-jams.jpg" alt="bloc-jam-pic"/>
+            <img src="images/bloc-jams-mobile.jpg" alt="bloc-jam-pic"/>
           </div>
           <div class="card2">
             <h4>Desktop Music App</h4>
             <p class="info3">A fully functional music player. Displaying album information, list the songs for the album.  Includes standard music controls for playing, pausing, skipping forward, backward, and adjusting the volume. I was tasked with adding various frontend features using Javascript and jQuery.</p>
-            <a href="https://www.saphyerdesigns.com/" class="button">View Prototype</a>
+            <a href="https://www.saphyerdesigns.com/" target= _blank  class="button">View Prototype</a>
           </div>
         </section>
 
-        <section class="section1">
+        <section class="section3">
           <div class="accent-border"></div>
-          <div class="product-name">
+          <div class="product-name3">
             <h3>Busy Bus</h3>
           </div>
-          <div class="product-image">
-            <img src="images/mobile-busy-bus.jpg" alt="busy-bus-pic"/>
+          <div class="busy-bus-image">
+            <img src="images/mobile-busy-bus.svg" alt="busy-bus-pic"/>
           </div>
-          <div class="card">
+          <div class="card3">
             <h4>Mobile App</h4>
             <p class="info2">Busy Bus is a single screen prototype solution to the problem identified by Transit Officials at the Washington & State Street Bus stop. Riders wanted the ability to know when their exact bus would be arriving into the station.</p>
-            <a href="https://saphyer.github.io/FE-Challenge/" class="button">View Prototype</a>
+            <a href="https://saphyer.github.io/FE-Challenge/" target= _blank  class="button">View Prototype</a>
           </div>
         </section>
-      </article>
-<!--project section ends-->
+      </div>
 
-<!--Footer section starts-->
+<!-- Footer starts -->
+
       <footer class="footer">
         <p class="thank-you">Thank you for your time, and I hope you enjoyed my work. If you have any questions, please feel free to contact me.</p>
-        <a href="mailto:jackson26@gmail.com" class="lets-connect">Let’s Connect</a>
+        <a href="mailto:jackson26@gmail.com" target= _blank class="lets-connect">Let’s Connect</a>
       </footer>
-      <ul class="links2">
-        <li><a href="https://www.linkedin.com/in/felicia-jackson" class="contact-links">LinkedIn</a></li>
-        <li><a href="mailto:jackson26@gmail.com" class="contact-links">Email</a></li>
-        <li><a href="https://github.com/Saphyer" class="contact-links">GitHub</a></li>
-        <li><a href="https://twitter.com/SaphyerJ?lang=en" class="contact-links">Twitter</a></li>
-      </ul>
-      <p class="copy-right">&copy; 2019 Felicia Jackson | Designed & Developed by Felicia Jackson</p>
+        <ul class="links2">
+          <li><a href="https://www.linkedin.com/in/felicia-jackson" target= _blank class="contact-links">LinkedIn</a></li>
+          <li><a href="mailto:jackson26@gmail.com" target= _blank class="contact-links">Email</a></li>
+          <li><a href="https://github.com/Saphyer" target= _blank class="contact-links">GitHub</a></li>
+          <li><a href="https://twitter.com/SaphyerJ?lang=en" target= _blank class="contact-links">Twitter</a></li>
+        </ul>
+        <p class="copy-right">&copy; 2019 Felicia Jackson | Designed & Developed by Felicia Jackson</p>
     </div>
   </body>
 </html>
