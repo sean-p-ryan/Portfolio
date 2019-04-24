@@ -168,15 +168,18 @@ a:active {
 
 .section1 {
   display: grid;
-  grid-row-gap: 40px;
-  grid-template-rows: fr 940px;
+  grid-row-gap: 30px;
+  grid-template-rows: 1fr 940px;
 }
 
 #projects {
+  color: #2d3152;
   font-size: 30px;
   font-weight: 400;
   grid-column: 1;
   grid-row: 1;
+  place-self: center;
+  padding-top: 30px;
 }
 
 .accent-border {
@@ -2298,12 +2301,20 @@ a.contact-links:active {
   }
 
   .menu a {
+    border-bottom: 1px solid #fff;
     display: block;
     margin-left: 0;
+    width: 341px;
   }
 
   #toggle:checked + .menu {
     background-color: #2D3152;
     display: block;
+    height:auto;
+    margin-top:111px;
+    opacity: 0.9;
+    width: 341px;
   }
+
+
 }
