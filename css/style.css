@@ -53,8 +53,7 @@ header {
   grid-column: 1;
   grid-row: 1;
   height: 26px;
-  padding-top: 5px;
-  place-self: center;
+  padding-top: 41px;
   width: 241px;
 }
 
@@ -2295,16 +2294,18 @@ a.contact-links:active {
   }
 
   .menu {
+    display: none;
+    left: 0px;
+    position: absolute;
     text-align: center;
     width: 100%;
-    display: none;
   }
 
   .menu a {
     border-bottom: 1px solid #fff;
     display: block;
     margin-left: 0;
-    width: 341px;
+    width: 414px;
   }
 
   #toggle:checked + .menu {
@@ -2313,7 +2314,7 @@ a.contact-links:active {
     height:auto;
     margin-top:111px;
     opacity: 0.9;
-    width: 341px;
+    width: 414px;
   }
 
 
