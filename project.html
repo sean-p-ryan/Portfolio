@@ -5,33 +5,36 @@
     <title>Felicia Jackson | Vaultage Case Study</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/project.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="shortcut icon" href="images/logo.svg"/>
     <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe|Muli:300,400,700|Poppins:300,400,500" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container">
-      <header class="header">
+    <main>
+      <header>
         <picture class="logo">
           <source srcset="images/logo2.svg" media="(max-width: 414px)">
           <source srcset="images/logo.png">
           <a href="index.html"><img src="images/logo2.svg" alt="smaller logo"/></a>
         </picture>
         <h1 class="title">Felicia Jackson | UX Designer</h1>
-        <ul class="links">
-          <li><a href="index.html#projects">Projects</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="https://www.dropbox.com/s/9pagikaq9kiecrs/R%C3%A9sum%C3%A9%20V.2.1.pdf?dl=0" target= _blank>R&eacute;sum&eacute;</a></li>
-          <li><a href="mailto:jackson26@gmail.com">Contact</a></li>
-        </ul>
+        <nav>
+          <label for="toggle">&#9776;</label>
+          <input type="checkbox" id="toggle"/>
+          <div class="menu">
+            <a href="index.html#projects">Projects</a>
+            <a href="about.html">About</a>
+            <a href="https://www.dropbox.com/s/i8ljtvry3wjc6zt/Revised%20R%C3%A9sum%C3%A9.pdf?dl=0" target= _blank>R&eacute;sum&eacute;</a>
+            <a href="mailto:jackson26@gmail.com">Contact</a>
+        </nav>
       </header>
 
       <section class="hero-area">
         <div class="steel-bg">
           <img src="images/steel-bg-mobile.jpg" alt="steel background photo"/>
         </div>
-        <h2>Vaultage</h2>
+        <h2 class="prototype-title">Vaultage</h2>
         <p class="hero-statement">A clickable high fidelity prototype for a cloud storage app. It was usability tested on several potential users. This prototype addresses the initial pain points of cloud service users based on data research.</p>
         <div class="hero-image">
           <img src="images/vaultage-hero-mobile.svg" alt="hero image"/>
@@ -434,6 +437,6 @@
         <li><a href="https://twitter.com/SaphyerJ?lang=en" target= _blank class="contact-links">Twitter</a></li>
       </ul>
       <p class="copy-right">&copy; 2019 Felicia Jackson | Designed & Developed by Felicia Jackson</p>
-    </div>
+    </main>
   </body>
 </html>
