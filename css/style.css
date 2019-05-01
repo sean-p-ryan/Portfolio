@@ -36,11 +36,9 @@ header {
 .logo {
   grid-column: 1;
   grid-row: 1;
-  height: 80px;
   justify-self: start;
   padding-left: 32px;
   padding-top: 15px;
-  width: 40px;
 }
 
 .title {
@@ -64,10 +62,11 @@ nav {
 
 .menu a {
   clear: right;
-  text-decoration: none;
   color: #fff;
-  margin: 0 10px;
+  font-weight: 400;
   line-height: 50px;
+  margin: 0 10px;
+  text-decoration: none;
 }
 
 label {
@@ -110,7 +109,7 @@ a:active {
 /* Hero starts */
 .hero-section {
   display: grid;
-  grid-template-rows: 485px 423px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .abstract-bg {
@@ -120,10 +119,9 @@ a:active {
   z-index: -1;
 }
 
-.mobile-portrait {
+.portrait1 {
   grid-column: 1;
   grid-row: 1;
-  height: 484px;
 }
 
 .mrDafoe {
@@ -2279,6 +2277,11 @@ a.contact-links:active {
 
 /* Mobile Styles - 2286 - 2319 */
 @media only screen and (max-width: 500px) {
+  .abstract-bg img {
+    height: 423px;
+    width: 414px;
+}
+
   header {
     height: 110px;
   }
@@ -2286,6 +2289,11 @@ a.contact-links:active {
   label {
     display: block;
     cursor: pointer;
+  }
+
+  .logo img {
+    height: auto;
+    width: 40px;
   }
 
   .menu {
@@ -2303,6 +2311,11 @@ a.contact-links:active {
     width: 414px;
   }
 
+  .portrait1 img {
+    height: auto;
+    width: 414px;
+  }
+
   #toggle:checked + .menu {
     background-color: #2D3152;
     display: block;
@@ -2315,26 +2328,90 @@ a.contact-links:active {
 
 /* Tablet Styles - 2322 -  */
 @media only screen and (min-width: 501px) and (max-width: 960px) {
+  .abstract-bg img {
+    grid-column: 1;
+    grid-row: 1;
+    height: 446;
+    width: 768px;
+  }
+
   header {
     height: 110px;
   }
 
-  nav {
-    text-align: right;
-    height: 70px;
-    line-height: 70px;
+  .logo img {
+    height: auto;
+    width: 40px;
+  }
+
+  .menu a {
+    line-height: 104px;
+  }
+
+  .portrait1 img {
+    height: auto;
+    width: 245px;
+  }
+
+  .title {
+    grid-column: 1;
+    grid-row: 1;
+    height: 26px;
+    left: 72px;
+    position: absolute;
+    width: 241px;
   }
 }
 
 
 /* Desktop Styles -  -  */
 @media only screen and (min-width: 961px) and (max-width: 1440px) {
+  .abstract-bg img {
+    grid-column: 1;
+    grid-row: 1;
+    height: auto;
+    width: 1440px;
+  }
+
   header {
     height: 146px;
   }
 
-  .logo {
+  .logo img {
     height: auto;
+    left: 85px;
+    position: absolute;
+    top: 0px;
     width: 70px;
+  }
+
+  .menu {
+    margin: 17px 95px 0 0px;
+  }
+
+  .menu a {
+    clear: right;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 104px;
+    padding: 30px;
+    right: 85px;
+  }
+
+  .portrait1 img {
+    height: auto;
+    width: 444px;
+  }
+
+  .title {
+    font-size: 20px;
+    grid-column: 1;
+    grid-row: 1;
+    height: 26px;
+    left: 162px;
+    position: absolute;
+    top: 15px;
+    width: 299px;
   }
 }
