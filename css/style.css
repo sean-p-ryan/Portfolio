@@ -2365,7 +2365,7 @@ a.contact-links:active {
   }
 
   .abstract-bg2 img {
-    height: 243px;
+    height: 343px;
     width: 834px;
   }
 
@@ -2444,8 +2444,8 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 2;
     height: 240px;
-    margin-left: 65px;
-    margin-bottom: 500px;
+    margin-left: 100px;
+    place-self: flex-start;
     width: 700px;
   }
 
@@ -2465,6 +2465,7 @@ a.contact-links:active {
   .product-image img {
     height: 412px;
     margin-right: 50px;
+    object-fit: fill;
     width: 350px;
   }
 
@@ -2472,7 +2473,7 @@ a.contact-links:active {
     align-self: center;
     height: 370;
     margin-left: 65px;
-    margin-top: -35px;
+    margin-top: 125px;
     width: 350px;
   }
 
@@ -2497,8 +2498,8 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 2;
     height: 240px;
-    margin-bottom: 500px;
-    margin-right: 65px;
+    margin-left: 50px;
+    place-self: flex-start;
     width: 700px;
   }
 
@@ -2521,6 +2522,7 @@ a.contact-links:active {
   .bloc-jams-image img {
     height: 470px;
     margin-right: 50px;
+    object-fit: fill;
     width: 350px;
   }
 
@@ -2531,7 +2533,7 @@ a.contact-links:active {
     height: 470px;
     justify-self: end;
     margin-right: 65px;
-    margin-top: 25px;
+    margin-top: 125px;
     width: 350px;
   }
 
@@ -2552,8 +2554,8 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 2;
     height: 240px;
-    margin-left: 65px;
-    margin-bottom: 500px;
+    margin-left: 100px;
+    place-self: flex-start;
     width: 700px;
   }
 
@@ -2573,6 +2575,7 @@ a.contact-links:active {
   .busy-bus-image img {
     height: 412px;
     margin-right: 50px;
+    object-fit: fill;
     width: 350px;
   }
 
@@ -2580,8 +2583,13 @@ a.contact-links:active {
     align-self: center;
     height: 370;
     margin-left: 65px;
-    margin-top: -35px;
+    margin-top: 125px;
     width: 350px;
+  }
+
+  footer {
+    height: 157px;
+    margin-top: 85px;
   }
 
 }
