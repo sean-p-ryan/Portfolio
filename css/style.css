@@ -109,7 +109,7 @@ a:active {
 /* Hero starts */
 .hero-section {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-auto-rows: minmax(100px, auto);
 }
 
@@ -157,14 +157,11 @@ a:active {
 /* Projects starts */
 .content {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-auto-rows: minmax(100px, auto);
 }
 
 .section1 {
   display: grid;
   grid-row-gap: 30px;
-  grid-auto-rows: minmax(100px, auto);
 }
 
 #projects {
@@ -204,13 +201,13 @@ a:active {
 .product-image {
   grid-column: 1;
   grid-row: 2;
-  padding-top: 125px;
+  margin-top: 125px;
 }
 
 .card {
   align-self: end;
   background-color: #7d93a5;
-  box-shadow: 0 0 px #000;
+  box-shadow: 0 3px 3px #c4c4c4;
   color: #ffffff;
   display: grid;
   font-size: 20px;
@@ -243,7 +240,7 @@ h4 {
  color: #ffffff;
  font-family: 'Poppins';
  font-size: 20px;
- font-weight: 400;
+ font-weight: 300;
  grid-column: 1;
  grid-row: 3;
  height: 78px;
@@ -314,13 +311,13 @@ a.button:active {
 .bloc-jams-image {
   grid-column: 1;
   grid-row: 2;
-  padding-top: 125px;
+  margin-top: 125px;
 }
 
 .card2 {
   align-self: end;
   background-color: #7d93a5;
-  box-shadow: 0 0 px #000;
+  box-shadow: 0 3px 3px #c4c4c4;
   color: #ffffff;
   display: grid;
   font-size: 20px;
@@ -370,13 +367,13 @@ a.button:active {
 .busy-bus-image {
   grid-column: 1;
   grid-row: 2;
-  padding-top: 125px;
+  margin-top: 125px;
 }
 
 .card3{
   align-self: end;
   background-color: #7d93a5;
-  box-shadow: 0 0 px #000;
+  box-shadow: 0 3px 3px #c4c4c4;
   color: #ffffff;
   display: grid;
   font-size: 20px;
@@ -1373,7 +1370,7 @@ a.lo-fi-wireframes-button:hover {
 
 /* selected link */
 a.lo-fi-wireframes-button:active {
-  background: ffffff;
+  background: #ffffff;
   border: 2px solid #2D3152;
   color: #2d3152;
 }
@@ -2279,7 +2276,7 @@ a.contact-links:active {
 }
 /* Footer ends */
 
-/* Mobile Styles - 2280 - 2328 */
+/* Mobile Styles - 2283 - 2350 */
 @media only screen and (max-width: 500px) {
   .abstract-bg img {
     height: 423px;
@@ -2350,7 +2347,7 @@ a.contact-links:active {
   }
 }
 
-/* Tablet Styles - 2331 -  */
+/* Tablet Styles - 2354 -  */
 @media only screen and (min-width: 501px) and (max-width: 960px) {
   .abstract-bg {
     grid-column: 1;
@@ -2428,16 +2425,9 @@ a.contact-links:active {
     width: 415px;
   }
 
-  .content {
-    grid-gap: 30px;
-    grid-template-rows: 1fr;
-    width: 834px;
-  }
-
   .section1 {
     display: grid;
     grid-row-gap: 30px;
-    grid-template-rows: 1fr;
   }
 
   .accent-border {
@@ -2459,19 +2449,21 @@ a.contact-links:active {
   .product-image {
     grid-column: 1;
     grid-row: 2;
+    height: 410px;
+    margin-right: 50px;
     justify-self: end;
+    width: 350px;
   }
 
   .product-image img {
-    height: 412px;
-    margin-right: 50px;
+    height: 100%;
     object-fit: fill;
-    width: 350px;
+    width: 100%;
   }
 
   .card {
     align-self: center;
-    height: 370;
+    height: 410px;
     margin-left: 65px;
     margin-top: 125px;
     width: 350px;
@@ -2498,7 +2490,7 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 2;
     height: 240px;
-    margin-left: 50px;
+    margin-left: 34px;
     place-self: flex-start;
     width: 700px;
   }
@@ -2515,15 +2507,16 @@ a.contact-links:active {
   .bloc-jams-image {
     grid-column: 1;
     grid-row: 2;
-    padding-left: 50px;
-    padding-top: 125px;
+    height: 470px;
+    padding-left: 30px;
+    width: 385px;
   }
 
   .bloc-jams-image img {
-    height: 470px;
-    margin-right: 50px;
-    object-fit: fill;
-    width: 350px;
+    height: 100%;
+    margin-left: 20px;
+    object-fit: cover;
+    width: 100%;
   }
 
   .card2 {
@@ -2532,7 +2525,7 @@ a.contact-links:active {
     grid-row: 2;
     height: 470px;
     justify-self: end;
-    margin-right: 65px;
+    margin-right: 60px;
     margin-top: 125px;
     width: 350px;
   }
@@ -2569,19 +2562,22 @@ a.contact-links:active {
   .busy-bus-image {
     grid-column: 1;
     grid-row: 2;
+    height: 412px;
     justify-self: end;
+    margin-right: 50px;
+    width: 350px;
   }
 
   .busy-bus-image img {
-    height: 412px;
-    margin-right: 50px;
+    height: 100%;
+
     object-fit: fill;
-    width: 350px;
+    width: 100%;
   }
 
   .card3{
     align-self: center;
-    height: 370;
+    height: 412px;
     margin-left: 65px;
     margin-top: 125px;
     width: 350px;
@@ -2592,11 +2588,79 @@ a.contact-links:active {
     margin-top: 85px;
   }
 
-}
+  .thank-you {
+    font-size: 20px;
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 65px;
+    justify-self: start;
+    width: 475px;
+  }
 
+  .lets-connect {
+   grid-column: 1;
+   grid-row: 1;
+   height: 58px;
+   justify-self: end;
+   margin-right: 65px;
+   text-align: center;
+   padding: 15px;
+   width: 225px;
+  }
+
+  ul.links2 li {
+    display: inline;
+    float: right;
+    grid-column: 1;
+    grid-row: 2;
+    margin-right: 30px;
+    padding-left: 5px;
+    padding-top: 20px;
+  }
+
+  /* unvisited link */
+  a.contact-links:link {
+    color: #2D3152;
+    text-decoration: none;
+  }
+
+  /* visited link */
+  a.contact-links:visited {
+    color: #B3C7D6;
+  }
+
+  /* hover over link */
+  a.contact-links:hover {
+    color: #CDA74E;
+  }
+
+  /* selected link */
+  a.contact-links:active {
+    color: #D2D6DD;
+  }
+
+  .copy-right {
+    font-size: 11px;
+    grid-column: 1;
+    grid-row: 10;
+    margin-top: -30px;
+    padding-left: 65px;
+  }
+}
 
 /* Desktop Styles -  -  */
 @media only screen and (min-width: 961px) and (max-width: 1440px) {
+  body{
+    font-size: 20px;
+  }
+
+  .abstract-bg {
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0.7;
+    z-index: -2;
+  }
+
   .abstract-bg img {
     grid-column: 1;
     grid-row: 1;
@@ -2622,11 +2686,9 @@ a.contact-links:active {
 
   .menu a {
     clear: right;
-    color: #fff;
-    font-size: 20px;
     font-weight: 400;
     line-height: 104px;
-    padding: 30px;
+    padding: 10px;
     right: 85px;
   }
 
@@ -2657,7 +2719,6 @@ a.contact-links:active {
   }
 
   .title {
-    font-size: 20px;
     grid-column: 1;
     grid-row: 1;
     height: 26px;
@@ -2665,5 +2726,277 @@ a.contact-links:active {
     position: absolute;
     top: 15px;
     width: 299px;
+  }
+
+  .portrait1 {
+    align-self: center;
+    justify-self: end;
+    padding-right: 180px;
+  }
+
+  .portrait1 img {
+    height: auto;
+    width: 445px;
+  }
+
+  .mrDafoe {
+    font-size: 80px;
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 150px;
+    padding-top: 90px;
+  }
+
+  .name {
+    font-size: 80px;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    margin-top: -130px;
+    padding-left: 225px;
+  }
+
+  .info1 {
+    grid-column: 1;
+    grid-row: 1;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    justify-self: start;
+    width: 575px;
+  }
+
+  .section1 {
+    display: grid;
+    grid-row-gap: 50px;
+  }
+
+  #projects {
+    font-size: 50px;
+  }
+
+  .accent-border {
+    grid-column: 1;
+    grid-row: 2;
+    height: 448px;
+    margin-left: 150px;
+    place-self: flex-start;
+    width: 1175px;
+  }
+
+  .product-name {
+    height: 78px;
+    grid-column: 1;
+    grid-row: 2;
+    width: 445px;
+  }
+
+  h3 {
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  .product-image {
+    grid-column: 1;
+    grid-row: 2;
+    padding-right: 160px;
+    padding-top: 70px;
+    justify-self: end;
+  }
+
+  .product-image img {
+    height: auto;
+    width: 663px;
+  }
+
+  .card {
+    align-self: center;
+    height: 608px;
+    margin-left: 110px;
+    margin-top: 195px;
+    width: 464px;
+  }
+
+  h4 {
+    font-size: 26px;
+  }
+
+  .info2 {
+    font-size: 20px;
+    grid-row: 2;
+    padding-left: 35px;
+    padding-top: 20px;
+    width: 415px;
+  }
+
+  .button {
+    align-self: center;
+    font-size: 26px;
+    width: 369px;
+  }
+
+  .section2 {
+    display: grid;
+    grid-gap: 80px;
+    grid-template-rows: 1fr;
+  }
+
+  .accent-border2 {
+    grid-column: 1;
+    grid-row: 2;
+    height: 448px;
+    margin-left: 120px;
+    place-self: flex-start;
+    width: 1175px;
+  }
+
+  .product-name2 {
+    grid-column: 1;
+    grid-row: 2;
+    height: 78px;
+    justify-self: end;
+    padding-right: 25px;
+    width: 445px;
+  }
+
+  .bloc-jams-image {
+    grid-column: 1;
+    grid-row: 2;
+    padding-left: 145px;
+    padding-top: 70px;
+  }
+
+  .bloc-jams-image img {
+    height: auto;
+    margin-left: 20px;
+    width: 663px;
+  }
+
+  .card2 {
+    align-self: center;
+    grid-column: 1;
+    grid-row: 2;
+    height: 608px;
+    justify-self: end;
+    margin-right: 100px;
+    margin-top: 195px;
+    width: 464px;
+  }
+
+  .info3 {
+    font-size: 20px;
+    grid-row: 2;
+    padding-left: 35px;
+    padding-top: 20px;
+    width: 415px;
+  }
+
+  .section3 {
+    display: grid;
+    grid-row-gap: 80px;
+    grid-template-rows: 1fr;
+  }
+
+  .accent-border3 {
+    grid-column: 1;
+    grid-row: 2;
+    height: 448px;
+    margin-left: 150px;
+    place-self: flex-start;
+    width: 1175px;
+  }
+
+  .product-name3 {
+    height: 78px;
+    grid-column: 1;
+    grid-row: 2;
+    width: 445px;
+  }
+
+  .busy-bus-image {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: end;
+    margin-right: 160px;
+    padding-top: 70px;
+  }
+
+  .busy-bus-image img {
+    height: auto;
+    width: 663px;
+  }
+
+  .card3{
+    align-self: center;
+    height: 608px;
+    margin-left: 110px;
+    margin-top: 195px;
+    width: 464px;
+  }
+
+  footer {
+    height: 157px;
+    margin-top: 85px;
+  }
+
+  .thank-you {
+    align-self: center;
+    font-size: 20px;
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 75px;
+    padding-bottom: 20px;
+    width: 730px;
+  }
+
+  .lets-connect {
+   font-size: 26px;
+   font-weight: 400;
+   grid-column: 1;
+   grid-row: 1;
+   height: 78px;
+   justify-self: end;
+   margin-right: 65px;
+   text-align: center;
+   padding: 15px;
+   width: 369px;
+  }
+
+  ul.links2 li {
+    display: inline;
+    float: right;
+    grid-column: 1;
+    grid-row: 2;
+    margin-right: 65px;
+    padding-left: 2px;
+    padding-top: 20px;
+  }
+
+  /* unvisited link */
+  a.contact-links:link {
+    color: #2D3152;
+    text-decoration: none;
+  }
+
+  /* visited link */
+  a.contact-links:visited {
+    color: #B3C7D6;
+  }
+
+  /* hover over link */
+  a.contact-links:hover {
+    color: #CDA74E;
+  }
+
+  /* selected link */
+  a.contact-links:active {
+    color: #D2D6DD;
+  }
+
+  .copy-right {
+    font-size: 16px;
+    grid-column: 1;
+    grid-row: 10;
+    margin-top: -30px;
+    margin-left: 75px;
   }
 }
