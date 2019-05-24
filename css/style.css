@@ -5470,7 +5470,7 @@ a.contact-links:active {
     }
   }
 
-  /* Desktop Styles Larger monitors | 5476 - 5518 */
+  /* Desktop Styles Larger monitors | 5476 - 5616 */
   @media only screen and (min-width: 1441px) and (max-width: 3000px) {
  /* homepage */
     .product-image {
@@ -5517,50 +5517,100 @@ a.contact-links:active {
 
 /* Case Study */
 
-  .multitasker{
-     grid-column: 1;
-     grid-row: 3;
-     justify-self: center;
-     padding-right: 250px;
-  }
+    .multitasker{
+       grid-column: 1;
+       grid-row: 3;
+       justify-self: center;
+       padding-right: 380px;
+    }
 
-  .multitaker-text{
-     grid-column: 1;
-     grid-row: 3;
-     justify-self: center;
-     padding-left: 80px;
-     padding-top: 35px;
-     width: 642px;
-  }
+    .multitaker-text{
+       grid-column: 1;
+       grid-row: 3;
+       justify-self: center;
+       padding-left: 18px;
+       padding-top: 35px;
+       width: 642px;
+    }
 
-  .professional{
-     grid-column: 1;
-     grid-row: 5;
-     justify-self: center;
-     padding-right: 200px;
-  }
+    .professional{
+       grid-column: 1;
+       grid-row: 5;
+       justify-self: center;
+       padding-right: 330px;
+    }
 
-  .professional-text{
-     grid-column: 1;
-     grid-row: 5;
-     justify-self: center;
-     padding-left: 80px;
-     padding-top: 35px;
-     width: 642px;
-  }
+    .professional-text{
+       grid-column: 1;
+       grid-row: 5;
+       justify-self: center;
+       padding-left: 20px;
+       padding-top: 35px;
+       width: 642px;
+    }
 
-  .us-image {
-     grid-column: 1;
-     grid-row: 10;
-     justify-self: center;
-     padding-right: 80px;
-  }
+    .us-image {
+       grid-column: 1;
+       grid-row: 10;
+       justify-self: center;
+       padding-right: 200px;
+    }
 
-  .site-map-image {
-     grid-column: 1;
-     grid-row: 29;
-     padding-bottom: 80px;
-     padding-right: 80px;
-     place-self: center;
-  }
+    .site-map-image {
+       grid-column: 1;
+       grid-row: 29;
+       padding-bottom: 80px;
+       padding-right: 200px;
+       place-self: center;
+    }
+
+    .vl2 {
+       grid-column: 1;
+       grid-row: 8;
+       padding-right: 400px;
+       padding-top: 10px;
+       place-self: center;
+    }
+
+    .vl3 {
+       grid-column: 1;
+       grid-row: 8;
+       justify-self: center;
+       padding-left: 320px;
+       padding-top: 30px;
+    }
+
+    .hi-fi-vl2 {
+       grid-column: 1;
+       grid-row: 10;
+       padding-right: 400px;
+       padding-top: 15px;
+       place-self: center;
+    }
+
+    .hi-fi-vl3 {
+       grid-column: 1;
+       grid-row: 10;
+       padding-left: 150px;
+       place-self: center;
+    }
+
+    .hi-fi-vl4 {
+       grid-column: 1;
+       grid-row: 10;
+       justify-self: end;
+       padding-right: 300px;
+       padding-top: 20px;
+    }
+
+    ul.links2 li {
+      display: inline;
+      float: right;
+      grid-column: 1;
+      grid-row: 2;
+      margin-right: 91px;
+      padding-left: 2px;
+      padding-top: 20px;
+      z-index: 1;
+    }
 }
