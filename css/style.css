@@ -2295,7 +2295,7 @@ a.contact-links:active {
 
 /* Mobile Styles | 2298 - 2451 */
 /* Homepage mobile styles |2298 - 2363 */
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 360px) and (max-width: 500px) {
   header {
     height: 110px;
   }
@@ -5612,5 +5612,10 @@ a.contact-links:active {
       padding-left: 2px;
       padding-top: 20px;
       z-index: 1;
+    }
+
+    .portrait2 {
+      margin-left: 95px;
+      margin-bottom: 130px;
     }
 }
