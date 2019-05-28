@@ -2113,14 +2113,14 @@ a.preference-test-button:active {
 .bio-section {
   display: grid;
   grid-gap: 30px;
-  grid-template-rows: 650px 1fr;
+  grid-template-rows: 700px 1fr;
 }
 
 .color-block {
   background-color: #2d3152;
   grid-column: 1;
   grid-row: 1;
-  height: 350px;
+  height: 351px;
   justify-self: center;
   width: 364px;
 }
@@ -2130,7 +2130,7 @@ a.preference-test-button:active {
   grid-column: 1;
   grid-row: 1;
   height: 253px;
-  margin-top: 55px;
+  margin-top: 50px;
   justify-self: center;
   width: 400px;
 }
@@ -2293,7 +2293,7 @@ a.contact-links:active {
 }
 /* Footer ends */
 
-/* Mobile Styles | 2298 - 2451 */
+/* Mobile Styles | 2298 - 2455 */
 /* Homepage mobile styles |2298 - 2363 */
 @media only screen and (min-width: 360px) and (max-width: 500px) {
   header {
@@ -2362,7 +2362,7 @@ a.contact-links:active {
     width: 414px;
   }
 
-/* Case Study mobile styles | 2367 - 2451 */
+/* Case Study mobile styles | 2367 - 2455 */
 
   .steel-bg img {
     height: 855px;
@@ -2454,9 +2454,9 @@ a.contact-links:active {
   }
 }
 
-/* Tablet Styles | 2454 - 3843 */
+/* Tablet Styles | 2458 - 3847 */
 @media only screen and (min-width: 501px) and (max-width: 960px) {
-/* Homepage tablet styles | 2454 - 2692 */
+/* Homepage tablet styles | 2458 - 2696 */
   header {
     height: 110px;
   }
@@ -2695,7 +2695,7 @@ a.contact-links:active {
     width: 350px;
   }
 
-/* Case Study tablet styles | 2695 - 3705 */
+/* Case Study tablet styles | 2699 - 3709 */
    .hero-area {
      grid-template-rows: 450px;
    }
@@ -3708,7 +3708,7 @@ a.contact-links:active {
    width: 675px;
  }
 
-/* About Me tablet styles | 3708 - 3793 */
+/* About Me tablet styles | 3712 - 3797 */
   .bio-section {
     grid-template-rows: 725px;
   }
@@ -3796,7 +3796,7 @@ a.contact-links:active {
     width: 425px;
   }
 
-/* Footer tablet styles | 3797 - 3843 */
+/* Footer tablet styles | 3801 - 3847 */
 
  footer {
    height: 157px;
@@ -3846,9 +3846,9 @@ a.contact-links:active {
  }
 }
 
-/* Desktop Styles | 3846 - 5469 */
+/* Desktop Styles | 3850 - 5471 */
 @media only screen and (min-width: 961px) {
-/* Homepage desktop styles | 3846 - 4141 */
+/* Homepage desktop styles | 3850 - 4141 */
 
   body{
     font-size: 20px;
@@ -4142,7 +4142,6 @@ a.contact-links:active {
   }
 
 /* Case Study desktop styles | 4145 - 5285 */
-
   body {
     font-size: 20px;
   }
@@ -5285,7 +5284,7 @@ a.contact-links:active {
      width: 910px;
   }
 
-/* About Me Desktop styles | 5289 - 5415 */
+/* About Me Desktop styles | 5289 - 5417 */
 
   .bio-section {
     grid-template-columns: 900px 300px;
@@ -5416,7 +5415,8 @@ a.contact-links:active {
     padding-bottom: 10px;
     width: 710px;
   }
-/* Footer Desktop styles | 5419 - 5469 */
+
+/* Footer Desktop styles | 5421 - 5471 */
 
     footer {
       height: 157px;
@@ -5470,9 +5470,10 @@ a.contact-links:active {
     }
   }
 
-  /* Desktop Styles Larger monitors | 5476 - 5616 */
+  /* Desktop Styles Larger monitors | 5474 - 5624 */
   @media only screen and (min-width: 1441px) and (max-width: 3000px) {
- /* homepage */
+ /* homepage | 5477 - 5517 */
+
     .product-image {
       grid-column: 1;
       grid-row: 2;
@@ -5515,7 +5516,7 @@ a.contact-links:active {
       padding-top: 70px;
     }
 
-/* Case Study */
+/* Case Study | 5521 - 5617 */
 
     .multitasker{
        grid-column: 1;
@@ -5613,6 +5614,8 @@ a.contact-links:active {
       padding-top: 20px;
       z-index: 1;
     }
+
+/* About Me | 5620 - 5624 */
 
     .portrait2 {
       margin-left: 95px;
