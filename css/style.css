@@ -91,12 +91,12 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: #B3C7D6;
+  color: #ffffff;
 }
 
 /* hover over link */
 a:hover {
-  color: #CDA74E;
+  text-decoration: underline;
 }
 
 /* selected link */
@@ -121,7 +121,7 @@ a:active {
 }
 
 .mrDafoe {
-  font-family: 'Mr Dafoe';
+  font-family: 'Poppins';
   font-size: 60px;
   grid-column: 1;
   grid-row: 2;
@@ -130,11 +130,11 @@ a:active {
 }
 
 .name {
-  font-family: 'Mr Dafoe';
+  font-family: 'Poppins';
   font-size: 60px;
   grid-column: 1;
   grid-row: 2;
-  padding-bottom: 100px;
+  padding-bottom: 90px;
   place-self: center;
 }
 
@@ -2191,6 +2191,126 @@ h3 {
 }
 /* Bio Section Ends */
 
+/* Contact Page Starts */
+
+.contact-me {
+  background-image: url(../images/abstract-bg.png);
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 224px;
+}
+
+.contact-me h2 {
+  align-self: center;
+  font-family: 'Poppins';
+  font-size: 50px;
+  font-weight: 400;
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center;
+}
+
+.message {
+  display: grid;
+  font-size: 20px;
+  font-weight: bold;
+  justify-self: center;
+  padding-top: 60px;
+}
+
+form {
+  display: grid;
+  font-size: 20px;
+  grid-gap: 10px;
+  grid-template-rows: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+input {
+  font-size: 14px;
+  font-family: 'muli';
+  grid-row: 1;
+  height: 40px;
+  padding-left: 5px;
+}
+
+textarea {
+  font-size: 14px;
+  font-family: 'muli';
+  grid-row: 2;
+  height: 150px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.send-button {
+  background: #cda74e;
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 400;
+  grid-row: 4;
+  height: 58px;
+  justify-self: center;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 185px;
+}
+
+.contact-footer {
+  display: grid;
+  grid-template-columns: 215px 1fr;
+  grid-template-rows: 60px;
+}
+
+ul.links3 li {
+  color: #fff;
+  display: grid;
+  font-weight: 400;
+  display: inline;
+  grid-column: 2;
+  grid-row: 1;
+  padding-right: 10px;
+}
+
+ul.links3 {
+  padding-left: 25px;
+  padding-top: 20px;
+}
+
+/* unvisited link */
+a.contact-links3:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* hover over link */
+a.contact-links3:hover {
+  color: #CDA74E;
+}
+
+/* visited link */
+a.contact-links:visited {
+  color: #B3C7D6;
+}
+
+/* selected link */
+a.contact-links3:active {
+  color: #fff;
+}
+
+.copy-right2 {
+  color: #fff;
+  font-size: 16px;
+  grid-column: 1;
+  grid-row: 1;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+/* CONTACT Page Ends */
 
 /* FOOTER SECTION STARTS  - 2164 - 2261 */
 footer {
@@ -2199,7 +2319,6 @@ footer {
   display: grid;
   grid-template-rows: 160px 150px;
   grid-gap: 10px;
-  height: 330px;
   margin-top: 85px;
 }
 
@@ -2222,7 +2341,7 @@ footer {
    grid-row: 2;
    height: 78px;
    place-self: center;
-   padding: 20px;
+   padding: 25px;
    text-align: center;
    text-decoration: none;
    width: 335px;
