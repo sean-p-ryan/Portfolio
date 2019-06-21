@@ -5604,6 +5604,8 @@ a.contact-links:active {
     height: 60px;
  }
 
+/* Contact page desktop styles ends */
+
 /* Footer Desktop styles | 5421 - 5471 */
 
     footer {
@@ -5809,4 +5811,39 @@ a.contact-links:active {
       margin-left: 95px;
       margin-bottom: 130px;
     }
+
+/* Contact Page Larger Desktop Styles */
+
+      form {
+        padding-left: 300px;
+        padding-right: 300px;
+        margin-top: 70px;
+     }
+
+      ul.links3 li {
+        padding-right: 75px;
+     }
+
+      ul.links3 {
+        justify-self: end;
+        padding-right: 70px;
+        padding-top: 20px;
+     }
+
+      .send-button {
+        margin-bottom: 100px;
+     }
+
+      .copy-right2 {
+        font-size: 20px;
+        padding-left: 140px;
+     }
+
+      .contact-footer {
+        display: grid;
+        grid-template-columns: 400px 1fr;
+        height: 60px;
+     }
+  /* Contact page Larger desktop styles ends */
+
 }
