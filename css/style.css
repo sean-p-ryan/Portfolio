@@ -811,7 +811,7 @@ a.analysis-links:active {
  grid-row: 14;
  height: 78px;
  justify-self: center;
- padding: 20px;
+ padding: 25px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -2255,15 +2255,16 @@ textarea {
   height: 58px;
   justify-self: center;
   padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  width: 185px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  width: 200px;
 }
 
 .contact-footer {
   display: grid;
   grid-template-columns: 215px 1fr;
   grid-template-rows: 60px;
+
 }
 
 ul.links3 li {
@@ -3915,6 +3916,41 @@ a.contact-links:active {
     width: 425px;
   }
 
+/* Contact Page Tablet styles */
+
+  form {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 70px;
+ }
+
+  ul.links3 li {
+    padding-right: 40px;
+ }
+
+  ul.links3 {
+    justify-self: end;
+    padding-right: 30px;
+    padding-top: 20px;
+ }
+
+  .send-button {
+    margin-bottom: 100px;
+ }
+
+  .copy-right2 {
+    font-size: 18px;
+    padding-left: 70px;
+ }
+
+  .contact-footer {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    height: 60px;
+ }
+
+ /*Contact Page Ends */
+
 /* Footer tablet styles | 3801 - 3847 */
 
  footer {
@@ -5534,6 +5570,39 @@ a.contact-links:active {
     padding-bottom: 10px;
     width: 710px;
   }
+
+/* Contact Page Desktop Styles */
+
+  form {
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 70px;
+ }
+
+  ul.links3 li {
+    padding-right: 75px;
+ }
+
+  ul.links3 {
+    justify-self: end;
+    padding-right: 70px;
+    padding-top: 20px;
+ }
+
+  .send-button {
+    margin-bottom: 100px;
+ }
+
+  .copy-right2 {
+    font-size: 20px;
+    padding-left: 140px;
+ }
+
+  .contact-footer {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    height: 60px;
+ }
 
 /* Footer Desktop styles | 5421 - 5471 */
 
