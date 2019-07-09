@@ -111,40 +111,43 @@ a:active {
   background-image: url(../images/abstract-bg.png);
   background-size: cover;
   display: grid;
+  grid-row-gap: 50px;
   grid-template-columns: 1fr;
-  grid-auto-rows: minmax(423px, auto);
+  grid-template-rows: 420px 502px;
 }
 
 .portrait1 {
   grid-column: 1;
-  grid-row: 1;
+  grid-row: 2;
 }
 
-.mrDafoe {
-  font-family: 'Poppins';
-  font-size: 60px;
+.bilbo-swash {
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 70px;
   grid-column: 1;
-  grid-row: 2;
-  padding-left: 35px;
-  padding-top: 50px;
+  grid-row: 1;
+  padding-left: 40px;
+  padding-top: 80px;
 }
 
 .name {
-  font-family: 'Poppins';
-  font-size: 60px;
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 70px;
   grid-column: 1;
-  grid-row: 2;
-  padding-bottom: 90px;
-  place-self: center;
+  grid-row: 1;
+  justify-self: center;
+  margin-left: 40px;
+  padding-top: 165px;
+
 }
 
 .info1 {
-  align-self: center;
+  align-self: end;
   font-weight: 300;
   grid-column: 1;
-  grid-row: 2;
-  padding-left: 35px;
-  padding-top: 125px;
+  grid-row: 1;
+  padding-bottom: 20px;
+  padding-left: 40px;
   width: 375px;
 }
 /* Hero section ends */
@@ -175,8 +178,9 @@ a:active {
   grid-row: 2;
   height: 940px;
   padding-bottom: 50px;
+  padding-right: 8px;
   place-self: center;
-  width: 370px;
+  width: 338px;
 }
 
 .product-name {
@@ -283,8 +287,9 @@ a.button:active {
   grid-row: 2;
   height: 940px;
   padding-bottom: 50px;
+  padding-right: 8px;
   place-self: center;
-  width: 370px;
+  width: 338px;
 }
 
 .product-name2 {
@@ -340,8 +345,9 @@ a.button:active {
   grid-row: 2;
   height: 940px;
   padding-bottom: 50px;
+  padding-right: 8px;
   place-self: center;
-  width: 370px;
+  width: 338px;
 }
 
 .product-name3 {
@@ -2065,7 +2071,7 @@ a.preference-test-button:active {
 
 .about-me h2 {
   align-self: center;
-  font-family: 'Mr Dafoe';
+  font-family: 'Bilbo Swash Caps', cursive;
   font-size: 60px;
   grid-column: 1;
   grid-row: 1;
@@ -2112,7 +2118,7 @@ a.preference-test-button:active {
 /* Bio Section Starts */
 .bio-section {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 20px;
   grid-template-rows: 700px 1fr;
 }
 
@@ -2161,24 +2167,57 @@ h3 {
   font-weight: 400;
 }
 
-.p1 {
-  font-weight: lighter;
+.adolescence {
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+  grid-column: 1;
   grid-row: 3;
   padding-left: 35px;
+}
+
+.p1 {
+  font-weight: lighter;
+  grid-column: 1;
+  grid-row: 3;
+  padding-left: 35px;
+  padding-top: 45px;
   width: 375px;
+}
+
+.adulthood {
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+  grid-column: 1;
+  grid-row: 4;
+  padding-left: 35px;
 }
 
 .p2 {
   font-weight: lighter;
+  grid-column: 1;
   grid-row: 4;
   padding-left: 35px;
+  padding-top: 45px;
   width: 375px;
+}
+
+.reflect {
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+  grid-column: 1;
+  grid-row: 5;
+  padding-left: 35px;
 }
 
 .p3 {
   font-weight: lighter;
+  grid-column: 1;
   grid-row: 5;
   padding-left: 35px;
+  padding-top: 45px;
   width: 375px;
 }
 
@@ -2447,7 +2486,7 @@ a.contact-links:active {
 
   .portrait1 img {
     height: auto;
-    width: 414px;
+    width: 416px;
   }
 
   #toggle:checked + .menu {
@@ -2457,6 +2496,10 @@ a.contact-links:active {
     margin-top:111px;
     opacity: 0.9;
     width: 414px;
+  }
+
+  .view-projects-button {
+    display: none;
   }
 
   .hero-area h2 {
@@ -2597,43 +2640,94 @@ a.contact-links:active {
 
   .menu a {
     line-height: 104px;
+    padding-right: 2px;
+  }
+
+  .hero-section {
+    grid-template-columns: 1fr;
+    grid-template-rows: 420px;
   }
 
   .portrait1 {
     align-self: center;
+    grid-row: 1;
     justify-self: end;
-    padding-right: 75px;
+    padding-right: 30px;
+    padding-top: 10px;
   }
 
   .portrait1 img {
     height: auto;
-    width: 245px;
+    width: 340px;
   }
 
-  .mrDafoe {
+  .bilbo-swash {
+    font-size: 60px;
     grid-column: 1;
     grid-row: 1;
-    padding-left: 75px;
-    padding-top: 50px;
+    padding-left: 40px;
+    padding-top: 60px;
   }
 
   .name {
-    font-family: 'Mr Dafoe';
     font-size: 60px;
     grid-column: 1;
     grid-row: 1;
     justify-self: start;
-    padding-left: 125px;
+    padding-left: 70px;
+    margin-top: 115px;
     padding-top: 10px;
   }
 
   .info1 {
+    font-size: 16px;
     font-weight: 300;
     grid-column: 1;
     grid-row: 1;
-    padding-left: 75px;
-    padding-top: 130px;
+    padding-bottom: 120px;
+    padding-left: 42px;
     width: 415px;
+  }
+
+  .view-projects-button {
+    align-self: end;
+    background: #cda74e;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 400;
+    grid-column: 1;
+    grid-row: 1;
+    height: 48px;
+    margin-left: 100px;
+    padding: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 205px;
+  }
+
+  a.view-projects-button:link {
+   color: #ffffff;
+  }
+
+  /* visited link */
+  a.view-projects-button:visited {
+    background: #d9b052;
+    color: #2D3152;
+  }
+
+  /* hover over link */
+  a.view-projects-button:hover {
+    background: #ffffff;
+    border: 2px solid #b39144;
+    color: #b39144;
+  }
+
+  /* selected link */
+  a.view-projects-button:active {
+    background: #ffffff;
+    border: 2px solid #2D3152;
+    color: #2D3152;
   }
 
   .content {
@@ -2649,7 +2743,7 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 2;
     height: 240px;
-    margin-left: 100px;
+    margin-left: 95px;
     place-self: flex-start;
     width: 700px;
   }
@@ -2664,14 +2758,14 @@ a.contact-links:active {
   .product-name h3 {
     font-size: 30px;
     font-weight: 400;
-    text-align: center;
+    margin-right: 50px;
   }
 
   .product-image {
     grid-column: 1;
     grid-row: 2;
     height: 410px;
-    margin-right: 50px;
+    margin-right: 70px;
     justify-self: end;
     width: 350px;
   }
@@ -2685,7 +2779,7 @@ a.contact-links:active {
   .card {
     align-self: center;
     height: 410px;
-    margin-left: 65px;
+    margin-left: 40px;
     margin-top: 125px;
     width: 350px;
   }
@@ -2728,7 +2822,7 @@ a.contact-links:active {
   .product-name2 h3 {
     font-size: 30px;
     font-weight: 400;
-    text-align: center;
+    margin-left: 55px;
   }
 
   .bloc-jams-image {
@@ -2741,7 +2835,7 @@ a.contact-links:active {
 
   .bloc-jams-image img {
     height: 100%;
-    margin-left: 20px;
+    margin-left: 35px;
     object-fit: cover;
     width: 100%;
   }
@@ -2752,7 +2846,7 @@ a.contact-links:active {
     grid-row: 2;
     height: 470px;
     justify-self: end;
-    margin-right: 60px;
+    margin-right: 40px;
     margin-top: 125px;
     width: 350px;
   }
@@ -2774,7 +2868,7 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 2;
     height: 240px;
-    margin-left: 100px;
+    margin-left: 95px;
     place-self: flex-start;
     width: 700px;
   }
@@ -2789,7 +2883,7 @@ a.contact-links:active {
   .product-name3 h3 {
     font-size: 30px;
     font-weight: 400;
-    text-align: center;
+    margin-right: 65px;
   }
 
   .busy-bus-image {
@@ -2797,7 +2891,7 @@ a.contact-links:active {
     grid-row: 2;
     height: 412px;
     justify-self: end;
-    margin-right: 50px;
+    margin-right: 70px;
     width: 350px;
   }
 
@@ -2810,7 +2904,7 @@ a.contact-links:active {
   .card3{
     align-self: center;
     height: 412px;
-    margin-left: 65px;
+    margin-left: 40px;
     margin-top: 125px;
     width: 350px;
   }
@@ -3830,7 +3924,7 @@ a.contact-links:active {
 
 /* About Me tablet styles | 3712 - 3797 */
   .bio-section {
-    grid-template-rows: 725px;
+    grid-template-rows: 760px;
   }
 
   .bio-tab {
@@ -3847,7 +3941,7 @@ a.contact-links:active {
   .color-block {
     grid-column: 1;
     grid-row: 1;
-    height: 344px;
+    height: 335px;
     justify-self: end;
     margin-right: 50px;
     margin-top: 55px;
@@ -3868,7 +3962,7 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 1;
     margin-right: 75px;
-    padding-top: 60px;
+    padding-top: 10px;
     justify-self: end;
   }
 
@@ -3885,33 +3979,56 @@ a.contact-links:active {
     width: 300px;
   }
 
+  .adolescence {
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 40px;
+    padding-top: 120px;
+  }
+
   .p1 {
     font-weight: lighter;
     grid-column: 1;
     grid-row: 1;
+    padding-left: 40px;
     padding-top: 160px;
     width: 425px;
   }
 
+  .adulthood {
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 40px;
+    padding-top: 430px;
+  }
+
   .p2 {
+    align-self: end;
     font-weight: lighter;
     grid-column: 1;
     grid-row: 1;
-    padding-top: 445px;
+    padding-bottom: 10px;
+    padding-left: 40px;
     width: 425px;
+  }
+
+  .reflect {
+    grid-column: 1;
+    grid-row: 2;
+    padding-left: 40px;
   }
 
   .p3 {
     font-weight: lighter;
     grid-row: 2;
-    padding-left: 35px;
+    padding-left: 40px;
     width: 425px;
   }
 
   .p4 {
     font-weight: lighter;
     grid-row: 3;
-    padding-left: 35px;
+    padding-left: 40px;
     padding-bottom: 10px;
     width: 425px;
   }
@@ -3962,7 +4079,7 @@ a.contact-links:active {
    font-size: 20px;
    grid-column: 1;
    grid-row: 1;
-   padding-left: 65px;
+   padding-left: 40px;
    justify-self: start;
    width: 475px;
  }
@@ -3972,7 +4089,7 @@ a.contact-links:active {
   grid-row: 1;
   height: 58px;
   justify-self: end;
-  margin-right: 50px;
+  margin-right: 40px;
   text-align: center;
   padding: 15px;
   width: 225px;
@@ -3985,9 +4102,11 @@ a.contact-links:active {
  ul.links2 li {
    display: inline;
    float: right;
+   font-size: 16px;
    grid-column: 1;
    grid-row: 2;
    margin-right: 30px;
+   padding-bottom: 5px;
    padding-left: 5px;
    padding-top: 20px;
  }
@@ -3997,7 +4116,7 @@ a.contact-links:active {
    grid-column: 1;
    grid-row: 12;
    margin-top: -30px;
-   padding-left: 65px;
+   padding-left: 40px;
  }
 }
 
@@ -4015,14 +4134,14 @@ a.contact-links:active {
 
   .logo img {
     height: auto;
-    left: 125px;
+    left: 90px;
     position: absolute;
     top: 0px;
     width: 70px;
   }
 
   .menu {
-    margin: 17px 125px 0 0px;
+    margin: 17px 80px 0 0px;
   }
 
   .menu a {
@@ -4058,34 +4177,36 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 1;
     height: 26px;
-    left: 192px;
+    left: 165px;
     position: absolute;
     top: 15px;
     width: 299px;
   }
 
   .hero-section {
-    padding-bottom: 140px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 705px;
   }
 
   .portrait1 {
     align-self: center;
+    grid-row: 1;
     justify-self: end;
-    padding-right: 180px;
+    padding-right: 140px;
     padding-top: 50px;
   }
 
   .portrait1 img {
-    height: auto;
-    width: 445px;
+    height: 660px;
+    width: 542px;
   }
 
-  .mrDafoe {
+  .bilbo-swash {
     font-size: 80px;
     grid-column: 1;
     grid-row: 1;
-    padding-left: 150px;
-    padding-top: 90px;
+    padding-left: 110px;
+    padding-top: 110px;
   }
 
   .name {
@@ -4093,16 +4214,59 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 1;
     justify-self: start;
-    margin-left: 225px;
+    margin-left: 190px;
+    margin-top: 30px;
   }
 
   .info1 {
     grid-column: 1;
     grid-row: 1;
-    margin-top: 20px;
-    padding-left: 150px;
-    justify-self: start;
+    align-self: center;
+    padding-left: 110px;
+    padding-top: 70px;
     width: 575px;
+  }
+
+  .view-projects-button {
+     align-self: end;
+     background: #cda74e;
+     color: #ffffff;
+     font-family: 'Poppins';
+     font-size: 26px;
+     font-weight: 400;
+     grid-column: 1;
+     grid-row: 1;
+     height: 78px;
+     margin-bottom: 145px;
+     margin-left: 160px;
+     padding: 20px;
+     text-align: center;
+     width: 305px;
+  }
+
+  a.view-projects-button:link {
+   color: #ffffff;
+  }
+
+  /* visited link */
+  a.view-projects-button:visited {
+    background: #ffffff;
+9144;
+    color: #b39144;
+  }
+
+  /* hover over link */
+  a.view-projects-button:hover {
+    background: #ffffff;
+    border: 2px solid #b39144;
+    color: #b39144;
+  }
+
+  /* selected link */
+  a.view-projects-button:active {
+    background: #ffffff;
+    border: 2px solid #2D3152;
+    color: #2D3152;
   }
 
   .section1 {
@@ -4118,7 +4282,7 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 2;
     height: 448px;
-    margin-left: 150px;
+    margin-left: 163px;
     place-self: flex-start;
     width: 1175px;
   }
@@ -4158,15 +4322,17 @@ a.contact-links:active {
 
   .card h4 {
     font-size: 26px;
+    margin-left: 20px;
     padding-top: 80px;
   }
 
   .info2 {
     font-size: 20px;
     grid-row: 2;
+    margin-left: 20px;
     padding-left: 35px;
     padding-top: 70px;
-    width: 415px;
+    width: 400px;
   }
 
   .button {
@@ -4174,7 +4340,7 @@ a.contact-links:active {
     font-size: 26px;
     margin-top: 70px;
     padding: 15px;
-    width: 369px;
+    width: 355px;
   }
 
   .section2 {
@@ -4187,8 +4353,8 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 2;
     height: 448px;
-    margin-left: 120px;
     place-self: flex-start;
+    padding-right: 163px;
     width: 1175px;
   }
 
@@ -4232,13 +4398,14 @@ a.contact-links:active {
 
   .card2 h4 {
     font-size: 26px;
+    margin-left: 20px;
     padding-top: 80px;
   }
 
   .info3 {
     font-size: 20px;
     grid-row: 2;
-    padding-left: 35px;
+    padding-left: 55px;
     padding-top: 70px;
     width: 415px;
   }
@@ -4253,7 +4420,7 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 2;
     height: 448px;
-    margin-left: 150px;
+    margin-left: 163px;
     place-self: flex-start;
     width: 1175px;
   }
@@ -4268,6 +4435,7 @@ a.contact-links:active {
   .product-name3 h3 {
     font-size: 50px;
     font-weight: 500;
+    margin-right: 10px;
   }
 
   .busy-bus-image {
@@ -4293,6 +4461,7 @@ a.contact-links:active {
 
   .card3 h4 {
     font-size: 26px;
+    margin-left: 20px;
     padding-top: 80px;
   }
 
@@ -5442,7 +5611,7 @@ a.contact-links:active {
 /* About Me Desktop styles | 5289 - 5417 */
 
   .bio-section {
-    grid-template-columns: 900px 300px;
+    grid-template-columns: 900px 1fr;
     grid-template-rows: 850px 1fr;
   }
 
@@ -5492,7 +5661,6 @@ a.contact-links:active {
     grid-row: 1;
     height: 68px;
     margin-top: 55px;
-
     width: 440px;
   }
 
@@ -5500,15 +5668,15 @@ a.contact-links:active {
     font-size: 40px;
     font-weight: 400;
     padding-bottom: 10px;
-    text-align: center;
+    margin-right: 28px;
   }
 
   .color-block {
     grid-column: 2;
     grid-row: 1;
-    height: 465px;
+    height: 440px;
     justify-self: start;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: 55px;
     width: 378px;
   }
@@ -5519,16 +5687,16 @@ a.contact-links:active {
     height: 359px;
     margin-top: 95px;
     justify-self: start;
-    margin-left: 30px;
+    margin-left: 80px;
     width: 419px;
   }
 
   .portrait2 {
     grid-column: 2;
     grid-row: 1;
-    margin-left: 95px;
-    padding-top: 35px;
-    justify-self: start;
+    padding-right: 90px;
+    margin-bottom: 75px;
+    justify-self: end;
   }
 
   .portrait2 img {
@@ -5536,39 +5704,63 @@ a.contact-links:active {
     width: 286px;
   }
 
+  .adolescence {
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 109px;
+    padding-top: 140px;
+  }
+
   .p1 {
     font-weight: lighter;
     grid-column: 1;
     grid-row: 1;
-    padding-top: 190px;
-    width: 710px;
+    padding-left: 109px;
+    padding-top: 180px;
+    width: 780px;
+  }
+
+  .adulthood {
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 109px;
+    padding-top: 380px;
   }
 
   .p2 {
     font-weight: lighter;
     grid-column: 1;
     grid-row: 1;
+    padding-left: 109px;
     padding-top: 420px;
-    width: 710px;
+    width: 780px;
+  }
+
+  .reflect {
+    align-self: end;
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 109px;
+    padding-bottom: 175px;
   }
 
   .p3 {
-    align-self: center;
+    align-self: end;
     font-weight: lighter;
     grid-column: 1;
     grid-row: 1;
-    justify-self: start;
-    padding-left: 35px;
-    padding-top: 650px;
-    width: 710px;
+    padding-bottom: 5px;
+    padding-left: 109px;
+
+    width: 780px;
   }
 
   .p4 {
     font-weight: lighter;
     grid-row: 2;
-    padding-left: 35px;
+    padding-left: 109px;
     padding-bottom: 10px;
-    width: 710px;
+    width: 780px;
   }
 
 /* Contact Page Desktop Styles */
@@ -5630,7 +5822,7 @@ a.contact-links:active {
      grid-row: 1;
      height: 78px;
      justify-self: end;
-     margin-right: 65px;
+     margin-right: 105px;
      text-align: center;
      padding: 20px;
      width: 369px;
@@ -5645,8 +5837,7 @@ a.contact-links:active {
       float: right;
       grid-column: 1;
       grid-row: 2;
-      margin-right: 65px;
-      padding-left: 2px;
+      padding-right: 15px;
       padding-top: 20px;
       z-index: 1;
     }
@@ -5808,7 +5999,7 @@ a.contact-links:active {
 /* About Me | 5620 - 5624 */
 
     .portrait2 {
-      margin-left: 95px;
-      margin-bottom: 130px;
+      margin-right: 100px;
+      margin-bottom: 80px;
     }
 }
