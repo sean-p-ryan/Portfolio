@@ -108,7 +108,7 @@ a:active {
 
 /* Hero starts */
 .hero-section {
-  background-image: url(../images/abstract-bg.png);
+  background-image: url(../images/abstract-bg.jpg);
   background-size: cover;
   display: grid;
   grid-row-gap: 50px;
@@ -425,12 +425,12 @@ a.button:active {
   z-index: -1;
 }
 
-.prototype-title {
-  font-family: 'Poppins';
-  font-size: 50px;
-  font-weight: 500;
+.prototype-title  {
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 70px;
   grid-column: 1;
   grid-row: 1;
+  padding-right: 20px;
   padding-top: 50px;
 }
 
@@ -495,7 +495,7 @@ a.view-prototype-button:active {
 /* OVERVIEW starts */
 .overview {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 10px;
   grid-template-rows: 1fr;
   padding-top: 60px;
 }
@@ -630,7 +630,7 @@ b {
 .problem-solution {
   background-color: rgba(125, 147, 165, .13);
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 20px;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   padding-top: 50px;
@@ -669,7 +669,7 @@ b {
 /* EMPATHIZE starts */
 .empathize {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 20px;
   grid-template-columns: 1fr;
   grid-row: 5;
   padding-bottom: 50px;
@@ -854,7 +854,7 @@ a.user-survey-button:active {
 .define {
   background-color: rgba(125, 147, 165, 0.13);
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 20px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -922,7 +922,7 @@ a.user-survey-button:active {
  grid-row: 8;
  height: 78px;
  justify-self: center;
- padding: 20px;
+ padding: 25px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -963,7 +963,7 @@ a.personas-button:active {
 
 .us-image {
   grid-column: 1;
-  grid-row: 10;
+  grid-row: 11;
 }
 
 figcaption {
@@ -973,7 +973,7 @@ figcaption {
 
 .user-stories-text {
   grid-column: 1;
-  grid-row: 11;
+  grid-row: 10;
   padding-left: 35px;
   width: 375px;
 }
@@ -997,7 +997,7 @@ figcaption {
  grid-row: 13;
  height: 78px;
  justify-self: center;
- padding: 20px;
+ padding: 25px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1046,7 +1046,7 @@ ol {
   grid-column: 1;
   grid-row: 16;
   list-style-type: decimal;
-  padding-left: 50px;
+  padding-left: 55px;
 }
 
 .search-share-image {
@@ -1066,7 +1066,7 @@ ol {
   grid-column: 1;
   grid-row: 19;
   padding: 20px;
-  padding-left: 35px;
+  padding-left: 40px;
   padding-right: 35px;
 }
 
@@ -1080,7 +1080,7 @@ ol {
  grid-row: 20;
  height: 78px;
  justify-self: center;
- padding: 20px;
+ padding: 25px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1115,20 +1115,20 @@ a.user-flows-button:active {
 .content-strategy {
   grid-column: 1;
   grid-row: 21;
-  padding-left: 35px;
+  padding-left: 40px;
 }
 
 .content-strategy-text1 {
   grid-column: 1;
   grid-row: 22;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 375px;
 }
 
 .content-strategy-text2 {
   grid-column: 1;
   grid-row: 23;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 375px;
 }
 
@@ -1137,7 +1137,7 @@ a.user-flows-button:active {
   grid-column: 1;
   grid-row: 24;
   padding: 20px;
-  padding-left: 35px;
+  padding-left: 40px;
   padding-right: 35px;
 }
 
@@ -1151,7 +1151,7 @@ a.user-flows-button:active {
  grid-row: 25;
  height: 78px;
  justify-self: center;
- padding: 20px;
+ padding: 25px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1186,17 +1186,17 @@ a.content-strategy-button:active {
 .site-map {
   grid-column: 1;
   grid-row: 26;
-  padding-left: 35px;
+  padding-left: 40px;
 }
 
 .site-map-text {
   grid-column: 1;
   grid-row: 27;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 375px;
 }
 
-.site-map-image {
+.site-map-image2 {
   grid-column: 1;
   grid-row: 28;
   place-self: center;
@@ -1207,7 +1207,7 @@ a.content-strategy-button:active {
   grid-column: 1;
   grid-row: 29;
   padding: 20px;
-  padding-left: 35px;
+  padding-left: 40px;
   padding-right: 35px;
 }
 
@@ -1221,7 +1221,7 @@ a.content-strategy-button:active {
  grid-row: 30;
  height: 78px;
  justify-self: center;
- padding: 20px;
+ padding: 25px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1259,7 +1259,7 @@ a.site-map-button:active {
 /* SKETCHING/LO-FI WIREFRAME starts */
 .ideate {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 20px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -1267,13 +1267,13 @@ a.site-map-button:active {
 .sketching {
   grid-column: 1;
   grid-row: 2;
-  padding-left: 35px;
+  padding-left: 40px;
 }
 
 .sketch-text1 {
   grid-column: 1;
   grid-row: 3;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 375px;
 }
 
@@ -1281,7 +1281,7 @@ a.site-map-button:active {
   font-weight: 500;
   grid-column: 1;
   grid-row: 4;
-  padding-left: 35px;
+  padding-left: 40px;
 }
 
 .upload-image {
@@ -1304,7 +1304,7 @@ a.site-map-button:active {
   font-weight: 500;
   grid-column: 1;
   grid-row: 8;
-  padding-left: 35px;
+  padding-left: 40px;
 }
 
 .create-content-image {
@@ -1333,7 +1333,7 @@ a.site-map-button:active {
  grid-row: 12;
  height: 78px;
  justify-self: center;
- padding: 20px;
+ padding: 25px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1373,7 +1373,7 @@ a.full-sketches-button:active {
  grid-row: 13;
  height: 78px;
  justify-self: center;
- padding: 20px;
+ padding: 25px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1413,7 +1413,7 @@ a.lo-fi-wireframes-button:active {
  grid-row: 14;
  height: 78px;
  justify-self: center;
- padding: 20px;
+ padding: 25px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1446,7 +1446,7 @@ a.lo-fi-prototype-button:active {
 .sketch-text2 {
   grid-column: 1;
   grid-row: 15;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 375px;
 }
 
@@ -1475,7 +1475,7 @@ a.usability-tests-link:active {
 .hi-fi-mockups {
   grid-column: 1;
   grid-row: 16;
-  padding-left: 35px;
+  padding-left: 40px;
 }
 
 .hi-fi-mockup1 {
@@ -1485,7 +1485,7 @@ a.usability-tests-link:active {
 
 .hi-fi-mockup2 {
   grid-column: 1;
-  grid-row: 18;
+  grid-row: 17;
 }
 
 .hi-fi-mockup3 {
@@ -1495,7 +1495,7 @@ a.usability-tests-link:active {
 
 .hi-fi-mockup4 {
   grid-column: 1;
-  grid-row: 20;
+  grid-row: 18;
 }
 
 .hi-fi-mockups-button {
@@ -1505,10 +1505,10 @@ a.usability-tests-link:active {
  font-size: 20px;
  font-weight: 400;
  grid-column: 1;
- grid-row: 21;
+ grid-row: 20;
  height: 78px;
  justify-self: center;
- padding: 20px;
+ padding: 25px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1541,7 +1541,7 @@ a.hi-fi-mockups-button:active {
 .sketch-text3 {
   grid-column: 1;
   grid-row: 22;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 375px;
 }
 
@@ -1550,7 +1550,7 @@ a.hi-fi-mockups-button:active {
   grid-column: 1;
   grid-row: 23;
   padding: 20px;
-  padding-left: 35px;
+  padding-left: 40px;
   padding-right: 35px;
 }
 
@@ -1564,7 +1564,7 @@ a.hi-fi-mockups-button:active {
  grid-row: 24;
  height: 78px;
  justify-self: center;
- padding: 20px;
+ padding: 25px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1603,7 +1603,7 @@ a.view-prototype-button2:active {
 .brand-identity {
   background-color: rgba(125, 147, 165, 0.13);
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 20px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -1611,13 +1611,13 @@ a.view-prototype-button2:active {
 .logo-sketches {
   grid-column: 1;
   grid-row: 2;
-  padding-left: 35px;
+  padding-left: 40px;
 }
 
 .logo-text {
   grid-column: 1;
   grid-row: 3;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 375px;
 }
 
@@ -1636,7 +1636,7 @@ a.view-prototype-button2:active {
  grid-row: 5;
  height: 78px;
  justify-self: center;
- padding: 20px;
+ padding: 25px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1669,7 +1669,7 @@ a.logo-sketch-button:active {
 .black-white-logo {
   grid-column: 1;
   grid-row: 6;
-  padding-left: 15px;
+  padding-left: 40px;
 }
 
 .vl1 {
@@ -1694,7 +1694,7 @@ a.logo-sketch-button:active {
 .color-logo {
   grid-column: 1;
   grid-row: 10;
-  padding-left: 15px;
+  padding-left: 40px;
 }
 
 .hi-fi-vl1 {
@@ -1733,7 +1733,7 @@ a.logo-sketch-button:active {
 .mind-map-text {
   grid-column: 1;
   grid-row: 16;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 375px;
 }
 
@@ -1747,13 +1747,13 @@ a.logo-sketch-button:active {
 .mood-board {
   grid-column: 1;
   grid-row: 18;
-  padding-left: 35px;
+  padding-left: 40px;
 }
 
 .mood-board-text {
   grid-column: 1;
   grid-row: 19;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 375px;
 }
 
@@ -1768,13 +1768,13 @@ a.logo-sketch-button:active {
 .style-guide {
   grid-column: 1;
   grid-row: 21;
-  padding-left: 35px;
+  padding-left: 40px;
 }
 
 .style-guide-text {
   grid-column: 1;
   grid-row: 22;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 375px;
 }
 
@@ -1800,7 +1800,7 @@ a.logo-sketch-button:active {
  grid-row: 25;
  height: 78px;
  justify-self: center;
- padding: 20px;
+ padding: 25px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1836,13 +1836,13 @@ a.style-guide-button:active {
 .preference-testing {
   grid-column: 1;
   grid-row: 27;
-  padding-left: 35px;
+  padding-left: 40px;
 }
 
 .preference-text1 {
   grid-column: 1;
   grid-row: 28;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 380px;
 }
 
@@ -1869,7 +1869,7 @@ a.iterations:active {
 .preference-text2 {
   grid-column: 1;
   grid-row: 29;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 375px;
 }
 
@@ -1886,7 +1886,7 @@ i {
 .preference-text3 {
   grid-column: 1;
   grid-row: 31;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 375px;
 }
 
@@ -1899,7 +1899,7 @@ i {
 .preference-text4 {
   grid-column: 1;
   grid-row: 33;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 375px;
 }
 
@@ -1912,7 +1912,7 @@ i {
 .preference-text5 {
   grid-column: 1;
   grid-row: 35;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 375px;
 }
 
@@ -1966,7 +1966,7 @@ a.final-version:active {
  grid-row: 36;
  height: 78px;
  justify-self: center;
- padding: 20px;
+ padding: 25px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -2001,7 +2001,7 @@ a.preference-test-button:active {
   grid-column: 1;
   grid-row: 37;
   padding: 20px;
-  padding-left: 35px;
+  padding-left: 40px;
   padding-right: 35px;
 }
 /* PREFERENCE TESTING ends */
@@ -2018,41 +2018,41 @@ a.preference-test-button:active {
 .thoughts {
   grid-column: 1;
   grid-row: 2;
-  padding-left: 35px;
+  padding-left: 40px;
 }
 
 .thoughts-text1 {
   grid-column: 1;
   grid-row: 3;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 375px;
 }
 
 .thoughts-text2 {
   grid-column: 1;
   grid-row: 4;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 375px;
 }
 
 .thoughts-text3 {
   grid-column: 1;
   grid-row: 5;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 375px;
 }
 
 .thoughts-text4 {
   grid-column: 1;
   grid-row: 6;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 375px;
 }
 
 .thoughts-text5 {
   grid-column: 1;
   grid-row: 7;
-  padding-left: 35px;
+  padding-left: 40px;
   padding-bottom: 40px;
   width: 375px;
 }
@@ -2063,7 +2063,7 @@ a.preference-test-button:active {
 /* ABOUT ME  CSS - LINES 2031 - 2163 */
 
 .about-me {
-  background-image: url(../images/abstract-bg.png);
+  background-image: url(../images/abstract-bg.jpg);
   background-size: cover;
   display: grid;
   grid-template-rows: 342px;
@@ -2233,7 +2233,7 @@ h3 {
 /* Contact Page Starts */
 
 .contact-me {
-  background-image: url(../images/abstract-bg.png);
+  background-image: url(../images/abstract-bg.jpg);
   background-size: cover;
   display: grid;
   grid-template-rows: 224px;
@@ -2241,9 +2241,8 @@ h3 {
 
 .contact-me h2 {
   align-self: center;
-  font-family: 'Poppins';
-  font-size: 50px;
-  font-weight: 400;
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 60px;
   grid-column: 1;
   grid-row: 1;
   justify-self: center;
@@ -2303,7 +2302,6 @@ textarea {
   display: grid;
   grid-template-columns: 215px 1fr;
   grid-template-rows: 60px;
-
 }
 
 ul.links3 li {
@@ -2366,7 +2364,7 @@ footer {
   font-size: 20px;
   grid-column: 1;
   grid-row: 1;
-  padding-left: 35px;
+  padding-left: 40px;
   padding-top: 35px;
   width: 375px;
 }
@@ -2546,9 +2544,12 @@ a.contact-links:active {
     width: 414px;
   }
 
+  .site-map-image {
+    display: none;
+  }
+
   .site-map-image img {
-    height: auto;
-    width: 386px;
+    display: none;
   }
 
   .lo-fi-iteration1 img {
@@ -2571,9 +2572,12 @@ a.contact-links:active {
     width: 422px;
   }
 
+  .uaf1 {
+    display: none;
+  }
+
   .hi-fi-mockup1 img {
-    height: auto;
-    width: 414px;
+    display: none;
   }
 
   .hi-fi-mockup2 img {
@@ -2581,9 +2585,12 @@ a.contact-links:active {
     width: 414px;
   }
 
+  .cnc1 {
+    display: none;
+  }
+
   .hi-fi-mockup3 img {
-    height: auto;
-    width: 414px;
+    display: none;
   }
 
   .hi-fi-mockup4 img {
@@ -2916,7 +2923,7 @@ a.contact-links:active {
 
   .steel-bg img {
     height: 450px;
-    width: 834px;
+    width: 100%;
   }
 
   .hero-image {
@@ -4251,7 +4258,6 @@ a.contact-links:active {
   /* visited link */
   a.view-projects-button:visited {
     background: #ffffff;
-9144;
     color: #b39144;
   }
 
@@ -5903,14 +5909,14 @@ a.contact-links:active {
        grid-column: 1;
        grid-row: 3;
        justify-self: center;
-       padding-right: 380px;
+       padding-right: 240px;
     }
 
     .multitaker-text{
        grid-column: 1;
        grid-row: 3;
        justify-self: center;
-       padding-left: 18px;
+       padding-left: 85px;
        padding-top: 35px;
        width: 642px;
     }
@@ -5919,14 +5925,14 @@ a.contact-links:active {
        grid-column: 1;
        grid-row: 5;
        justify-self: center;
-       padding-right: 330px;
+       padding-right: 195px;
     }
 
     .professional-text{
        grid-column: 1;
        grid-row: 5;
        justify-self: center;
-       padding-left: 20px;
+       padding-left: 90px;
        padding-top: 35px;
        width: 642px;
     }
@@ -5935,7 +5941,7 @@ a.contact-links:active {
        grid-column: 1;
        grid-row: 10;
        justify-self: center;
-       padding-right: 200px;
+       padding-right: 210px;
     }
 
     .site-map-image {
