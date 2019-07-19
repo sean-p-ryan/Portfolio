@@ -260,7 +260,7 @@ a.button:link {
 /* visited link */
 a.button:visited {
  background: #6b7d8c;
- border: 4px solid #ffffff;
+ border: 4px solid #6b7d8c;
  color: #ffffff;
 }
 
@@ -476,8 +476,9 @@ a.view-prototype-button:link {
 
 /* visited link */
 a.view-prototype-button:visited {
-  background: #d9b052;
-  color: #2D3152;
+  background: #ffffff;
+  border: 2px solid #D9B052;
+  color: #D9B052;
 }
 
 /* hover over link */
@@ -2532,7 +2533,7 @@ a.contact-links:active {
 
   .steel-bg img {
     height: 855px;
-    width: 414px;
+    width: 100%;
   }
 
   .hero-area h2 {
