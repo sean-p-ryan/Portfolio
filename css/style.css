@@ -2735,6 +2735,7 @@ a.contact-links:active {
   /* visited link */
   a.view-projects-button:visited {
     background: #d9b052;
+    border: 2px solid #b39144;
     color: #2D3152;
   }
 
@@ -4308,6 +4309,7 @@ a.contact-links:active {
   /* visited link */
   a.view-projects-button:visited {
     background: #ffffff;
+    border: 2px solid #b39144;
     color: #b39144;
   }
 
@@ -6016,6 +6018,10 @@ a.contact-links:active {
       padding-top: 70px;
     }
 
+    .links {
+      padding-left: 200px;
+    }
+
 /* Case Study | 5521 - 5617 */
 
     main {
@@ -6203,17 +6209,6 @@ a.contact-links:active {
        justify-self: end;
        padding-right: 300px;
        padding-top: 20px;
-    }
-
-    ul.links2 li {
-      display: inline;
-      float: right;
-      grid-column: 1;
-      grid-row: 2;
-      margin-right: 91px;
-      padding-left: 2px;
-      padding-top: 20px;
-      z-index: 1;
     }
 
 /* About Me | 5620 - 5624 */
