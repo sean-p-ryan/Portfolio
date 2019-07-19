@@ -414,6 +414,10 @@ a.button:active {
   color: #2d3152;
 }
 
+.active {
+  color: #7D93A5;
+}
+
 .hero-area{
   display: grid;
   grid-column: 1;
@@ -456,7 +460,7 @@ a.button:active {
 
  .view-prototype-button {
   background: #cda74e;
-  border: 2px solid transparent;
+  border: 2px solid #cda74e;
   color: #ffffff;
   font-family: 'Poppins';
   font-size: 20px;
@@ -478,8 +482,8 @@ a.view-prototype-button:link {
 /* visited link */
 a.view-prototype-button:visited {
   background: #ffffff;
-  border-color: #D9B052;
-  color: #D9B052;
+  border-color: #cda74e;
+  color: #cda74e;
 }
 
 /* hover over link */
@@ -2716,6 +2720,7 @@ a.contact-links:active {
   .view-projects-button {
     align-self: end;
     background: #cda74e;
+    border: 2px solid #cda74e;
     color: #ffffff;
     font-family: 'Poppins';
     font-size: 20px;
@@ -2736,9 +2741,9 @@ a.contact-links:active {
 
   /* visited link */
   a.view-projects-button:visited {
-    background: #d9b052;
-    border: 2px solid #b39144;
-    color: #2D3152;
+    background: #ffffff;
+    border-color: #cda74e;
+    color: #ffffff;
   }
 
   /* hover over link */
