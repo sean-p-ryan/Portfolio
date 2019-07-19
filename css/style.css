@@ -14,6 +14,10 @@ body {
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   display: grid;
   max-width: 100%;
@@ -415,7 +419,7 @@ a.button:active {
 }
 
 .active {
-  color: #7D93A5;
+  color: #BAC8CE !important;
 }
 
 .hero-area{
