@@ -1066,6 +1066,7 @@ a.user-stories-button:active {
 ol {
   grid-column: 1;
   grid-row: 16;
+  justify-self: start;
   list-style-type: decimal;
   padding-left: 55px;
 }
@@ -2310,6 +2311,7 @@ form {
 }
 
 input {
+  border: 1px solid #d4d4d4;
   font-size: 14px;
   font-family: 'muli';
   grid-row: 1;
@@ -4836,18 +4838,17 @@ a.contact-links:active {
   }
 
   .h52 {
-     align-self: end;
      grid-column: 1;
      grid-row: 5;
-     justify-self: center;
-     margin-right: 280px;
+     justify-self: start;
+     margin-left: 540px;
   }
 
   .icloud {
      grid-column: 1;
      grid-row: 5;
-     justify-self: end;
-     padding-right: 510px;
+     justify-self: start;
+     padding-left: 830px;
      padding-top: 10px;
   }
 
@@ -6235,6 +6236,10 @@ a.contact-links:active {
 
     .lo-fi-wireframes-button {
       margin-left: 130px;
+    }
+
+    .lo-fi-prototype-button {
+      margin-left: 450px;
     }
 
     .hi-fi-mockup2 {
