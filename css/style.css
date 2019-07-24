@@ -106,10 +106,10 @@ a:hover {
   text-decoration: underline;
 }
 
-/* selected link */
+/* selected link
 a:active {
   color: #D2D6DD;
-}
+}*/
 
 /* HOMEPAGE LINES 110 - 379 */
 
@@ -263,9 +263,9 @@ a.button:link {
 
 /* visited link */
 a.button:visited {
- background: #6b7d8c;
- border: 4px solid #6b7d8c;
- color: #ffffff;
+ background: #fff;
+ border-color: #7D93A5;
+ color: #7D93A5;
 }
 
 /* hover over link */
@@ -473,7 +473,7 @@ a.button:active {
   grid-row: 4;
   height: 78px;
   justify-self: center;
-  padding: 25px;
+  padding: 20px;
   text-align: center;
   text-decoration: none;
   width: 335px;
@@ -692,7 +692,7 @@ b {
 }
 
 strong {
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .competitive {
@@ -824,6 +824,7 @@ a.analysis-links:active {
 
 .user-survey-button {
  background-color: #cda74e;
+ border: 2px solid #cda74e;
  color: #fff;
  font-family: 'Poppins';
  font-size: 20px;
@@ -832,7 +833,7 @@ a.analysis-links:active {
  grid-row: 14;
  height: 78px;
  justify-self: center;
- padding: 25px;
+ padding: 20px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -843,8 +844,9 @@ a.user-survey-button:link {
 
 /* visited link */
 a.user-survey-button:visited {
-  background: #d9b052;
-  color: #2d3152;
+  background: #fff;
+  border-color: #cda74e;
+  color: #cda74e;
 }
 
 /* hover over link */
@@ -929,6 +931,7 @@ a.user-survey-button:active {
 
 .personas-button {
  background-color: #cda74e;
+ border: 2px solid #cda74e;
  color: #fff;
  font-family: 'Poppins';
  font-size: 20px;
@@ -937,7 +940,7 @@ a.user-survey-button:active {
  grid-row: 8;
  height: 78px;
  justify-self: center;
- padding: 25px;
+ padding: 20px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -949,8 +952,9 @@ a.personas-button:link {
 
 /* visited link */
 a.personas-button:visited {
-  background: #d9b052;
-  color: #2d3152;
+  background: #fff;
+  border-color: #cda74e;
+  color: #cda74e;
 }
 
 /* hover over link */
@@ -1004,6 +1008,7 @@ figcaption {
 
 .user-stories-button {
  background-color: #cda74e;
+ border: 2px solid #cda74e;
  color: #fff;
  font-family: 'Poppins';
  font-size: 20px;
@@ -1012,7 +1017,7 @@ figcaption {
  grid-row: 13;
  height: 78px;
  justify-self: center;
- padding: 25px;
+ padding: 20px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1024,8 +1029,9 @@ a.user-stories-button:link {
 
 /* visited link */
 a.user-stories-button:visited {
-  background: #d9b052;
-  color: #2d3152;
+  background: #fff;
+  border-color: #cda74e;
+  color: #cda74e;
 }
 
 /* hover over link */
@@ -1087,6 +1093,7 @@ ol {
 
 .user-flows-button {
  background-color: #cda74e;
+ border: 2px solid #cda74e;
  color: #fff;
  font-family: 'Poppins';
  font-size: 20px;
@@ -1095,7 +1102,7 @@ ol {
  grid-row: 20;
  height: 78px;
  justify-self: center;
- padding: 25px;
+ padding: 20px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1107,8 +1114,9 @@ a.user-flows-button:link {
 
 /* visited link */
 a.user-flows-button:visited {
-  background: #d9b052;
-  color: #2d3152;
+  background: #fff;
+  border-color: #cda74e;
+  color: #cda74e;
 }
 
 /* hover over link */
@@ -1158,6 +1166,7 @@ a.user-flows-button:active {
 
 .content-strategy-button {
  background-color: #cda74e;
+ border: 2px solid #cda74e;
  color: #fff;
  font-family: 'Poppins';
  font-size: 20px;
@@ -1166,7 +1175,7 @@ a.user-flows-button:active {
  grid-row: 25;
  height: 78px;
  justify-self: center;
- padding: 25px;
+ padding: 20px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1178,8 +1187,9 @@ a.content-strategy-button:link {
 
 /* visited link */
 a.content-strategy-button:visited {
-  background: #d9b052;
-  color: #2d3152;
+  background: #fff;
+  border-color: #cda74e;
+  color: #cda74e;
 }
 
 /* hover over link */
@@ -1228,6 +1238,7 @@ a.content-strategy-button:active {
 
 .site-map-button {
  background-color: #cda74e;
+ border: 2px solid #cda74e;
  color: #fff;
  font-family: 'Poppins';
  font-size: 20px;
@@ -1236,7 +1247,7 @@ a.content-strategy-button:active {
  grid-row: 30;
  height: 78px;
  justify-self: center;
- padding: 25px;
+ padding: 20px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1248,8 +1259,9 @@ a.site-map-button:link {
 
 /* visited link */
 a.site-map-button:visited {
-  background: #d9b052;
-  color: #2d3152;
+  background: #fff;
+  border-color: #cda74e;
+  color: #cda74e;
 }
 
 /* hover over link */
@@ -1340,6 +1352,7 @@ a.site-map-button:active {
 
 .full-sketches-button {
  background-color: #cda74e;
+ border: 2px solid #cda74e;
  color: #fff;
  font-family: 'Poppins';
  font-size: 20px;
@@ -1348,7 +1361,7 @@ a.site-map-button:active {
  grid-row: 12;
  height: 78px;
  justify-self: center;
- padding: 25px;
+ padding: 20px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1360,8 +1373,9 @@ a.full-sketches-button:link {
 
 /* visited link */
 a.full-sketches-button:visited {
-  background: #d9b052;
-  color: #2d3152;
+  background: #fff;
+  border-color: #cda74e;
+  color: #cda74e;
 }
 
 /* hover over link */
@@ -1380,6 +1394,7 @@ a.full-sketches-button:active {
 
 .lo-fi-wireframes-button {
  background-color: #cda74e;
+ border: 2px solid #cda74e;
  color: #fff;
  font-family: 'Poppins';
  font-size: 20px;
@@ -1388,7 +1403,7 @@ a.full-sketches-button:active {
  grid-row: 13;
  height: 78px;
  justify-self: center;
- padding: 25px;
+ padding: 20px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1400,8 +1415,9 @@ a.lo-fi-wireframes-button:link {
 
 /* visited link */
 a.lo-fi-wireframes-button:visited {
-  background: #d9b052;
-  color: #2d3152;
+  background: #fff;
+  border-color: #cda74e;
+  color: #cda74e;
 }
 
 /* hover over link */
@@ -1420,6 +1436,7 @@ a.lo-fi-wireframes-button:active {
 
 .lo-fi-prototype-button {
  background-color: #cda74e;
+ border: 2px solid #cda74e;
  color: #fff;
  font-family: 'Poppins';
  font-size: 20px;
@@ -1428,7 +1445,7 @@ a.lo-fi-wireframes-button:active {
  grid-row: 14;
  height: 78px;
  justify-self: center;
- padding: 25px;
+ padding: 20px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1440,8 +1457,9 @@ a.lo-fi-prototype-button:link {
 
 /* visited link */
 a.lo-fi-prototype-button:visited {
-  background: #d9b052;
-  color: #2d3152;
+  background: #fff;
+  border-color: #cda74e;
+  color: #cda74e;
 }
 
 /* hover over link */
@@ -1515,6 +1533,7 @@ a.usability-tests-link:active {
 
 .hi-fi-mockups-button {
  background-color: #cda74e;
+ border: 2px solid #cda74e;
  color: #fff;
  font-family: 'Poppins';
  font-size: 20px;
@@ -1523,7 +1542,7 @@ a.usability-tests-link:active {
  grid-row: 20;
  height: 78px;
  justify-self: center;
- padding: 25px;
+ padding: 20px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1535,8 +1554,9 @@ a.hi-fi-mockups-button:link {
 
 /* visited link */
 a.hi-fi-mockups-button:visited {
-  background: #d9b052;
-  color: #2d3152;
+  background: #fff;
+  border-color: #cda74e;
+  color: #cda74e;
 }
 
 /* hover over link */
@@ -1571,6 +1591,7 @@ a.hi-fi-mockups-button:active {
 
 .view-prototype-button2 {
  background-color: #cda74e;
+ border: 2px solid #cda74e;
  color: #fff;
  font-family: 'Poppins';
  font-size: 20px;
@@ -1579,7 +1600,7 @@ a.hi-fi-mockups-button:active {
  grid-row: 24;
  height: 78px;
  justify-self: center;
- padding: 25px;
+ padding: 20px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1591,8 +1612,9 @@ a.view-prototype-button2:link {
 
 /* visited link */
 a.view-prototype-button2:visited {
-  background: #d9b052;
-  color: #2d3152;
+  background: #fff;
+  border-color: #cda74e;
+  color: #cda74e;
 }
 
 /* hover over link */
@@ -1643,6 +1665,7 @@ a.view-prototype-button2:active {
 
 .logo-sketch-button  {
  background-color: #cda74e;
+ border: 2px solid #cda74e;
  color: #fff;
  font-family: 'Poppins';
  font-size: 20px;
@@ -1651,7 +1674,7 @@ a.view-prototype-button2:active {
  grid-row: 5;
  height: 78px;
  justify-self: center;
- padding: 25px;
+ padding: 20px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1663,8 +1686,9 @@ a.logo-sketch-button:link {
 
 /* visited link */
 a.logo-sketch-button:visited {
-  background: #d9b052;
-  color: #2d3152;
+  background: #fff;
+  border-color: #cda74e;
+  color: #cda74e;
 }
 
 /* hover over link */
@@ -1807,6 +1831,7 @@ a.logo-sketch-button:active {
 
 .style-guide-button {
  background-color: #cda74e;
+ border: 2px solid #cda74e;
  color: #fff;
  font-family: 'Poppins';
  font-size: 20px;
@@ -1815,7 +1840,7 @@ a.logo-sketch-button:active {
  grid-row: 25;
  height: 78px;
  justify-self: center;
- padding: 25px;
+ padding: 20px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1827,8 +1852,9 @@ a.style-guide-button:link {
 
 /* visited link */
 a.style-guide-button:visited {
-  background: #d9b052;
-  color: #2d3152;
+  background: #fff;
+  border-color: #cda74e;
+  color: #cda74e;
 }
 
 /* hover over link */
@@ -1973,6 +1999,7 @@ a.final-version:active {
 
 .preference-test-button {
  background-color: #cda74e;
+ border: 2px solid #cda74e;
  color: #fff;
  font-family: 'Poppins';
  font-size: 20px;
@@ -1981,7 +2008,7 @@ a.final-version:active {
  grid-row: 36;
  height: 78px;
  justify-self: center;
- padding: 25px;
+ padding: 20px;
  text-align: center;
  text-decoration: none;
  width: 335px;
@@ -1993,8 +2020,9 @@ a.preference-test-button:link {
 
 /* visited link */
 a.preference-test-button:visited {
-  background: #d9b052;
-  color: #2d3152;
+  background: #fff;
+  border-color: #cda74e;
+  color: #cda74e;
 }
 
 /* hover over link */
@@ -2386,6 +2414,7 @@ footer {
 
 .lets-connect {
    background-color: #cda74e;
+   border: 2px solid #cda74e;
    color: #fff;
    font-family: 'Poppins';
    font-size: 20px;
@@ -2394,7 +2423,7 @@ footer {
    grid-row: 2;
    height: 78px;
    place-self: center;
-   padding: 25px;
+   padding: 20px;
    text-align: center;
    text-decoration: none;
    width: 335px;
@@ -2406,8 +2435,9 @@ a.lets-connect:link {
 
 /* visited link */
 a.lets-connect:visited {
-  background: #d9b052;
-  color: #2d3152;
+  background: #2d3152;
+  border-color: #fff;
+  color: #fff;
 }
 
 /* hover over link */
@@ -2718,6 +2748,7 @@ a.contact-links:active {
     grid-row: 1;
     padding-bottom: 120px;
     padding-left: 42px;
+    margin-top: 20px;
     width: 415px;
   }
 
@@ -2733,7 +2764,7 @@ a.contact-links:active {
     grid-row: 1;
     height: 48px;
     margin-left: 100px;
-    padding: 10px;
+    padding: 7px;
     margin-bottom: 40px;
     text-align: center;
     width: 205px;
@@ -2747,7 +2778,7 @@ a.contact-links:active {
   a.view-projects-button:visited {
     background: #ffffff;
     border-color: #cda74e;
-    color: #ffffff;
+    color: #cda74e;
   }
 
   /* hover over link */
@@ -2993,7 +3024,7 @@ a.contact-links:active {
      justify-self: start;
      margin-bottom: 75px;
      margin-left: 82px;
-     padding: 15px;
+     padding: 10px;
      width: 205px;
    }
 
@@ -3206,7 +3237,7 @@ a.contact-links:active {
   grid-row: 13;
   height: 58px;
   justify-self: center;
-  padding: 15px;
+  padding: 10px;
   width: 285px;
  }
 
@@ -3280,7 +3311,7 @@ a.contact-links:active {
     grid-row: 8;
     height: 58px;
     justify-self: center;
-    padding: 15px;
+    padding: 10px;
     width: 285px;
  }
 
@@ -3341,6 +3372,7 @@ a.contact-links:active {
    grid-column: 1;
    grid-row: 16;
    list-style-type: decimal;
+   justify-self: start;
    margin-left: 45px;
  }
 
@@ -3354,9 +3386,9 @@ a.contact-links:active {
  .onboarding-image {
    grid-column: 1;
    grid-row: 16;
-   justify-self: center;
+   justify-self: start;
    margin-top: 225px;
-   padding-right: 80px;
+   padding-left: 280px;
  }
 
  .take-away5 {
@@ -3371,7 +3403,7 @@ a.contact-links:active {
     grid-row: 18;
     height: 58px;
     justify-self: center;
-    padding: 15px;
+    padding: 10px;
     width: 285px;
  }
 
@@ -3407,7 +3439,7 @@ a.contact-links:active {
   grid-row: 24;
   height: 58px;
   justify-self: center;
-  padding: 15px;
+  padding: 10px;
   width: 285px;
  }
 
@@ -3453,7 +3485,7 @@ a.contact-links:active {
     grid-row: 30;
     height: 58px;
     justify-self: center;
-    padding: 15px;
+    padding: 10px;
     width: 285px;
  }
 
@@ -3544,7 +3576,7 @@ a.contact-links:active {
     height: 58px;
     justify-self: start;
     margin-left: 75px;
-    padding: 15px;
+    padding: 10px;
     width: 285px;
  }
 
@@ -3554,7 +3586,7 @@ a.contact-links:active {
     height: 58px;
     justify-self: end;
     margin-right: 100px;
-    padding: 15px;
+    padding: 10px;
     width: 285px;
  }
 
@@ -3564,7 +3596,7 @@ a.contact-links:active {
     height: 58px;
     justify-self: center;
     margin-right: 20px;
-    padding: 15px;
+    padding: 10px;
     width: 285px;
  }
 
@@ -3630,7 +3662,7 @@ a.contact-links:active {
     grid-row: 21;
     height: 58px;
     justify-self: center;
-    padding: 15px;
+    padding: 10px;
     width: 285px;
  }
 
@@ -3653,7 +3685,7 @@ a.contact-links:active {
     grid-row: 24;
     height: 58px;
     justify-self: center;
-    padding: 15px;
+    padding: 10px;
     width: 285px;
  }
 
@@ -3687,7 +3719,7 @@ a.contact-links:active {
     grid-row: 5;
     height: 58px;
     justify-self: center;
-    padding: 15px;
+    padding: 10px;
     width: 285px;
  }
 
@@ -3850,7 +3882,7 @@ a.contact-links:active {
     grid-row: 23;
     height: 58px;
     justify-self: center;
-    padding: 15px;
+    padding: 10px;
     width: 285px;
  }
 
@@ -3924,7 +3956,7 @@ a.contact-links:active {
     grid-row: 30;
     height: 58px;
     justify-self: center;
-    padding: 15px;
+    padding: 10px;
     width: 285px;
  }
 
@@ -4099,9 +4131,9 @@ a.contact-links:active {
 
 /* Contact Page Tablet styles */
 
-    .contact-me h2 {
+  .contact-me h2 {
     font-size: 80px;
-  }
+ }
 
   form {
     margin-left: 70px;
@@ -4160,7 +4192,7 @@ a.contact-links:active {
   justify-self: end;
   margin-right: 40px;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   width: 225px;
  }
 
@@ -4793,8 +4825,8 @@ a.contact-links:active {
   .dropbox {
      grid-column: 1;
      grid-row: 5;
-     justify-self: center;
-     margin-right: 280px;
+     justify-self: start;
+     padding-left: 525px;
      padding-top: 10px;
   }
 
@@ -4809,8 +4841,8 @@ a.contact-links:active {
   .icloud {
      grid-column: 1;
      grid-row: 5;
-     justify-self: center;
-     margin-left: 360px;
+     justify-self: end;
+     padding-right: 510px;
      padding-top: 10px;
   }
 
@@ -4818,8 +4850,8 @@ a.contact-links:active {
      align-self: end;
      grid-column: 1;
      grid-row: 5;
-     justify-self: center;
-     margin-left: 360px;
+     justify-self: end;
+     padding-right: 510px;
   }
 
   .take-away1 {
@@ -4873,6 +4905,7 @@ a.contact-links:active {
     justify-self: start ;
     padding: 20px;
     margin-left: 400px;
+    margin-top: 20px;
     width: 353px;
   }
 
@@ -6092,7 +6125,7 @@ a.contact-links:active {
     }
 
     .dropbox {
-       padding-right: 100px;
+      padding-right: 20px;
     }
 
     .h52 {
@@ -6100,7 +6133,7 @@ a.contact-links:active {
     }
 
     .icloud {
-       padding-right: 90px;
+       padding-right: 595px;
     }
 
     .h53 {
@@ -6109,27 +6142,27 @@ a.contact-links:active {
 
 
     .multitasker{
-       justify-self: center;
-       padding-right: 420px;
+       justify-self: start;
+       margin-left: 415px;
     }
 
     .multitaker-text{
-       justify-self: center;
-       margin-right: 70px;
+       justify-self: start;
+       margin-left: 400px;
        padding-top: 35px;
        width: 675px;
     }
 
     .professional{
-       justify-self: center;
-       margin-right: 100px;
+       justify-self: start;
+       margin-left: 415px;
     }
 
     .professional-text{
-       justify-self: center;
-       margin-right: 70px;
+       justify-self: start;
+       padding-left: 450px;
        padding-top: 35px;
-       width: 675px;
+       width: 910px;
     }
 
     .us-image {
@@ -6141,6 +6174,39 @@ a.contact-links:active {
     .user-stories-text {
       grid-column: 1;
       grid-row: 10;
+    }
+
+    .content-strategy {
+       margin-left: 135px;
+    }
+
+    .content-strategy-text1 {
+       grid-column: 1;
+       grid-row: 22;
+       margin-left: 135px;
+       width: 910px;
+    }
+
+    .content-strategy-text2 {
+       grid-column: 1;
+       grid-row: 23;
+       margin-left: 135px;
+       width: 910px;
+    }
+
+    .take-away6 {
+       grid-column: 1;
+       grid-row: 24;
+       margin-left: 135px;
+       width: 910px;
+    }
+
+    .content-strategy-button {
+      margin-top: 30px;
+    }
+
+    .user-stories-button {
+      margin-top: 20px;
     }
 
     .site-map-image {
