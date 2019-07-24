@@ -4265,11 +4265,6 @@ a.contact-links:active {
     text-decoration: none;
   }
 
-  /* visited link */
-  a:visited {
-    color: #B3C7D6;
-  }
-
   /* hover over link */
   a:hover {
     color: #CDA74E;
