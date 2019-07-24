@@ -2318,6 +2318,7 @@ input {
 }
 
 textarea {
+  border: 1px solid #d4d4d4;
   font-size: 14px;
   font-family: 'muli';
   grid-row: 2;
@@ -2328,6 +2329,7 @@ textarea {
 
 .send-button {
   background: #cda74e;
+  border: 2px solid #cda74e;
   color: #ffffff;
   font-family: 'Poppins';
   font-size: 20px;
@@ -2727,7 +2729,7 @@ a.contact-links:active {
     font-size: 60px;
     grid-column: 1;
     grid-row: 1;
-    padding-left: 40px;
+    padding-left: 76px;
     padding-top: 60px;
   }
 
@@ -2736,7 +2738,7 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 1;
     justify-self: start;
-    padding-left: 70px;
+    padding-left: 100px;
     margin-top: 115px;
     padding-top: 10px;
   }
@@ -2747,7 +2749,7 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 1;
     padding-bottom: 120px;
-    padding-left: 42px;
+    padding-left: 82px;
     margin-top: 20px;
     width: 415px;
   }
@@ -2763,7 +2765,7 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 1;
     height: 48px;
-    margin-left: 100px;
+    margin-left: 80px;
     padding: 7px;
     margin-bottom: 40px;
     text-align: center;
@@ -3028,14 +3030,14 @@ a.contact-links:active {
      width: 205px;
    }
 
- .tab {
+  .tab {
    justify-self: start;
-   grid-row: 1;
-   height: 40px;
-   grid-column: 1;
-   grid-row: 1;
-   padding-top: 5px;
-   width: 275px;
+    grid-row: 1;
+    height: 40px;
+    grid-column: 1;
+    grid-row: 1;
+    padding-top: 5px;
+    width: 275px;
   }
 
   .tab h3 {
@@ -4027,7 +4029,9 @@ a.contact-links:active {
   .bio-tab h3 {
     font-size: 30px;
     font-weight: 400;
-    text-align: center;
+    margin-left: 41px;
+    padding-bottom: 5px;
+    text-align: start;
   }
 
   .color-block {
@@ -4074,7 +4078,7 @@ a.contact-links:active {
   .adolescence {
     grid-column: 1;
     grid-row: 1;
-    padding-left: 40px;
+    margin-left: 40px;
     padding-top: 120px;
   }
 
@@ -4082,7 +4086,7 @@ a.contact-links:active {
     font-weight: lighter;
     grid-column: 1;
     grid-row: 1;
-    padding-left: 40px;
+    margin-left: 40px;
     padding-top: 160px;
     width: 425px;
   }
@@ -4090,7 +4094,7 @@ a.contact-links:active {
   .adulthood {
     grid-column: 1;
     grid-row: 1;
-    padding-left: 40px;
+    margin-left: 40px;
     padding-top: 430px;
   }
 
@@ -4100,27 +4104,27 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 1;
     padding-bottom: 10px;
-    padding-left: 40px;
+    margin-left: 40px;
     width: 425px;
   }
 
   .reflect {
     grid-column: 1;
     grid-row: 2;
-    padding-left: 40px;
+    margin-left: 40px;
   }
 
   .p3 {
     font-weight: lighter;
     grid-row: 2;
-    padding-left: 40px;
+    margin-left: 40px;
     width: 425px;
   }
 
   .p4 {
     font-weight: lighter;
     grid-row: 3;
-    padding-left: 40px;
+    margin-left: 40px;
     padding-bottom: 10px;
     width: 425px;
   }
@@ -4157,7 +4161,7 @@ a.contact-links:active {
 
   .copy-right2 {
     font-size: 18px;
-    padding-left: 70px;
+    margin-left: 5px;
  }
 
   .contact-footer {
@@ -4180,7 +4184,7 @@ a.contact-links:active {
    font-size: 20px;
    grid-column: 1;
    grid-row: 1;
-   padding-left: 40px;
+   margin-left: 5px;
    justify-self: start;
    width: 475px;
  }
@@ -4306,7 +4310,7 @@ a.contact-links:active {
     font-size: 80px;
     grid-column: 1;
     grid-row: 1;
-    padding-left: 110px;
+    padding-left: 170px;
     padding-top: 110px;
   }
 
@@ -4315,7 +4319,7 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 1;
     justify-self: start;
-    margin-left: 190px;
+    margin-left: 250px;
     margin-top: 30px;
   }
 
@@ -4323,7 +4327,7 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 1;
     align-self: center;
-    padding-left: 110px;
+    padding-left: 175px;
     padding-top: 70px;
     width: 575px;
   }
@@ -4339,7 +4343,7 @@ a.contact-links:active {
      grid-row: 1;
      height: 78px;
      margin-bottom: 145px;
-     margin-left: 160px;
+     margin-left: 175px;
      padding: 20px;
      text-align: center;
      width: 305px;
@@ -4423,14 +4427,14 @@ a.contact-links:active {
 
   .card h4 {
     font-size: 26px;
-    margin-left: 20px;
+    margin-left: 25px;
     padding-top: 80px;
   }
 
   .info2 {
     font-size: 20px;
     grid-row: 2;
-    margin-left: 20px;
+    margin-left: 25px;
     padding-left: 35px;
     padding-top: 70px;
     width: 400px;
@@ -4439,6 +4443,7 @@ a.contact-links:active {
   .button {
     align-self: center;
     font-size: 26px;
+    margin-left: 15px;
     margin-top: 70px;
     padding: 15px;
     width: 355px;
@@ -5058,8 +5063,8 @@ a.contact-links:active {
   .search-share-image {
      grid-column: 1;
      grid-row: 16;
-     justify-self: center;
-     margin-left: 240px;
+     justify-self: start;
+     margin-left: 540px;
   }
 
   .search-share-image img {
@@ -5070,9 +5075,9 @@ a.contact-links:active {
   .onboarding-image {
      grid-column: 1;
      grid-row: 16;
-     place-self: center;
+     justify-self: start;
+     margin-left: 260px;
      margin-top: 275px;
-     margin-right: 225px;
   }
 
   .onboarding-image img {
@@ -5313,8 +5318,8 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 13;
     height: 78px;
-    justify-self: center;
-    margin-right: 190px;
+    justify-self: start;
+    margin-left: 440px;
     padding: 20px;
     padding-left: 20px;
     width: 353px;
@@ -5651,8 +5656,9 @@ a.contact-links:active {
   .preference-text2 {
     grid-column: 1;
     grid-row: 26;
-    justify-self: center;
-    margin-right: 170px;
+    justify-self: start;
+    margin-left: 325px;
+    padding-top: 10px;
     width: 595px;
   }
 
@@ -5666,8 +5672,9 @@ a.contact-links:active {
   .preference-text3 {
     grid-column: 1;
     grid-row: 27;
-    justify-self: center;
-    margin-right: 170px;
+    justify-self: start;
+    margin-left: 325px;
+    padding-top: 10px;
     width: 595px;
   }
 
@@ -5681,8 +5688,9 @@ a.contact-links:active {
   .preference-text4 {
     grid-column: 1;
     grid-row: 28;
-    justify-self: center;
-    margin-right: 170px;
+    justify-self: start;
+    margin-left: 325px;
+    padding-top: 10px;
     width: 595px;
   }
 
@@ -5854,9 +5862,9 @@ a.contact-links:active {
   .portrait2 {
     grid-column: 2;
     grid-row: 1;
-    padding-right: 65px;
+    margin-left: 145px;
     margin-bottom: 75px;
-    justify-self: end;
+    justify-self: start;
   }
 
   .portrait2 img {
@@ -5867,7 +5875,7 @@ a.contact-links:active {
   .adolescence {
     grid-column: 1;
     grid-row: 1;
-    padding-left: 109px;
+    margin-left: 135px;
     padding-top: 140px;
   }
 
@@ -5875,15 +5883,15 @@ a.contact-links:active {
     font-weight: lighter;
     grid-column: 1;
     grid-row: 1;
-    padding-left: 109px;
+    margin-left: 135px;
     padding-top: 180px;
-    width: 780px;
+    width: 700px;
   }
 
   .adulthood {
     grid-column: 1;
     grid-row: 1;
-    padding-left: 109px;
+    margin-left: 135px;
     padding-top: 380px;
   }
 
@@ -5891,16 +5899,16 @@ a.contact-links:active {
     font-weight: lighter;
     grid-column: 1;
     grid-row: 1;
-    padding-left: 109px;
+    margin-left: 135px;
     padding-top: 420px;
-    width: 780px;
+    width: 700px;
   }
 
   .reflect {
     align-self: end;
     grid-column: 1;
     grid-row: 1;
-    padding-left: 109px;
+    margin-left: 135px;
     padding-bottom: 175px;
   }
 
@@ -5910,17 +5918,16 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 1;
     padding-bottom: 5px;
-    padding-left: 109px;
-
-    width: 780px;
+    margin-left: 135px;
+    width: 700px;
   }
 
   .p4 {
     font-weight: lighter;
     grid-row: 2;
-    padding-left: 109px;
+    margin-left: 135px;
     padding-bottom: 10px;
-    width: 780px;
+    width: 700px;
   }
 
   .links2 {
@@ -5975,7 +5982,7 @@ a.contact-links:active {
       font-size: 20px;
       grid-column: 1;
       grid-row: 1;
-      margin-left: 75px;
+      margin-left: 70px;
       padding-bottom: 20px;
       width: 730px;
     }
@@ -6076,7 +6083,7 @@ a.contact-links:active {
       grid-column: 1;
       grid-row: 1;
       justify-self: end;
-      margin-right: 20px;
+      margin-right: 100px;
     }
 
     .hero-image img {
@@ -6124,22 +6131,17 @@ a.contact-links:active {
       margin-left: 195px;
     }
 
-    .dropbox {
-      padding-right: 20px;
-    }
-
     .h52 {
        padding-right: 100px;
     }
 
     .icloud {
-       padding-right: 595px;
+       margin-right: 85px;
     }
 
     .h53 {
        margin-right: 90px;
     }
-
 
     .multitasker{
        justify-self: start;
@@ -6160,9 +6162,9 @@ a.contact-links:active {
 
     .professional-text{
        justify-self: start;
-       padding-left: 450px;
+       margin-left: 400px;
        padding-top: 35px;
-       width: 910px;
+       width: 675px;
     }
 
     .us-image {
@@ -6233,10 +6235,6 @@ a.contact-links:active {
 
     .lo-fi-wireframes-button {
       margin-left: 130px;
-    }
-
-    .lo-fi-prototype-button {
-      margin-right: 290px;
     }
 
     .hi-fi-mockup2 {
