@@ -2464,7 +2464,7 @@ ul.links2 li {
   font-weight: 400;
   display: block;
   grid-row: 11;
-  padding: 5px 0px 0px 35px;
+  padding: 17px 31px 0px 35px;
 }
 
 /* unvisited link */
@@ -2592,6 +2592,17 @@ a.contact-links:active {
     height: auto;
     width: 414px;
   }
+
+  .candiceb img {
+    height: auto;
+    width: 100%;
+  }
+
+  .stacyj img {
+     height: auto;
+     width: 100%;
+  }
+
 
   .site-map-image {
     display: none;
@@ -5939,7 +5950,7 @@ a.contact-links:active {
  }
 
   ul.links3 li {
-    padding-right: 75px;
+    padding-right: 55px;
  }
 
   ul.links3 {
@@ -5999,7 +6010,7 @@ a.contact-links:active {
       z-index: 1;
     }
 
-    ul.links2 li {
+    .links2 li {
       display: inline;
       float: right;
       grid-column: 1;
