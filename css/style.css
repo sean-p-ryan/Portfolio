@@ -4853,11 +4853,10 @@ a.contact-links:active {
   }
 
   .h53 {
-     align-self: end;
      grid-column: 1;
      grid-row: 5;
-     justify-self: end;
-     padding-right: 510px;
+     justify-self: start;
+     padding-left: 831px;
   }
 
   .take-away1 {
