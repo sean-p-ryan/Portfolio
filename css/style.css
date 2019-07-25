@@ -2559,17 +2559,17 @@ a.contact-links:active {
 
   .product-image img {
     height: 330px;
-    width: 414px;
+    width: 100%;
   }
 
   .bloc-jams-image img {
     height: 335px;
-    width: 414px;
+    width: 100%;
   }
 
   .busy-bus-image img {
     height: 325px;
-    width: 414px;
+    width: 100%;
   }
 
 /* Case Study mobile styles | 2367 - 2455 */
@@ -2588,11 +2588,6 @@ a.contact-links:active {
     width: 372px;
   }
 
-  .us-image img {
-    height: auto;
-    width: 414px;
-  }
-
   .candiceb img {
     height: auto;
     width: 100%;
@@ -2603,6 +2598,10 @@ a.contact-links:active {
      width: 100%;
   }
 
+  .us-image img {
+    height: auto;
+    width: 100%;
+  }
 
   .site-map-image {
     display: none;
@@ -2614,27 +2613,22 @@ a.contact-links:active {
 
   .lo-fi-iteration1 img {
     height: auto;
-    width: 414px;
+    width: 100%;
   }
 
   .lo-fi-iteration2 img {
     height: auto;
-    width: 414px;
-  }
-
-  .create-content-image img {
-    height: 444px;
-    width: 307.25px;
+    width: 100%;
   }
 
   .new-content1 img {
     height: auto;
-    width: 422px;
+    width: 100%;
   }
 
   .new-content2 img {
     height: auto;
-    width: 422px;
+    width: 100%;
   }
 
   .uaf1 {
@@ -2647,7 +2641,7 @@ a.contact-links:active {
 
   .hi-fi-mockup2 img {
     height: auto;
-    width: 414px;
+    width: 100%;
   }
 
   .cnc1 {
@@ -2660,22 +2654,22 @@ a.contact-links:active {
 
   .hi-fi-mockup4 img {
     height: auto;
-    width: 414px;
+    width: 100%;
   }
 
   .logo-sketches-image img {
     height: auto;
-    width: 414px;
+    width: 100%;
   }
 
   .mind-map-image img {
     height: auto;
-    width: 414px;
+    width: 100%;
   }
 
   .mood-board-image img {
     height: auto;
-    width: 414px;
+    width: 100%;
   }
 
   .color-palette img {
@@ -2845,8 +2839,8 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 2;
     height: 410px;
-    margin-right: 70px;
-    justify-self: end;
+    margin-left: 415px;
+    justify-self: start;
     width: 350px;
   }
 
@@ -2857,8 +2851,8 @@ a.contact-links:active {
   }
 
   .card {
-    align-self: center;
     height: 410px;
+    justify-self: start;
     margin-left: 40px;
     margin-top: 125px;
     width: 350px;
@@ -4188,7 +4182,7 @@ a.contact-links:active {
 /* Footer tablet styles | 3801 - 3847 */
 
  footer {
-   grid-template-columns: 482px 360px;
+   grid-template-columns: 475px 400px;
    height: 157px;
    margin-top: 85px;
  }
@@ -4199,7 +4193,7 @@ a.contact-links:active {
    grid-row: 1;
    margin-left: 5px;
    justify-self: start;
-   width: 475px;
+   width: 450px;
  }
 
  .lets-connect {
@@ -4223,9 +4217,8 @@ a.contact-links:active {
    font-size: 16px;
    grid-column: 2;
    grid-row: 2;
-   margin-right: 30px;
+   padding-left: 9px;
    padding-bottom: 5px;
-   padding-left: 5px;
    padding-top: 20px;
  }
 
@@ -5950,12 +5943,13 @@ a.contact-links:active {
  }
 
   ul.links3 li {
+    padding-left: 15px;
     padding-right: 55px;
  }
 
   ul.links3 {
     justify-self: end;
-    padding-right: 70px;
+    margin-right: 70px;
     padding-top: 20px;
  }
 
