@@ -2258,7 +2258,7 @@ a.contact-links:active {
     width: 425px;
   }
 
-  .view-prototype-button, .view-prototype-button2, .user-survey-button, .personas-button, .user-stories-button .user-flows-button, .content-strategy-button, .site-map-button, .full-sketches-button, .lo-fi-wireframes-button, .lo-fi-prototype-button, .hi-fi-mockups-button, .logo-sketch-button, .style-guide-button, .preference-test-button {
+  .view-prototype-button, .view-prototype-button2, .user-survey-button, .personas-button, .user-stories-button, .user-flows-button, .content-strategy-button, .site-map-button, .full-sketches-button, .lo-fi-wireframes-button, .lo-fi-prototype-button, .hi-fi-mockups-button, .logo-sketch-button, .style-guide-button, .preference-test-button {
     font-size: 26px;
     grid-column: 1;
     width: 353px;
@@ -2276,11 +2276,12 @@ a.contact-links:active {
     grid-row: 24;
     justify-self: center;
     margin-right: 190px;
+    margin-top: 30px;
   }
 
   .user-survey-button, .personas-button, .user-stories-button, .user-flows-button, .content-strategy-button, .site-map-button {
     justify-self: start;
-    margin-left: 300px;
+    margin-left: 415px;
   }
 
   .user-survey-button {
@@ -2334,24 +2335,24 @@ a.contact-links:active {
     padding-left: 20px;
   }
 
+  .hi-fi-mockups-button, .logo-sketch-button, .style-guide-button, .preference-test-button {
+    margin-right: 190px;
+  }
+
   .hi-fi-mockups-button {
     grid-row: 21;
-    margin-right: 190px;
   }
 
   .logo-sketch-button  {
     grid-row: 5;
-    margin-right: 190px;
   }
 
   .style-guide-button {
     grid-row: 23;
-    margin-right: 190px;
   }
 
   .preference-test-button {
     grid-row: 30;
-    margin-right: 190px;
     margin-top: 20px;
   }
 
@@ -2890,11 +2891,15 @@ a.contact-links:active {
     padding-left: 300px;
   }
 
-  .vl2 {
+  .vl2, .hi-fi-vl2 {
     margin-top: 5px;
     padding-right: 330px;
+  }
+
+  .vl2 {
     padding-top: 20px;
   }
+
 
   .vl3 {
     padding-left: 200px;
@@ -2908,11 +2913,6 @@ a.contact-links:active {
   .hi-fi-vl1 {
      justify-self: start;
      padding-left: 300px;
-  }
-
-  .hi-fi-vl2 {
-    margin-top: 5px;
-    padding-right: 330px;
   }
 
   .hi-fi-vl3 {
@@ -3168,7 +3168,7 @@ a.contact-links:active {
 
   .bloc-jams-image {
     justify-self: start;
-    padding-left: 315px;
+    margin-left: 235px;
   }
 
   .busy-bus-image {
@@ -3212,6 +3212,14 @@ a.contact-links:active {
      margin-right: 90px;
   }
 
+  .user-survey-button, .personas-button, .user-stories-button, .user-flows-button, .content-strategy-button, .site-map-button {
+    margin-left: 410px;
+  }
+
+  .hi-fi-mockups-button, .view-prototype-button2, .logo-sketch-button, .style-guide-button, .preference-test-button {
+    margin-right: 390px;
+  }
+
   .multitasker, .professional {
     justify-self: start;
     margin-left: 415px;
@@ -3228,43 +3236,42 @@ a.contact-links:active {
     margin-top: 20px;
   }
 
+  .upload-image, .create-content-image {
+    padding-left: 170px;
+  }
+
   .lo-fi-iteration1, .lo-fi-iteration2, .new-content1, .new-content2 {
-    padding-left: 100px;
+    padding-left: 40px;
+  }
+
+  .full-sketches-button {
+    margin-left: 170px;
   }
 
   .lo-fi-wireframes-button {
-    margin-left: 130px;
+    margin-right: 280px;
   }
 
   .lo-fi-prototype-button {
-    margin-left: 450px;
+    margin-left: 400px;
   }
 
   .hi-fi-mockup2, .hi-fi-mockup4 {
     justify-self: center;
-    padding-left: 550px;
+    margin-left: 425px;
   }
 
-  .vl2 {
+  .vl2, .hi-fi-vl2 {
     margin-top: 5px;
-    padding-right: 430px;
+    padding-right: 555px;
   }
 
-  .vl3 {
-    padding-left: 110px;
-  }
-
-  .hi-fi-vl2 {
-    margin-top: 5px;
-    padding-right: 430px;
-  }
-
-  .hi-fi-vl3 {
-    padding-right: 90px;
+  .vl3, .hi-fi-vl3 {
+    padding-right: 220px;
   }
 
   .hi-fi-vl4 {
-    padding-right: 395px;
+    padding-right: 525px;
   }
 
   .portrait2 {
