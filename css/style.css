@@ -424,7 +424,7 @@ a.button:active {
   width: 335px;
 }
 
-.view-prototype-button,  {
+.view-prototype-button {
  grid-row: 4;
 }
 
@@ -2278,7 +2278,7 @@ a.contact-links:active {
     margin-right: 190px;
   }
 
-  .user-survey-button, .personas-button, .user-stories-button, .user-flows-button, .content-strategy-button, .site-map-button,  {
+  .user-survey-button, .personas-button, .user-stories-button, .user-flows-button, .content-strategy-button, .site-map-button {
     justify-self: start;
     margin-left: 300px;
   }
