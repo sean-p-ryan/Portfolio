@@ -1642,39 +1642,48 @@ h3 {
   font-weight: 400;
 }
 
+.bio-paras {
+  display: grid;
+  grid-row-gap: 15px;
+}
+
 .p1, .p2, .p3, .p4 {
   font-weight: lighter;
   grid-column: 1;
-  padding: 45px 35px;
+  padding: 5px 35px;
 }
 
 .p1 {
-  grid-row: 3;
+  grid-row: 2;
 }
+
 .p2 {
   grid-row: 4;
 }
+
 .p3 {
-  grid-row: 5;
-}
-.p4 {
   grid-row: 6;
 }
 
+.p4 {
+  grid-row: 7;
+}
+
 .adolescence, .adulthood, .reflect {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 400;
   font-style: italic;
   grid-column: 1;
   padding-left: 35px;
+  padding-top: 5px;
 }
 
 .adolescence {
-  grid-row: 3;
+  grid-row: 1;
 }
 
 .adulthood {
-  grid-row: 4;
+  grid-row: 3;
 }
 
 .reflect {
@@ -1743,57 +1752,6 @@ textarea {
   width: 200px;
 }
 
-.contact-footer {
-  display: grid;
-  grid-template-columns: 215px 1fr;
-  grid-template-rows: 60px;
-}
-
-ul.links3 li {
-  color: #fff;
-  display: grid;
-  font-weight: 400;
-  display: inline;
-  grid-column: 2;
-  grid-row: 1;
-  padding-right: 10px;
-}
-
-ul.links3 {
-  padding-left: 25px;
-  padding-top: 20px;
-}
-
-/* unvisited link */
-a.contact-links3:link {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-/* hover over link */
-a.contact-links3:hover {
-  color: #CDA74E;
-}
-
-/* visited link */
-a.contact-links:visited {
-  color: #B3C7D6;
-}
-
-/* selected link */
-a.contact-links3:active {
-  color: #fff;
-}
-
-.copy-right2 {
-  color: #fff;
-  font-size: 16px;
-  grid-column: 1;
-  grid-row: 1;
-  padding-left: 40px;
-  padding-top: 20px;
-}
-
 /* FOOTER SECTION STARTS */
 footer {
   background-color: #2D3152;
@@ -1840,9 +1798,9 @@ ul.links2 li {
   color: #2D3152;
   display: grid;
   font-weight: 400;
-  display: block;
+  display: inline;
   grid-row: 11;
-  padding: 17px 31px 0px 35px;
+  padding-left: 26px;
 }
 
 /* unvisited link */
@@ -1872,7 +1830,7 @@ a.contact-links:active {
   grid-column: 1;
   grid-row: 12;
   padding-left: 35px;
-  padding-top: 10px;
+  margin-top: 5px;
   padding-bottom: 10px;
 }
 
@@ -1946,6 +1904,29 @@ a.contact-links:active {
   .color-palette img, .typography-image img {
     height: auto;
     width: 386px;
+  }
+
+  i {
+    font-size: 20px;
+  }
+
+  ul.links2 {
+    margin-left: 200px;
+    margin-top: 30px;
+  }
+
+  .footer {
+    height: 185px;
+  }
+
+  .copy-right {
+    display: none;
+  }
+
+  .copy-right2 {
+    font-size: 16px;
+    margin-left: 35px;
+    margin-bottom: 10px;
   }
 }
 
@@ -2900,7 +2881,6 @@ a.contact-links:active {
     padding-top: 20px;
   }
 
-
   .vl3 {
     padding-left: 200px;
   }
@@ -2958,10 +2938,6 @@ a.contact-links:active {
 
   .quote1, .quote1a, .quote2 {
     font-size: 20px;
-    font-style: italic;
-    font-weight: lighter;
-    grid-column: 1;
-    grid-row: 1;
     justify-self: center;
   }
 
@@ -3023,57 +2999,55 @@ a.contact-links:active {
     width: 286px;
   }
 
-  .adolescence {
+  .bio-paras {
+    display: grid;
+    grid-gap: 20px;
     grid-column: 1;
     grid-row: 1;
+    grid-template-rows: repeat(7, 1fr);
+    margin-top: 145px;
+  }
+
+  .adolescence, .adulthood, .reflect {
+    grid-column: 1;
     margin-left: 135px;
-    padding-top: 140px;
+  }
+
+  .adolescence {
+    grid-row: 1;
   }
 
   .adulthood {
-    grid-column: 1;
-    grid-row: 1;
-    margin-left: 135px;
-    padding-top: 380px;
+    grid-row: 3;
   }
 
   .reflect {
-    align-self: end;
-    grid-column: 1;
-    grid-row: 1;
-    margin-left: 135px;
-    padding-bottom: 175px;
-  }
-
-  .p1, .p2, .p3 {
-    grid-row: 1;
+    grid-row: 5;
   }
 
   .p1, .p2, .p3, .p4 {
     margin-left: 135px;
-    width: 700px;
   }
 
   .p1 {
-    padding-top: 180px;
+    grid-row: 2;
   }
 
   .p2 {
-    padding-top: 420px;
+    grid-row: 4;
   }
 
   .p3 {
-    align-self: end;
-    padding-bottom: 5px;
+    grid-row: 6;
   }
 
   .p4 {
-    grid-row: 2;
-    padding-bottom: 10px;
+    grid-row: 7;
+    margin-bottom: 50px;
   }
 
   .links2 {
-    padding-right: 110px;
+    padding-right: 80px;
   }
 
 /* CONTACT PAGE DESKTOP STYLES */
@@ -3083,30 +3057,8 @@ a.contact-links:active {
     margin-top: 70px;
  }
 
-  ul.links3 li {
-    padding-left: 15px;
-    padding-right: 55px;
- }
-
-  ul.links3 {
-    justify-self: end;
-    margin-right: 70px;
-    padding-top: 20px;
- }
-
   .send-button {
     margin-bottom: 100px;
- }
-
-  .copy-right2 {
-    font-size: 20px;
-    padding-left: 140px;
- }
-
-  .contact-footer {
-    display: grid;
-    grid-template-columns: 400px 1fr;
-    height: 60px;
  }
 
 /* FOOTER DESKTOP STYLES */
@@ -3133,13 +3085,17 @@ a.contact-links:active {
     z-index: 1;
   }
 
-  .links2 li {
+  i {
+    font-size: 30px;
+  }
+
+  ul.links2 li {
     display: inline;
     float: right;
     grid-column: 1;
     grid-row: 2;
-    padding-right: 15px;
-    padding-top: 20px;
+    padding-right: 45px;
+    padding-top: 10px;
     z-index: 1;
   }
 
@@ -3149,6 +3105,10 @@ a.contact-links:active {
     grid-row: 12;
     margin-top: -30px;
     margin-left: 75px;
+  }
+
+  .copy-right2 {
+    display: none;
   }
 }
 
