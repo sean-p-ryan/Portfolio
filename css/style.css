@@ -2130,9 +2130,9 @@ a.contact-links:active {
     grid-column: 2;
     grid-row: 1;
     height: 359px;
-    margin-top: 95px;
+    margin-top: 105px;
     justify-self: start;
-    margin-left: 80px;
+    margin-left: 40px;
     width: 419px;
   }
 
@@ -2444,7 +2444,7 @@ a.contact-links:active {
 
   .summary-text, .problem-text, .solution-text, .competitive-text1, .competitive-text2, .survey-text1, .survey-text2, .user-stories-text, .user-flow-text, .content-strategy-text1, .content-strategy-text2, .site-map-text, .sketch-text1, .sketch-text2, .sketch-text3, .logo-text, .mind-map-text, .mood-board-text, .style-guide-text, .preference-text1, .preference-text5, .thoughts-text1, .thoughts-text2, .thoughts-text3, .thoughts-text4, .thoughts-text5 {
     grid-column: 1;
-    margin-left: 170px;
+    margin-left: 135px;
     width: 910px;
   }
 
@@ -2734,12 +2734,12 @@ a.contact-links:active {
 
   .multitasker {
      grid-row: 3;
-     padding-right: 320px;
+     padding-right: 350px;
   }
 
   .professional {
      grid-row: 5;
-     padding-right: 280px;
+     padding-right: 300px;
   }
 
   .multitasker-text, .professional-text {
@@ -2964,7 +2964,7 @@ a.contact-links:active {
 /* ABOUT ME DESKTOP STYLES */
   .bio-section {
     grid-template-columns: 900px 1fr;
-    grid-template-rows: 950px 1fr;
+    grid-template-rows: 980px 1fr;
   }
 
   .about-me h2 {
@@ -3014,19 +3014,18 @@ a.contact-links:active {
 
   .color-block {
     grid-column: 2;
-    grid-row: 1;
     height: 440px;
     justify-self: start;
-    margin-left: 100px;
+    margin-left: 60px;
     margin-top: 55px;
     width: 378px;
   }
 
   .portrait2 {
     grid-column: 2;
-    margin-left: 145px;
-    margin-bottom: 75px;
     justify-self: start;
+    margin-left: 106px;
+    margin-bottom: 165px;
   }
 
   .portrait2 img {
@@ -3273,9 +3272,15 @@ a.contact-links:active {
     padding-right: 525px;
   }
 
+  .color-block {
+    margin-left: 150px;
+  }
+
+  .accent-border4 {
+    margin-left: 130px;
+  }
+
   .portrait2 {
-      margin-left: 150px;
-      margin-bottom: 80px;
-      padding-top: 10px;
-    }
+      margin-left: 195px;
+  }
 }
