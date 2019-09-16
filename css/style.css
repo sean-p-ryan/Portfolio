@@ -1919,6 +1919,11 @@ a.contact-links:active {
     width: 100%;
   }
 
+  .candiceb, .stacyj {
+    max-width: 480px;
+    margin: 10px auto;
+}
+
   .search-share-image {
      grid-row: 17;
      place-self: center;
@@ -2132,7 +2137,6 @@ a.contact-links:active {
     height: 359px;
     margin-top: 105px;
     justify-self: start;
-    margin-left: 40px;
     width: 419px;
   }
 
