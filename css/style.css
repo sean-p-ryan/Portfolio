@@ -1632,7 +1632,6 @@ h3 {
 }
 
 .p1, .p2, .p3, .p4 {
-  font-weight: lighter;
   grid-column: 1;
   padding: 5px 35px;
 }
@@ -1655,7 +1654,7 @@ h3 {
 
 .adolescence, .adulthood, .reflect {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 600;
   font-style: italic;
   grid-column: 1;
   padding-left: 35px;
@@ -1822,6 +1821,10 @@ a.contact-links:active {
 @media only screen and (max-width: 760px) {
 /* HOMEPAGE MOBILE STYLES */
 
+  body{
+    font-size: 18px;
+  }
+  
   .accent-border, .accent-border2, .accent-border3 {
     display: none;
   }
@@ -1901,11 +1904,11 @@ a.contact-links:active {
 /* CASE STUDY - MOBILE STYLES */
 
   .hero-area {
-    grid-template-rows: 100px 120px 349px 135px;
+    grid-template-rows: 100px 160px 329px 135px;
   }
 
   .hero-statement {
-    padding: 10px 40px;
+    padding: 20px 40px;
   }
 
   .summary-text, .problem-text, .solution-text, .competitive-text1, .competitive-text2, .survey-text1, .survey-text2, .survey-text3, .multitasker-text, .professional-text, .user-stories-text, .user-flow-text, .content-strategy-text1, .content-strategy-text2, .site-map-text, .sketch-text1, .sketch-text2, .sketch-text3, .logo-text, .mind-map-text, .mood-board-text, .style-guide-text, .preference-text1, .preference-text2, .preference-text3, .preference-text4, .preference-text5, .thoughts-text1, .thoughts-text2, .thoughts-text3, .thoughts-text4, .thoughts-text5 {
@@ -1948,6 +1951,12 @@ a.contact-links:active {
   ul.links2 {
     margin-right: 30px;
     margin-top: 30px;
+  }
+
+/* ABOUT ME - MOBILE STYLES */
+
+  .p1, .p2, .p3, .p4 {
+    font-size: 18px;
   }
 
   .footer {
@@ -2213,7 +2222,6 @@ a.contact-links:active {
     width: 415px;
   }
 
-
   .button {
     align-self: center;
     font-size: 26px;
@@ -2228,7 +2236,6 @@ a.contact-links:active {
     padding-left: 215px;
     padding-top: 50px;
   }
-
 
 /* CASE STUDY DESKTOP / TABLET STYLES */
   main {
