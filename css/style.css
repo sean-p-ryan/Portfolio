@@ -116,14 +116,8 @@ a:active {
   background-image: url(../images/abstract-bg.jpg);
   background-size: cover;
   display: grid;
-  grid-row-gap: 50px;
   grid-template-columns: 1fr;
-  grid-template-rows: 420px 502px;
-}
-
-.portrait1 {
-  grid-column: 1;
-  grid-row: 2;
+  grid-template-rows: 520px;
 }
 
 .bilbo-swash {
@@ -150,7 +144,7 @@ a:active {
   font-weight: 300;
   grid-column: 1;
   grid-row: 1;
-  padding-bottom: 10px;
+  padding-bottom: 100px;
   padding-left: 40px;
   padding-right: 40px;
   width: 100%;
@@ -182,7 +176,7 @@ a:active {
   grid-column: 1;
   grid-row: 1;
   place-self: center;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .accent-border, .accent-border2, .accent-border3 {
@@ -226,7 +220,7 @@ a:active {
   padding-top: 144px;
 }
 
-.product-image img, .bloc-jams-image img, .busy-bus-image img {
+.product-image img, .vaultage-image img, .busy-bus-image img {
   height: auto;
   width: 100%;
 }
@@ -295,7 +289,7 @@ a.button:active {
  color: #6b7d8c;
 }
 
-.bloc-jams-image, .busy-bus-image {
+.vaultage-image, .busy-bus-image {
   grid-column: 1;
   grid-row: 2;
   margin-top: 145px;
@@ -1824,7 +1818,7 @@ a.contact-links:active {
   body{
     font-size: 18px;
   }
-  
+
   .accent-border, .accent-border2, .accent-border3 {
     display: none;
   }
@@ -1841,7 +1835,7 @@ a.contact-links:active {
     margin-bottom: 0;
   }
 
-  .product-image img, .bloc-jams-image img, .busy-bus-image img {
+  .product-image img, .vaultage-image img, .busy-bus-image img {
     display: block;
     box-shadow: none;
   }
@@ -1873,15 +1867,6 @@ a.contact-links:active {
     display: block;
     margin-left: 0;
     width: 100%;
-  }
-
-  .portrait1 {
-    place-self: center;
-  }
-
-  .portrait1 img {
-    height: auto;
-    width: 416px;
   }
 
   #toggle:checked + .menu {
@@ -2028,40 +2013,30 @@ a.contact-links:active {
   }
 
   .hero-section {
-    grid-template-rows: 705px;
+    grid-template-rows: 619px;
   }
 
-  .portrait1 {
-    align-self: center;
-    grid-row: 1;
-    justify-self: end;
-    padding-right: 140px;
-    padding-top: 50px;
-  }
-
-  .portrait1 img {
-    height: 660px;
-    width: 542px;
+  .bilbo-swash, .name {
+    font-size: 80px;
   }
 
   .bilbo-swash {
-    font-size: 80px;
-    padding-left: 170px;
-    padding-top: 110px;
+    padding-left: 450px;
+    padding-top: 130px;
   }
 
   .name {
-    font-size: 80px;
-    place-self: start;
     margin-left: 250px;
-    margin-top: 30px;
+    padding-top: 130px;
+    justify-self: center;
   }
 
   .info1 {
     align-self: center;
-    padding-left: 175px;
+    padding-left: 325px;
+    padding-right: 325px;
     padding-top: 70px;
-    width: 575px;
+    width: 100%;
   }
 
   .view-projects-button {
@@ -2074,11 +2049,11 @@ a.contact-links:active {
      grid-column: 1;
      grid-row: 1;
      height: 78px;
-     margin-bottom: 145px;
-     margin-left: 175px;
+     margin-bottom: 130px;
+     justify-self: center;
      padding: 20px;
      text-align: center;
-     width: 305px;
+     width: 353px;
   }
 
   a.view-projects-button:link {
@@ -2144,6 +2119,14 @@ a.contact-links:active {
     width: 419px;
   }
 
+ .product-name {
+   padding-right: 60px;
+ }
+
+ .product-name3 {
+   padding-right: 15px;
+ }
+
   .product-name, .product-name2, .product-name3 {
     height: 78px;
     width: 445px;
@@ -2156,23 +2139,27 @@ a.contact-links:active {
 
   .product-name2 {
     justify-self: end;
-    padding-right: 25px;
-  }
-
-  .product-image, .busy-bus-image {
-    justify-self: start;
-    padding-left: 574px;
+    padding-left: 15px;
   }
 
   .product-image {
+    justify-self: start;
     margin-top: 59px;
+    padding-left: 574px;
+  }
+
+  .vaultage-image {
+    padding-top: 50px;
+    padding-left: 213px;
   }
 
   .busy-bus-image {
+    justify-self: start;
+    padding-left: 574px;
     padding-top: 50px;
   }
 
-  .product-image img, .bloc-jams-image img, .busy-bus-image img {
+  .product-image img, .vaultage-image img, .busy-bus-image img {
     height: 608px;
     width: 663px;
   }
@@ -2229,12 +2216,6 @@ a.contact-links:active {
     margin-top: 70px;
     padding: 15px;
     width: 355px;
-  }
-
-  .bloc-jams-image {
-    justify-self: start;
-    padding-left: 215px;
-    padding-top: 50px;
   }
 
 /* CASE STUDY DESKTOP / TABLET STYLES */
@@ -3158,9 +3139,24 @@ a.contact-links:active {
 /* DESKTOP STYLES LARGER MONITORS */
   @media only screen and (min-width: 1441px) and (max-width: 3000px) {
  /* HOMEPAGE LARGER DESKTOP STYLES */
+
+  .name {
+   margin-left: 150px;
+   padding-top: 130px;
+   justify-self: center;
+ }
+
   .product-image {
     padding-left: 574px;
     padding-top: 144px;
+  }
+
+  .card2 {
+    margin-right: 200px;
+  }
+
+  .product-name2 {
+
   }
 
   .accent-border2 {
@@ -3169,9 +3165,9 @@ a.contact-links:active {
     margin-right: 255px;
   }
 
-  .bloc-jams-image {
+  .vaultage-image {
     justify-self: start;
-    margin-left: 235px;
+    margin-right: 400px;
   }
 
   .busy-bus-image {
