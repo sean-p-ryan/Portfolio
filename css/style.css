@@ -3140,10 +3140,20 @@ a.contact-links:active {
   @media only screen and (min-width: 1441px) and (max-width: 3000px) {
  /* HOMEPAGE LARGER DESKTOP STYLES */
 
+
+ .bilbo-swash {
+   padding-left: 550px;
+   padding-top: 130px;
+ }
+
   .name {
-   margin-left: 150px;
+   margin-left: 220px;
    padding-top: 130px;
    justify-self: center;
+ }
+
+ #projects {
+   padding-top: 80px;
  }
 
   .product-image {
@@ -3155,10 +3165,6 @@ a.contact-links:active {
     margin-right: 200px;
   }
 
-  .product-name2 {
-
-  }
-
   .accent-border2 {
     align-self: start;
     justify-self: end;
@@ -3167,7 +3173,7 @@ a.contact-links:active {
 
   .vaultage-image {
     justify-self: start;
-    margin-right: 400px;
+    margin-left: 125px;
   }
 
   .busy-bus-image {
