@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Felicia Jackson | Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2d3152">
-    <meta name="msapplication-TileColor" content="#2d3152">
-    <meta name="theme-color" content="#2d3152">
-    <link href="https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps%7cMuli:300,300i,400,700,700i%7cPoppins:300,400,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2d3152" />
+    <meta name="msapplication-TileColor" content="#2d3152" />
+    <meta name="theme-color" content="#2d3152" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps%7cMuli:300,300i,400,700,700i%7cPoppins:300,400,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140704388-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-140704388-1"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'UA-140704388-1');
+      gtag("config", "UA-140704388-1");
     </script>
   </head>
   <body>
     <main>
       <header>
-        <div class="logo">
-          <a href="index.html"><img src="images/logo.svg" alt="logo"/></a>
+        <div class="logo-and-title">
+          <div class="logo">
+            <a href="index.html"><img src="images/logo.svg" alt="logo"/></a>
+          </div>
+          <h1 class="title">Felicia Jackson | UX Designer</h1>
         </div>
-        <h1 class="title">Felicia Jackson | UX Designer</h1>
         <nav>
           <label for="toggle">&#9776;</label>
-          <input type="checkbox" id="toggle"/>
+          <input type="checkbox" id="toggle" />
           <div class="menu">
             <a href="index.html#projects">Projects</a>
             <a href="about.html">About</a>
@@ -44,27 +59,46 @@
         </nav>
       </header>
       <div class="hero-section">
-        <h1 class="bilbo-swash">Welcome,</h1>
-        <h1 class="name">I'm Felicia</h1>
-        <p class="info1">I am a <strong>Central New Jersey</strong>-based <strong>UX Designer</strong>, I have an empathic mindset, with a focus on <strong>content creation</strong> that is both useful and delightful to interact with, to better enhance the user’s experience.</p>
-        <a href="index.html#projects" class="view-projects-button">View Projects</a>
+        <h1 class="bilbo-swash nsme">Welcome, I'm Felicia</h1>
+        <p class="info1">
+          I am a <strong>Central New Jersey</strong>-based
+          <strong>UX Designer</strong>, I have an empathic mindset, with a focus
+          on <strong>content creation</strong> that is both useful and
+          delightful to interact with, to better enhance the user’s experience.
+        </p>
+        <div class="projects-button-container">
+          <a href="index.html#projects" class="view-projects-button"
+            >View Projects</a
+          >
+        </div>
       </div>
 
-<!-- project sections starts -->
+      <!-- project sections starts -->
       <div class="content">
         <h3 id="projects">My Projects</h3>
         <section class="section1">
-          <div class="accent-border"></div>
-          <div class="product-name">
-            <h3>Stringz</h3>
-          </div>
-          <div class="product-image">
-            <img src="images/stringz-image.jpg" alt="stringz-pic"/>
-          </div>
-          <div class="card">
-            <h4>Mobile Crafting App</h4>
-            <p class="info2">A clickable high-fidelity prototype. Stringz is a digital project diary that helps users keep track of their various knitting, crocheting, and crafting projects.</p>
-            <a href="https://invis.io/UWTKJE8YEC4" target= _blank class="button">View Prototype</a>
+          <div class="project-container">
+            <div class="accent-border"></div>
+            <div class="product-name">
+              <h3>Stringz</h3>
+            </div>
+            <div class="card">
+              <h4>Mobile Crafting App</h4>
+              <p class="info2">
+                A clickable high-fidelity prototype. Stringz is a digital
+                project diary that helps users keep track of their various
+                knitting, crocheting, and crafting projects.
+              </p>
+              <a
+                href="https://invis.io/UWTKJE8YEC4"
+                target="_blank"
+                class="button"
+                >View Prototype</a
+              >
+            </div>
+            <div class="product-image">
+              <img src="images/stringz-image.jpg" alt="stringz-pic" />
+            </div>
           </div>
         </section>
 
@@ -74,12 +108,16 @@
             <h3>Vaultage</h3>
           </div>
           <div class="vaultage-image">
-            <img src="images/vaultage-image.jpg" alt="vaultage-pic"/>
+            <img src="images/vaultage-image.jpg" alt="vaultage-pic" />
           </div>
           <div class="card2">
             <h4>Cloud Storage App</h4>
-            <p class="info3">A clickable high fidelity prototype. It was usability tested on several potential users. This prototype addresses the initial pain points of cloud service users based on data research.</p>
-          <a href="project.html" class="button">View Case Study</a>
+            <p class="info3">
+              A clickable high fidelity prototype. It was usability tested on
+              several potential users. This prototype addresses the initial pain
+              points of cloud service users based on data research.
+            </p>
+            <a href="project.html" class="button">View Case Study</a>
           </div>
         </section>
 
@@ -89,31 +127,71 @@
             <h3>Busy Bus</h3>
           </div>
           <div class="busy-bus-image">
-            <img src="images/busy-bus.jpg" alt="busy-bus-pic"/>
+            <img src="images/busy-bus.jpg" alt="busy-bus-pic" />
           </div>
           <div class="card3">
             <h4>Mobile App</h4>
-            <p class="info2">Busy Bus is a single screen prototype solution to the problem identified by Transit Officials at the Washington & State Street Bus stop. Riders wanted the ability to know when their exact bus would be arriving into the station.</p>
-            <a href="https://saphyer.github.io/FE-Challenge/" target= _blank  class="button">View Prototype</a>
+            <p class="info2">
+              Busy Bus is a single screen prototype solution to the problem
+              identified by Transit Officials at the Washington & State Street
+              Bus stop. Riders wanted the ability to know when their exact bus
+              would be arriving into the station.
+            </p>
+            <a
+              href="https://saphyer.github.io/FE-Challenge/"
+              target="_blank"
+              class="button"
+              >View Prototype</a
+            >
           </div>
         </section>
       </div>
 
-<!--footer starts -->
+      <!--footer starts -->
       <footer>
-        <p class="thank-you">Thank you for your time, and I hope you enjoyed my work. If you have any questions, please feel free to contact me.</p>
+        <p class="thank-you">
+          Thank you for your time, and I hope you enjoyed my work. If you have
+          any questions, please feel free to contact me.
+        </p>
         <a href="contact.html" class="lets-connect">Let’s Connect</a>
       </footer>
       <ul class="links2">
-        <li><a href="https://twitter.com/SaphyerJ?lang=en" target= _blank class="contact-links"><i class="fab fa-twitter"></i></a></li>
+        <li>
+          <a
+            href="https://twitter.com/SaphyerJ?lang=en"
+            target="_blank"
+            class="contact-links"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
 
-        <li><a href="https://github.com/Saphyer" target= _blank class="contact-links"><i class="fab fa-github"></i></a></li>
+        <li>
+          <a
+            href="https://github.com/Saphyer"
+            target="_blank"
+            class="contact-links"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
 
-        <li><a href="contact.html" class="contact-links"><i class="fas fa-envelope"></i></a></li>
+        <li>
+          <a href="contact.html" class="contact-links"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </li>
 
-        <li><a href="https://www.linkedin.com/in/felicia-jackson" target= _blank class="contact-links"><i class="fab fa-linkedin-in"></i></a></li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/felicia-jackson"
+            target="_blank"
+            class="contact-links"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
       </ul>
-      <p class="copy-right">&copy; 2019 Felicia Jackson | Designed & Developed by Felicia Jackson</p>
+      <p class="copy-right">
+        &copy; 2019 Felicia Jackson | Designed & Developed by Felicia Jackson
+      </p>
       <p class="copy-right2">&copy; 2019 Felicia Jackson</p>
     </main>
   </body>
