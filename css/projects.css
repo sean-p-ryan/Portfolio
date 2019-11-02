@@ -13,12 +13,21 @@
   flex-direction: column-reverse;
 }
 
+.busy-bus-image {
+  margin-top: 0;
+  background-color: #7D93A5;
+}
 
-.product-name {
+
+.product-name, .product-name2, .product-name3 {
   position: static;
   background-color: #2d3152;
   text-align: center;
   margin-bottom: 50px;
+}
+
+.product-image {
+  background-color: #7D93A5;
 }
 
 .card,
@@ -43,7 +52,43 @@
   margin-bottom: 40px; 
 }
 
+.card {
+  height: 415px;
+  margin-bottom: 75px;
+}
+
+.info2, .info3 {
+  margin: 30px 0 50px 0;
+}
+
+#stringz-button, #regular-button {
+  width: 330px;
+  margin-left: 12%;
+  margin-top: 6%;
+}
+
+#stringz-button:hover, #regular-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#stringz-button:visited {
+  background: #FFFFFF;
+  color: #7D93A5;
+}
+
+.card-content-container {
+  margin: 25px 0 0 50px;
+}
+
 @media (min-width: 761px) {
+  .product-image {
+    background: none;
+  }
+
+  .bust-bus-image {
+    background: none;
+  }
   .project-container {
     position: relative;
   }
