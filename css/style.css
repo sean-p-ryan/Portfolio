@@ -14,6 +14,7 @@ body {
   line-height: normal;
   margin: 0;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 html {
@@ -1811,9 +1812,9 @@ a.contact-links:active {
     /* width: 100; */
   }
 
-  .view-projects-button {
+  /* .view-projects-button {
     display: none;
-  }
+  } */
 
   .info2, .info3 {
     width: 100%;
@@ -1911,6 +1912,48 @@ a.contact-links:active {
   height: 100px;
 }
 
+.view-projects-button {
+  align-self: end;
+  background: #cda74e;
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-size: 26px;
+  font-weight: 400;
+  grid-column: 1;
+  grid-row: 1;
+  height: 78px;
+  margin-bottom: 130px;
+  justify-self: center;
+  padding: 20px;
+  text-align: center;
+  width: 353px;
+}
+
+a.view-projects-button:link {
+color: #ffffff;
+}
+
+/* hover over link */
+a.view-projects-button:hover {
+ background: #ffffff;
+ border: 2px solid #b39144;
+ color: #b39144;
+}
+
+/* selected link */
+a.view-projects-button:active {
+ background: #ffffff;
+ border: 2px solid #2D3152;
+ color: #2D3152;
+}
+
+  /* visited link */
+  a.view-projects-button:visited {
+    color: #ffffff;
+    border: 2px solid #b39144;
+    background: #b39144;
+  }
+
 @media (min-width: 880px) {
 /* HOMEPAGE DESKTOP STYLES */
   body{
@@ -1974,50 +2017,6 @@ a.contact-links:active {
   .info1, .info2, .info3 {
     margin-top: 10%;
   }
-
-  .view-projects-button {
-     align-self: end;
-     background: #cda74e;
-     color: #ffffff;
-     font-family: 'Poppins';
-     font-size: 26px;
-     font-weight: 400;
-     grid-column: 1;
-     grid-row: 1;
-     height: 78px;
-     margin-bottom: 130px;
-     justify-self: center;
-     padding: 20px;
-     text-align: center;
-     width: 353px;
-  }
-
-  a.view-projects-button:link {
-   color: #ffffff;
-  }
-
-  /* visited link */
-  a.view-projects-button:visited {
-    color: #ffffff;
-    border: 2px solid #b39144;
-    background: #b39144;
-  }
-
-  /* hover over link */
-  a.view-projects-button:hover {
-    background: #ffffff;
-    border: 2px solid #b39144;
-    color: #b39144;
-  }
-
-  /* selected link */
-  a.view-projects-button:active {
-    background: #ffffff;
-    border: 2px solid #2D3152;
-    color: #2D3152;
-  }
-
-
 
 /* CASE STUDY DESKTOP / TABLET STYLES */
   main {
@@ -2947,14 +2946,14 @@ a.contact-links:active {
    padding-top: 80px;
  }
 
-  .card2 {
+  /* .card2 {
     margin-right: 200px;
-  }
+  } */
 
   .accent-border2 {
     align-self: start;
     justify-self: end;
-    margin-right: 255px;
+    /* margin-right: 255px; */
   }
 
   .vaultage-image {
@@ -2962,9 +2961,9 @@ a.contact-links:active {
     margin-left: 125px;
   }
 
-  .busy-bus-image {
+  /* .busy-bus-image {
     padding-left: 574px;
-  }
+  } */
 
   .links {
     padding-left: 200px;

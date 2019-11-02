@@ -14,6 +14,11 @@
 }
 
 .busy-bus-image {
+  background-image: url(../images/busy-bus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
   margin-top: 0;
   background-color: #7d93a5;
 }
@@ -120,16 +125,21 @@ button {
     margin-left: 36px;
   }
 
+  .project-info-container3 {
+    flex-direction: row-reverse;
+    margin-left: 15px;
+  }
+
   .project-info-container1 {
-    margin-left: 68px;
+    margin-left: 15px;
     width: 50%;
     margin-top: 100px;
   }
 
   .project-info-container2 {
-    margin-left: 68px;
-    width: 50%;
-    margin-top: 150px;
+    position: absolute;
+    right: 33px;
+    top: 125px;
   }
 
   .project-info-contianer2 {
@@ -139,8 +149,9 @@ button {
   .info2,
   .info3 {
     padding: none;
-    margin-top: 40px;
+    margin-top: 22px;
     margin-right: 0;
+    padding-right: 42px;
   }
 
   .button {
@@ -158,15 +169,15 @@ button {
   .accent-border {
     position: absolute;
     border: 3px solid #cda74e;
-    left: 200px;
-    height: 450px;
-    width: 680px;
+    left: 73px;
+    height: 317px;
+    width: 785px;
     top: 50px;
   }
 
   .product-name {
     position: relative;
-    width: 500px;
+    width: 262px;
     top: 100px;
   }
 
@@ -184,12 +195,12 @@ button {
 
   .section1 {
     display: flex;
-    height: 800px;
+    height: 732px;
   }
 
   .section2 {
     display: flex;
-    height: 800px;
+    height: 665px;
   }
 
   .section3 {
@@ -199,7 +210,7 @@ button {
 
   #projects {
     color: #2d3152;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 400;
     /* grid-column: 1;
     grid-row: 1; */
@@ -226,6 +237,7 @@ button {
     padding-bottom: 50px; */
     text-align: center;
     /* z-index: 999; */
+    width: 262px;
   }
 
   .product-name2 {
@@ -235,23 +247,28 @@ button {
   .accent-border2 {
     position: absolute;
     border: 3px solid #cda74e;
-    width: 677px;
-    height: 500px;
-    left: 280px;
+    width: 785px;
+    height: 317px;
+    right: 89px;
   }
 
   .accent-border3 {
     position: absolute;
     border: 3px solid #cda74e;
-    width: 746px;
-    height: 500px;
-    left: 200px;
+    width: 780px;
+    height: 317px;
+    left: 73px;
+  }
+
+  .product-name h3 .product-name2 h3,
+  .product-name3 h3 {
+    font-size: 30px;
   }
 
   .product-name h3,
-  .product-name2 h3,
   .product-name3 h3 {
-    font-size: 50px;
+    text-align: left;
+    padding-left: 18px;
   }
 
   .product-image img,
@@ -279,15 +296,14 @@ button {
     flex-direction: column;
     width: 100%;
     margin: 0;
-    padding-left: 20px;
-    padding-top: 50px;
+    padding-left: 33px;
+    padding-top: 21px;
     height: 300px;
   }
 
   .card h4,
   .card2 h4,
   .card3 h4 {
-    font-size: 26px;
     font-weight: 600;
     grid-row: 1;
     padding-top: 30px;
@@ -296,9 +312,10 @@ button {
 }
 
 @media (min-width: 1200px) {
-  .product-image {
+  /* .product-image {
     background: none;
-    height: 415px;
+    height: 608px;
+    width: 665px;
   }
 
   .bust-bus-image {
@@ -315,20 +332,19 @@ button {
     flex-direction: row;
     z-index: 5;
     position: static;
-    width: 800px;
+    width: 1000px;
     margin-left: 36px;
   }
 
   .project-info-container1 {
-    margin-left: 68px;
-    width: 50%;
+    width: 1000px;
     margin-top: 100px;
   }
 
   .project-info-container2 {
-    margin-left: 68px;
-    width: 50%;
+    margin-left: 250px; 
     margin-top: 150px;
+    width: 1000px;
   }
 
   .project-info-contianer2 {
@@ -357,10 +373,7 @@ button {
   .accent-border {
     position: absolute;
     border: 3px solid #cda74e;
-    left: 200px;
-    height: 450px;
-    width: 680px;
-    top: 50px;
+    width: 1175px;
   }
 
   .product-name {
@@ -383,7 +396,7 @@ button {
 
   .section1 {
     display: flex;
-    height: 800px;
+    height: 1000px;
   }
 
   .section2 {
@@ -400,18 +413,25 @@ button {
     color: #2d3152;
     font-size: 50px;
     font-weight: 400;
-    /* grid-column: 1;
-    grid-row: 1; */
     place-self: center;
     padding-top: 50px;
     text-align: center;
   }
 
   .button-container {
-    height: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 25px;
   }
 
-  .card,
+  .card {
+    width: 40%;
+    height: 608px;
+  }
+
   .card2,
   .card3 {
     width: 430px;
@@ -421,10 +441,7 @@ button {
   .product-name2,
   .product-name3 {
     background-color: #2d3152;
-    /* margin-top: 50px;
-    padding-bottom: 50px; */
     text-align: center;
-    /* z-index: 999; */
   }
 
   .product-name2 {
@@ -434,43 +451,37 @@ button {
   .accent-border2 {
     position: absolute;
     border: 3px solid #cda74e;
-    width: 677px;
+    width: 800px;
     height: 500px;
-    left: 280px;
+    left: 380px;
   }
 
   .accent-border3 {
     position: absolute;
     border: 3px solid #cda74e;
-    width: 746px;
+    width: 820px;
     height: 500px;
     left: 200px;
-  }
-
-  .product-name h3,
-  .product-name2 h3,
-  .product-name3 h3 {
-    font-size: 50px;
   }
 
   .product-image img,
   .vaultage-image img,
   .busy-bus-image img {
     height: 100%;
-    width: 385px;
+    width: 100%;
   }
 
   .busy-bus-image {
     background-image: url("../images/busy-bus.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
-    width: 450px;
+    height: 495px;
+    width: 495px;
   }
 
   .card3 {
     width: 450px;
-    height: 450px;
+    height: 495px;
   }
 
   .card-content-container {
@@ -480,7 +491,7 @@ button {
     margin: 0;
     padding-left: 20px;
     padding-top: 50px;
-    height: 300px;
+    height: 250px;
   }
 
   .card h4,
@@ -490,6 +501,5 @@ button {
     font-weight: 600;
     grid-row: 1;
     padding-top: 30px;
-    /* padding-left: 35px; */
-  }
+  } */
 }
