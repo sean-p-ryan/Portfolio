@@ -2868,7 +2868,7 @@ a.contact-links:active {
   }
 
   .links2 {
-    padding-right: 80px;
+    /* padding-right: 80px; */
   }
 
 /* CONTACT PAGE DESKTOP STYLES */
@@ -2882,24 +2882,19 @@ a.contact-links:active {
     margin-bottom: 100px;
  }
 
-/* FOOTER DESKTOP STYLES */
-  footer {
-    height: 157px;
-  }
-
   .thank-you {
     align-self: center;
-    margin-left: 70px;
-    width: 730px;
+    /* margin-left: 70px; */
+    width: 70%;
   }
 
   .lets-connect {
-    font-size: 26px;
+    font-size: 20px;
     grid-row: 1;
     justify-self: end;
     margin-right: 105px;
     margin-top: 40px;
-    width: 369px;
+    width: 200px;
   }
 
   ul.links2 {
@@ -2925,7 +2920,8 @@ a.contact-links:active {
     grid-column: 1;
     grid-row: 12;
     margin-top: -30px;
-    margin-left: 75px;
+    /* margin-left: 75px; */
+    width: 60%;
   }
 
   .copy-right2 {

@@ -117,7 +117,7 @@ button {
     z-index: 5;
     position: static;
     width: 800px;
-    margin-left: 8%;
+    margin-left: 36px;
   }
 
   .project-info-container1 {
@@ -160,7 +160,7 @@ button {
     border: 3px solid #cda74e;
     left: 200px;
     height: 450px;
-    width: 77vw;
+    width: 680px;
     top: 50px;
   }
 
@@ -177,7 +177,7 @@ button {
   }
 
   .product-name3 {
-    width: 35%;
+    width: 344px;
     margin-top: 30px;
     z-index: 5;
   }
@@ -235,17 +235,17 @@ button {
   .accent-border2 {
     position: absolute;
     border: 3px solid #cda74e;
-    width: 75vw;
+    width: 677px;
     height: 500px;
-    right: 75px;
+    left: 280px;
   }
 
   .accent-border3 {
     position: absolute;
     border: 3px solid #cda74e;
-    width: 85vw;
+    width: 746px;
     height: 500px;
-    right: 25px;
+    left: 200px;
   }
 
   .product-name h3,
@@ -296,19 +296,62 @@ button {
 }
 
 @media (min-width: 1200px) {
+  .product-image {
+    background: none;
+    height: 415px;
+  }
+
+  .bust-bus-image {
+    background: none;
+  }
   .project-container {
     position: relative;
   }
 
-  .project-info-container,
-  .project-info-container2 {
+  .project-info-container1,
+  .project-info-container2,
+  .project-info-container3 {
     display: flex;
     flex-direction: row;
-    /* z-index: 5; */
-    position: absolute;
-    top: 150px;
-    left: 100px;
+    z-index: 5;
+    position: static;
+    width: 800px;
+    margin-left: 36px;
+  }
+
+  .project-info-container1 {
+    margin-left: 68px;
     width: 50%;
+    margin-top: 100px;
+  }
+
+  .project-info-container2 {
+    margin-left: 68px;
+    width: 50%;
+    margin-top: 150px;
+  }
+
+  .project-info-contianer2 {
+    margin-top: 40px;
+  }
+
+  .info2,
+  .info3 {
+    padding: none;
+    margin-top: 40px;
+    margin-right: 0;
+  }
+
+  .button {
+    margin-bottom: 0;
+  }
+
+  #stringz-button {
+    margin: 0;
+  }
+
+  #vaultage-button {
+    margin-top: 50px;
   }
 
   .accent-border {
@@ -316,7 +359,7 @@ button {
     border: 3px solid #cda74e;
     left: 200px;
     height: 450px;
-    width: 960px;
+    width: 680px;
     top: 50px;
   }
 
@@ -326,9 +369,31 @@ button {
     top: 100px;
   }
 
+  .product-name2 {
+    right: 0;
+    position: absolute;
+    width: 30%;
+  }
+
+  .product-name3 {
+    width: 344px;
+    margin-top: 30px;
+    z-index: 5;
+  }
+
   .section1 {
     display: flex;
-    height: 1000px;
+    height: 800px;
+  }
+
+  .section2 {
+    display: flex;
+    height: 800px;
+  }
+
+  .section3 {
+    display: flex;
+    height: 800px;
   }
 
   #projects {
@@ -336,10 +401,20 @@ button {
     font-size: 50px;
     font-weight: 400;
     /* grid-column: 1;
-      grid-row: 1; */
+    grid-row: 1; */
     place-self: center;
     padding-top: 50px;
     text-align: center;
+  }
+
+  .button-container {
+    height: 0;
+  }
+
+  .card,
+  .card2,
+  .card3 {
+    width: 430px;
   }
 
   .product-name,
@@ -347,29 +422,65 @@ button {
   .product-name3 {
     background-color: #2d3152;
     /* margin-top: 50px;
-      padding-bottom: 50px; */
+    padding-bottom: 50px; */
     text-align: center;
     /* z-index: 999; */
   }
 
-  .product-name h3 {
+  .product-name2 {
+    margin-top: 30px;
+  }
+
+  .accent-border2 {
+    position: absolute;
+    border: 3px solid #cda74e;
+    width: 677px;
+    height: 500px;
+    left: 280px;
+  }
+
+  .accent-border3 {
+    position: absolute;
+    border: 3px solid #cda74e;
+    width: 746px;
+    height: 500px;
+    left: 200px;
+  }
+
+  .product-name h3,
+  .product-name2 h3,
+  .product-name3 h3 {
     font-size: 50px;
   }
 
   .product-image img,
   .vaultage-image img,
   .busy-bus-image img {
-    height: auto;
-    width: 271px;
+    height: 100%;
+    width: 385px;
+  }
+
+  .busy-bus-image {
+    background-image: url("../images/busy-bus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 450px;
+  }
+
+  .card3 {
+    width: 450px;
+    height: 450px;
   }
 
   .card-content-container {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-left: 20px;
-    margin-top: 50px;
-    height: 569px;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 50px;
+    height: 300px;
   }
 
   .card h4,

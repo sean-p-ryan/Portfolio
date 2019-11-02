@@ -1,0 +1,14 @@
+footer {
+  background-color: #2d3152;
+  color: #ffffff;
+  display: grid;
+  grid-template-rows: 160px 150px;
+  grid-gap: 10px;
+  margin-top: 85px;
+}
+
+@media (min-width: 880px) {
+  footer {
+    height: 157px;
+  }
+}
