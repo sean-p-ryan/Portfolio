@@ -38,7 +38,7 @@ header {
   position: -webkit-sticky;
   top: 0;
   width: 100%;
-  z-index: 5;
+  z-index: 10;
 }
 
 .logo {
@@ -1751,7 +1751,7 @@ a.contact-links:active {
 
 /* MEDIA QUERIES START */
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 880px) {
 /* HOMEPAGE MOBILE STYLES */
 
   body{
@@ -1911,7 +1911,7 @@ a.contact-links:active {
   height: 100px;
 }
 
-@media only screen and (min-width: 761px) {
+@media (min-width: 880px) {
 /* HOMEPAGE DESKTOP STYLES */
   body{
     font-size: 20px;
