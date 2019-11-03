@@ -1640,14 +1640,19 @@ h3 {
   font-weight: bold;
   justify-self: center;
   padding-top: 60px;
+  text-align: center;
 }
 
 form {
-  grid-gap: 10px;
-  grid-template-rows: 40px;
-  margin-top: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
+  grid-gap: 10px;  
+}
+
+@media (max-width: 880px) {
+  form {
+    width: 70%;
+    grid-gap: 10px;
+    margin: 30px auto;
+  }
 }
 
 input {
@@ -1880,8 +1885,7 @@ a.contact-links:active {
   }
 
   ul.links2 {
-    margin-right: 30px;
-    margin-top: 30px;
+    margin-right: 30px;    
   }
 
 /* ABOUT ME - MOBILE STYLES */
@@ -1899,10 +1903,8 @@ a.contact-links:active {
   }
 
   .copy-right2 {
-    font-size: 16px;
-    margin-bottom: 20px;
+    font-size: 16px;    
     margin-left: 35px;
-    margin-top: -23px;
   }
 }
 
@@ -2051,15 +2053,15 @@ a.view-projects-button:active {
   }
 
   .hero-image img {
-    height: 708.48px;
+    /* height: 708.48px;
     padding-top: 25px;
-    width: 772.22px;
+    width: 772.22px; */
   }
 
   .prototype-title {
     font-size: 80px;
     place-self: start;
-    margin-left: 170px;
+    margin-left: 34px;
     margin-top: 65px;
   }
 
@@ -2067,8 +2069,7 @@ a.view-projects-button:active {
     justify-self: start;
     grid-column: 1;
     grid-row: 1;
-    height: 153px;
-    margin-left: 135px;
+    height: 153px;    
     margin-top: 225px;
     width: 425px;
   }
@@ -2083,7 +2084,7 @@ a.view-projects-button:active {
      align-self: start;
      grid-row: 1;
      margin-top: 430px;
-     margin-left: 170px;
+     margin-left: 39px;
      place-self: start;
   }
 
@@ -2891,8 +2892,8 @@ a.view-projects-button:active {
 
 /* CONTACT PAGE DESKTOP STYLES */
   form {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-top: 70px;
  }
 
@@ -2935,10 +2936,6 @@ a.view-projects-button:active {
 
   .copy-right {
     font-size: 16px;
-    grid-column: 1;
-    grid-row: 12;
-    margin-top: -30px;
-    /* margin-left: 75px; */
     width: 60%;
   }
 

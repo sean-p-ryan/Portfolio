@@ -15,9 +15,9 @@
 
 .busy-bus-image {
   background-image: url(../images/busy-bus.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 800px;
+  background-repeat: no-repeat;  
+  height: 645px;
+
   width: 100%;
   margin-top: 0;
   background-color: #7d93a5;
@@ -205,7 +205,7 @@ button {
 
   .section3 {
     display: flex;
-    height: 800px;
+    height: 600px;
   }
 
   #projects {
