@@ -22,7 +22,7 @@ html {
 }
 
 main {
-  display: grid;
+  /* display: grid; */
   width: 100vw;
 }
 
@@ -1522,24 +1522,40 @@ a.preference-test-button:active {
 .bio-section {
   display: grid;
   grid-gap: 20px;
-  grid-template-rows: 700px 1fr;
-}
-
-.color-block {
-  background-color: #2d3152;
-  grid-column: 1;
-  grid-row: 1;
-  height: 351px;
-  justify-self: center;
-  width: 364px;
+  /* grid-template-rows: 700px 1fr; */
 }
 
 .portrait2 {
-  grid-column: 1;
-  grid-row: 1;
-  height: 500px;
-  padding-top: 4px;
-  place-self: center;
+  position: relative;
+  display: flex;
+  /* flex-direction: column;   */
+  /* justify-content: center; */
+}
+
+.color-block {
+  position: absolute;
+  background-color: #2d3152;
+  height: 351px;
+  width: 364px;
+  left: 50%;
+  margin-left: -182px;
+  z-index: 1;
+}
+
+.accent-border4 {
+  position: absolute;
+  border: 3px solid #cda74e;
+  z-index: 2;
+  width: 400px;
+  height: 250px;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: 50px;
+}
+
+.portrait2 img {
+  margin: 100px auto 0 auto;
+  z-index: 3;
 }
 
 .bio-tab {
@@ -1757,10 +1773,6 @@ a.contact-links:active {
 
   body{
     font-size: 18px;
-  }
-
-  .accent-border, .accent-border2, .accent-border3 {
-    
   }
 
   .card, .card2, .card3{
@@ -2750,8 +2762,13 @@ a.view-projects-button:active {
 
 /* ABOUT ME DESKTOP STYLES */
   .bio-section {
-    grid-template-columns: 900px 1fr;
-    grid-template-rows: 980px 1fr;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  .bio-text {
+    width: 60%;
   }
 
   .about-me h2 {
@@ -2789,7 +2806,7 @@ a.view-projects-button:active {
     grid-row: 1;
     height: 68px;
     margin-top: 55px;
-    width: 440px;
+    width: 300px;
   }
 
   .bio-tab h3 {
@@ -2801,18 +2818,15 @@ a.view-projects-button:active {
 
   .color-block {
     grid-column: 2;
-    height: 440px;
+    /* height: 440px;
     justify-self: start;
     margin-left: 20px;
     margin-top: 55px;
-    width: 378px;
+    width: 378px; */
   }
 
-  .portrait2 {
-    grid-column: 2;
-    justify-self: start;
-    margin-left: 65px;
-    margin-bottom: 165px;
+  .portrait2 {    
+    margin-top: 55px;
   }
 
   .portrait2 img {
@@ -2825,7 +2839,8 @@ a.view-projects-button:active {
     grid-gap: 20px;
     grid-column: 1;
     grid-row: 1;
-    margin-top: 145px;
+    margin-top: 50px;
+    margin-right: 60px;
   }
 
   .adolescence, .adulthood, .reflect {
@@ -2845,8 +2860,12 @@ a.view-projects-button:active {
     grid-row: 5;
   }
 
+  .bio-paras h2 {
+    margin-left: 0;
+  }
+
   .p1, .p2, .p3, .p4 {
-    margin-left: 135px;
+    margin-left: 0px;
   }
 
   .p1 {
@@ -2927,9 +2946,9 @@ a.view-projects-button:active {
     display: none;
   }
 
-  #contact header, #contact .links2 {
+  /* #contact header, #contact .links2 {
     min-width: 1419px;
-  }
+  } */
 }
 
 /* DESKTOP STYLES LARGER MONITORS */
@@ -3064,15 +3083,7 @@ a.view-projects-button:active {
     padding-right: 525px;
   }
 
-  .color-block {
-    margin-left: 150px;
-  }
-
-  .accent-border4 {
-    margin-left: 130px;
-  }
-
-  .portrait2 {
-      margin-left: 195px;
+  .bio-text {
+    width: 73%;
   }
 }
