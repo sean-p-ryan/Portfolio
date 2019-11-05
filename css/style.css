@@ -312,18 +312,6 @@ a.button:active {
   width: 100%;
 }
 
-.hero-image {
-  grid-column: 1;
-  grid-row: 3;
-  padding-right: 55px;
-  place-self: center;
-}
-
-.hero-image img {
-  height: 525px;
-  width: 558px;
-}
-
 .view-prototype-button, .user-survey-button, .personas-button, .user-stories-button, .user-flows-button, .content-strategy-button, .site-map-button, .full-sketches-button, .lo-fi-wireframes-button, .lo-fi-prototype-button, .hi-fi-mockups-button, .view-prototype-button2, .logo-sketch-button, .style-guide-button, .preference-test-button, .lets-connect {
   background-color: #cda74e;
   border: 2px solid #cda74e;
@@ -1798,7 +1786,7 @@ a.contact-links:active {
   }
 
   header {
-    height: 110px;
+    height: 150px;
   }
 
   label {
@@ -1844,7 +1832,8 @@ a.contact-links:active {
   }
 
   .hero-statement {
-    padding: 20px 40px;
+    width: 85%;
+    margin: 0 auto;
   }
 
   .summary-text, .problem-text, .solution-text, .competitive-text1, .competitive-text2, .survey-text1, .survey-text2, .survey-text3, .multitasker-text, .professional-text, .user-stories-text, .user-flow-text, .content-strategy-text1, .content-strategy-text2, .site-map-text, .sketch-text1, .sketch-text2, .sketch-text3, .logo-text, .mind-map-text, .mood-board-text, .style-guide-text, .preference-text1, .preference-text2, .preference-text3, .preference-text4, .preference-text5, .thoughts-text1, .thoughts-text2, .thoughts-text3, .thoughts-text4, .thoughts-text5 {
@@ -1913,6 +1902,7 @@ a.contact-links:active {
   flex-direction: row;
   justify-content: center;
   align-items: center;  
+  margin-left: 8%;
 }
 
 .title {
@@ -1923,7 +1913,8 @@ a.contact-links:active {
 }
 
 .logo img {
-  height: 100px;
+  height: 135px;
+  width: 70px;
 }
 
 .view-projects-button {
@@ -2038,8 +2029,18 @@ a.view-projects-button:active {
   }
 
   .hero-area {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
+    background: url('../images/steel-bg.jpg');
+    height: 100vh;       
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-evenly;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
   }
 
   .steel-bg img {
@@ -2047,22 +2048,24 @@ a.view-projects-button:active {
   }
 
   .hero-image {
-    grid-row: 1;
-    justify-self: end;
-    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-
+  
   .hero-image img {
-    /* height: 708.48px;
-    padding-top: 25px;
-    width: 772.22px; */
+    height: auto;
+    width: 560px;
+    margin-bottom: 37%;
   }
 
   .prototype-title {
     font-size: 80px;
     place-self: start;
     margin-left: 34px;
-    margin-top: 65px;
+    padding: 0;
+    margin-bottom: 28px;
   }
 
   .hero-statement {
@@ -2070,7 +2073,6 @@ a.view-projects-button:active {
     grid-column: 1;
     grid-row: 1;
     height: 153px;    
-    margin-top: 225px;
     width: 425px;
   }
 
@@ -2083,9 +2085,10 @@ a.view-projects-button:active {
   .view-prototype-button {
      align-self: start;
      grid-row: 1;
-     margin-top: 430px;
+     margin-top: 100px;
      margin-left: 39px;
      place-self: start;
+     margin-top: 58px;
   }
 
   .view-prototype-button2 {
@@ -2177,7 +2180,7 @@ a.view-projects-button:active {
   }
 
   .overview {
-    grid-template-columns: 1440px;
+    grid-template-columns: 100vw;
   }
 
   .tab {
@@ -2351,10 +2354,6 @@ a.view-projects-button:active {
     grid-row: 4;
   }
 
-  .role {
-    margin-left: 135px;
-  }
-
   .deliverables {
     justify-self: center;
     padding-right: 425px;
@@ -2370,8 +2369,7 @@ a.view-projects-button:active {
     grid-row: 4;
   }
 
-  .hr1 {
-    margin-left: 170px;
+  .hr1 {    
     width: 200px;
   }
 
@@ -2392,8 +2390,8 @@ a.view-projects-button:active {
     grid-row: 5;
   }
 
-  .ux {
-    margin-left: 135px;
+  .ux, .discovery, .ia, .visual, .design {
+    font-size: 12px;
   }
 
   .discovery, .ia, .visual {
