@@ -127,7 +127,7 @@ a:active {
   height: 100vh;
 }
 
-.projects-button-container {
+.projects- {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -465,6 +465,8 @@ h4 {
 @media (min-width: 880px){
   .logos {
     flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
   }    
 }
 
@@ -2147,13 +2149,14 @@ a.view-projects-button:active {
 
   .user-survey-button, .personas-button, .user-stories-button, .user-flows-button, .content-strategy-button, .site-map-button {
     justify-self: start;
-    margin-left: 415px;
+    margin: 0 auto;
   }
 
   .user-survey-button {
     grid-row: 13;
     margin-top: 20px;
     width: 353px;
+    display: block;
   }
 
   .personas-button {
@@ -2250,7 +2253,6 @@ a.view-projects-button:active {
     justify-self: start;
     margin-left: 135px;
     margin-top: 5px;
-    margin-bottom: 20px;
   }
 
   .summary, .competitive, .personas, .sketching, .logo-sketches, .thoughts {
@@ -2260,6 +2262,7 @@ a.view-projects-button:active {
   .desktop-table {
     border-collapse: separate;
     border-spacing: 5px 1rem;
+    margin-left: 100px;
   }
   
   .desktop-table hr {
@@ -2293,7 +2296,8 @@ a.view-projects-button:active {
   }
 
   .user-survey {
-     grid-row: 8;
+    margin-top: 20px;
+    margin-bottom: 25px;
   }
 
   .user-stories, .color-logo {
@@ -2331,14 +2335,8 @@ a.view-projects-button:active {
   .summary-text, .problem-text, .solution-text, .competitive-text1, .competitive-text2, .survey-text1, .survey-text2, .user-stories-text, .user-flow-text, .content-strategy-text1, .content-strategy-text2, .site-map-text, .sketch-text1, .sketch-text2, .sketch-text3, .logo-text, .mind-map-text, .mood-board-text, .style-guide-text, .preference-text1, .preference-text5, .thoughts-text1, .thoughts-text2, .thoughts-text3, .thoughts-text4, .thoughts-text5 {
     grid-column: 1;
     margin-left: 135px;
-    width: 75%;
+    width: 80vw;
   }
-
-  /* .empathize-content {
-    width: 100vw;
-    margin: 0 auto;
-    padding: 0;
-  } */
 
   .summary-text {
      grid-row: 3;
@@ -2348,11 +2346,13 @@ a.view-projects-button:active {
   .competitive-text1, .sketch-text1, .logo-text, .thoughts-text1 {
      grid-row: 3;
      width: 80vw;
+     margin-top: 20px;
   }
 
   .competitive-text2, .thoughts-text2 {
      grid-row: 4;
      width: 80vw;
+     margin-top: 20px;
   }
 
   .solution-text {
@@ -2532,35 +2532,23 @@ a.view-projects-button:active {
     padding-top: 10px;
   }
 
-  .google {
-     margin-left: 250px;
+  .google h5, .dropbox h5, .icloud h5 {
+    text-align: center;
+  }
+
+  .google h5, .dropbox h5 {
+    margin-top: 5px;
   }
 
   .dropbox {
-     padding-left: 525px;
+    margin: 0 150px;
   }
 
-  .icloud {
-     padding-left: 830px;
-  }
 
   .h51, .h52, .h53 {
     grid-column: 1;
     grid-row: 5;
     justify-self: start;
-  }
-
-  .h51 {
-     align-self: end;
-     margin-left: 250px;
-  }
-
-  .h52 {
-     margin-left: 540px;
-  }
-
-  .h53 {
-     padding-left: 831px;
   }
 
   .h54, .h55 {
@@ -2580,9 +2568,7 @@ a.view-projects-button:active {
   .take-away1, .take-away2, .take-away3, .take-away4, .take-away5, .take-away6, .take-away7, .take-away8, .take-away9  {
     grid-column: 1;
     margin-left: 140px;
-    width: 80vw;
-    margin-bottom: 55px;
-    margin-top: 15px;
+    width: 80vw;    
   }
 
   .take-away1 {
@@ -2591,6 +2577,7 @@ a.view-projects-button:active {
 
   .take-away2, .take-away4 {
      grid-row: 12;
+     margin-top: 50px;
   }
 
   .take-away5 {
@@ -2630,6 +2617,8 @@ a.view-projects-button:active {
   .persona-content {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px 0 0 171px;
   }
 
   .persona-text {
@@ -2656,6 +2645,7 @@ a.view-projects-button:active {
 
   .us-image {
      grid-row: 11;
+     width: 70vw;
   }
 
   .site-map-image {
@@ -2732,8 +2722,12 @@ a.view-projects-button:active {
   }
 
   .us-image img {
-     height: 549px;
-     width: 800px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .user-flow-container {
+    
   }
 
   ol {
