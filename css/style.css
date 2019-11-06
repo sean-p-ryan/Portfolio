@@ -545,7 +545,7 @@ h4 {
   grid-row: 27;
 }
 
-.summary-text, .problem-text, .solution-text, .competitive-text1, .competitive-text2, .survey-text1, .survey-text2, .survey-text3, .multitasker-text, .professional-text, .user-stories-text, .user-flow-text, .content-strategy-text1, .content-strategy-text2, .site-map-text, .sketch-text1, .sketch-text2, .sketch-text3, .logo-text, .mind-map-text, .mood-board-text, .style-guide-text, .preference-text1, .preference-text2, .preference-text3, .preference-text4, .preference-text5, .thoughts-text1, .thoughts-text2, .thoughts-text3, .thoughts-text4, .thoughts-text5 {
+.summary-text, .problem-text, .solution-text, .competitive-text1, .competitive-text2, .survey-text1, .survey-text2, .survey-text3, .multitasker-text, .user-stories-text, .user-flow-text, .content-strategy-text1, .content-strategy-text2, .site-map-text, .sketch-text1, .sketch-text2, .sketch-text3, .logo-text, .mind-map-text, .mood-board-text, .style-guide-text, .preference-text1, .preference-text2, .preference-text3, .preference-text4, .preference-text5, .thoughts-text1, .thoughts-text2, .thoughts-text3, .thoughts-text4, .thoughts-text5 {
   grid-column: 1;
   padding-left: 35px;
   padding-right: 35px;
@@ -581,13 +581,28 @@ h4 {
   grid-row: 12;
 }
 
-.multitasker-text, .professional-text {
-  padding-top: 30px;
-}
-
 .multitasker-text {
   grid-row: 4;
 }
+
+.persona-content {
+  display: flex;
+  flex-direction: row;
+  width: 87vw;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.persona-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 18px;
+  /* padding-top: 35px; */
+  width: 70vw;
+  font-size: 16px;
+  margin-top: 6px;
+}
+
 
 .professional-text {
   grid-row: 6;
@@ -872,11 +887,11 @@ a.user-survey-button:active {
   color: #2d3152;
 }
 
-.candiceb, .stacyj {
+.persona-image, .stacyj {
   grid-column: 1;
 }
 
-.candiceb {
+.persona-image {
   grid-row: 3;
 }
 
@@ -886,7 +901,6 @@ a.user-survey-button:active {
 
 .multitasker, .professional {
   grid-column: 1;
-  padding-left: 35px;
 }
 
 .multitasker{
@@ -1864,12 +1878,12 @@ a.contact-links:active {
     width: 100%;
   }
 
-  .candiceb img, .stacyj img, .us-image img, .lo-fi-iteration1 img, .lo-fi-iteration2 img, .new-content1 img, .new-content2 img, .hi-fi-mockup1 img, .hi-fi-mockup2 img, .hi-fi-mockup4 img, .logo-sketches-image img, .mind-map-image img, .mood-board-image img {
+  .persona-image img, .stacyj img, .us-image img, .lo-fi-iteration1 img, .lo-fi-iteration2 img, .new-content1 img, .new-content2 img, .hi-fi-mockup1 img, .hi-fi-mockup2 img, .hi-fi-mockup4 img, .logo-sketches-image img, .mind-map-image img, .mood-board-image img {
     height: auto;
     width: 100%;
   }
 
-  .candiceb, .stacyj, .us-image, .lo-fi-iteration1, .lo-fi-iteration2, .new-content1, .new-content2, .hi-fi-mockup1, .hi-fi-mockup2, .hi-fi-mockup4, .logo-sketches-image, .mind-map-image, .mood-board-image, .color-palette, .typography-image {
+  .persona-image, .stacyj, .us-image, .lo-fi-iteration1, .lo-fi-iteration2, .new-content1, .new-content2, .hi-fi-mockup1, .hi-fi-mockup2, .hi-fi-mockup4, .logo-sketches-image, .mind-map-image, .mood-board-image, .color-palette, .typography-image {
     max-width: 480px;
     margin: 10px auto;
 }
@@ -2600,11 +2614,7 @@ a.view-projects-button:active {
     margin-top: 10px;
   }
 
-  .candiceb, .stacyj {
-     margin-left: 170px;
-  }
-
-  .candiceb img, .stacyj img {
+  .persona-image img, .stacyj img {
      height: 321px;
      width: 245px;
   }
@@ -2617,11 +2627,6 @@ a.view-projects-button:active {
      grid-row: 3;
   }
 
-  .professional {
-     grid-row: 5;
-     padding-left: 70px;
-  }
-
   .persona-content {
     display: flex;
     flex-direction: row;
@@ -2630,8 +2635,9 @@ a.view-projects-button:active {
   .persona-text {
     display: flex;
     flex-direction: column;    
-    padding-left: 70px;
-    padding-top: 35px;
+    padding-left: 18px;
+    /* padding-top: 35px; */
+    width: 40vw;
   }
 
   .multitasker-text {
@@ -3111,15 +3117,9 @@ a.view-projects-button:active {
     margin-right: 390px;
   }
 
-  .multitasker, .professional {
-    justify-self: start;
-    margin-left: 415px;
-  }
-
   .multitasker-text, .professional-text {
     justify-self: start;
-    margin-left: 420px;
-    padding-top: 35px;
+    padding-top: 10px;
     width: 675px;
   }
 
