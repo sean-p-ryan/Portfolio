@@ -2260,35 +2260,54 @@ a.view-projects-button:active {
   }
 
   .desktop-table {
-    border-collapse: separate;
-    border-spacing: 5px 1rem;
-    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 75px;
+
+  }
+
+  .table-section {
+    margin: 0 15px;
+  }
+
+  .table-section-items ul {
+    margin-top: 20px;
+  }
+
+  .ia {
+    margin-top: 20px;
+  }
+
+  .table-section-items li {
+    font-size: 16px;
   }
   
-  .desktop-table hr {
-    width: 100%;
-  }
-  
-  .desktop-table th {
-    font-style: bold;
-    text-align: left;  
-  }
-  
-  .table-column-space {
-    width: 10px;
-    border-top: 0px;
-  }
-  
-  .desktop-table td {
-    margin-right: 10px;
-    padding-right: 15px;
-    /* border-top: 1px solid black; */
-  }
-  
-  .desktop-table th:after {
+  .desktop-table h4 {
     border-bottom: 1px solid black;
-    display: block;
-    width: 70%;
+    font-size: 24px;
+  }
+  
+  .deliverables {
+    display: flex;
+    flex-direction: row;
+  }
+  .desktop-table ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+
+  .ia {
+    padding: 0;
+    margin: 0 25px;
+  }
+  
+.role, .deliverables, .tools {
+  padding: 0;
+}
+  
+  .role {
+    width: 17vw;
   }
   
   .problem-solution p, .summary-text {
@@ -2443,17 +2462,6 @@ a.view-projects-button:active {
      padding-bottom: 40px;
   }
 
-  .role, .deliverables, .tools {
-    font-size: 26px;
-    grid-column: 1;
-    grid-row: 4;
-  }
-
-  .deliverables {
-    justify-self: center;
-    padding-right: 425px;
-  }
-
   .tools {
     justify-self: end;
     padding-right: 145px;
@@ -2497,9 +2505,6 @@ a.view-projects-button:active {
     padding-right: 375px;
   }
 
-  .ia {
-    padding-left: 70px;
-  }
 
   .visual {
     padding-left: 435px;
