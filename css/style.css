@@ -736,7 +736,6 @@ b {
 .empathize, .ideate, .reflection {
   display: grid;
   grid-gap: 20px;
-  padding-bottom: 50px;
   padding-top: 50px;
 }
 
@@ -2192,7 +2191,8 @@ a.view-projects-button:active {
   }
 
   .user-stories-button {
-    grid-row: 13;
+    grid-row: 14;
+    margin-bottom: 5%;
   }
 
   .content-strategy-button {
@@ -2253,7 +2253,7 @@ a.view-projects-button:active {
   }
 
   .overview, .problem-solution, .empathize, .define, .ideate, .brand-identity, .reflection {
-    grid-gap: 30px;
+    grid-gap: 15px;
   }
 
   .overview {
@@ -2347,11 +2347,16 @@ a.view-projects-button:active {
   }
 
   .user-stories, .color-logo {
-     grid-row: 8;
+     grid-row: 9;
   }
 
   .user-flows, .mood-board  {
      grid-row: 14;
+  }
+
+  .user-flows {
+    margin-top: 25px;
+    margin-top: 90px;
   }
 
   .content-strategy {
