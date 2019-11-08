@@ -349,11 +349,11 @@ a.button:active {
 }
 
 .hi-fi-mockups-button {
- grid-row: 20;
+ grid-row: 13;
 }
 
 .view-prototype-button2 {
-  grid-row: 24;
+  grid-row: 19;
 }
 
 .logo-sketch-button  {
@@ -500,7 +500,7 @@ h4 {
 }
 
 .hi-fi-mockups {
-  grid-row: 16;
+  grid-row: 10;
 }
 
 .black-white-logo {
@@ -591,11 +591,11 @@ h4 {
 }
 
 .user-flow-text, .sketch-text2 {
-  grid-row: 15;
+  grid-row: 9;
 }
 
 .content-strategy-text1, .sketch-text3, .style-guide-text {
-  grid-row: 22;
+  grid-row: 17;
 }
 
 .content-strategy-text2 {
@@ -833,7 +833,7 @@ a.analysis-links:active {
 }
 
 .take-away8 {
-  grid-row: 23;
+  grid-row: 15;
 }
 
 .take-away9 {
@@ -1064,10 +1064,12 @@ a.site-map-button:active {
   grid-row: 8;
 }
 
-.upload-image {
+.upload-image, .create-content-image {
   grid-column: 1;
   grid-row: 5;
-  place-self: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .lo-fi-iteration1 {
@@ -1204,7 +1206,7 @@ a.usability-tests-link:active {
 }
 
 .button-set a {
-  margin: 30px auto;
+  margin: 10px auto;
 }
 
 
@@ -1322,7 +1324,6 @@ a.logo-sketch-button:active {
 
 .vl3 {
   grid-row: 9;
-  padding-left: 125px;
 }
 
 .hi-fi-vl1, .hi-fi-vl2, .hi-fi-vl3, .hi-fi-vl4 {
@@ -1344,7 +1345,6 @@ a.logo-sketch-button:active {
 
 .hi-fi-vl4 {
   grid-row: 14;
-  padding-left: 125px;
 }
 
 .mind-map-image, .mood-board-image {
@@ -1902,9 +1902,14 @@ a.contact-links:active {
     margin: 10px auto;
 }
 
+.mind-map-image {
+  margin-top: 120px;
+}
+
   .search-share-image {
      grid-row: 17;
      place-self: center;
+     margin-top: 200px;
   }
 
   .onboarding-image {
@@ -2144,11 +2149,10 @@ a.view-projects-button:active {
   }
 
   .view-prototype-button2 {
-    grid-row: 24;
+    grid-row: 16;
     justify-self: center;
-    margin-right: 190px;
-    margin-top: 30px;
   }
+
 
   .user-survey-button, .personas-button, .user-stories-button, .user-flows-button, .content-strategy-button, .site-map-button {
     justify-self: start;
@@ -2210,12 +2214,8 @@ a.view-projects-button:active {
     padding-left: 20px;
   }
 
-  .hi-fi-mockups-button, .logo-sketch-button, .style-guide-button, .preference-test-button {
-    margin-right: 190px;
-  }
-
   .hi-fi-mockups-button {
-    grid-row: 21;
+    grid-row: 11;
   }
 
   .logo-sketch-button  {
@@ -2326,7 +2326,7 @@ a.view-projects-button:active {
   }
 
   .user-stories, .color-logo {
-     grid-row: 9;
+     grid-row: 8;
   }
 
   .user-flows, .mood-board  {
@@ -2346,7 +2346,7 @@ a.view-projects-button:active {
   }
 
   .black-white-logo {
-     grid-row: 7;
+     grid-row: 6;
   }
 
   .mind-map {
@@ -2355,6 +2355,12 @@ a.view-projects-button:active {
 
   .preference-testing {
     grid-row: 24;
+  }
+
+  .vaultage-logo-container1, .vaultage-logo-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .summary-text, .problem-text, .solution-text, .competitive-text1, .competitive-text2, .survey-text1, .survey-text2, .user-stories-text, .user-flow-text, .content-strategy-text1, .content-strategy-text2, .site-map-text, .sketch-text1, .sketch-text2, .sketch-text3, .logo-text, .mind-map-text, .mood-board-text, .style-guide-text, .preference-text1, .preference-text5, .thoughts-text1, .thoughts-text2, .thoughts-text3, .thoughts-text4, .thoughts-text5 {
@@ -2412,7 +2418,7 @@ a.view-projects-button:active {
   }
 
   .content-strategy-text1, .sketch-text3 {
-     grid-row: 22;
+     grid-row: 13;
   }
 
   .content-strategy-text2 {
@@ -2749,12 +2755,28 @@ a.view-projects-button:active {
     grid-row: 8;
   }
 
-  .hi-fi-mockup1, .hi-fi-mockup3 {
-    margin-left: 175px;
+  .mockup-set-1, .mockup-set-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 174px;
+    width: 79%;
+    height: auto;
+    margin-bottom: 60px;
   }
 
-  .hi-fi-mockup1, .hi-fi-mockup2 {
-     grid-row: 18;
+  .hi-fi-mockup1 img, .hi-fi-mockup2 img, .hi-fi-mockup3 img, .hi-fi-mockup4 img {
+    width: auto;
+    height: 100%;
+    margin-right: 30px;
+  }
+
+  .hi-fi-mockup1 {
+    margin-right: 29px;
+  }
+
+  .hi-fi-mockup3 {
+    margin-right: 29px;
   }
 
   .hi-fi-mockup3, .hi-fi-mockup4 {
@@ -2763,7 +2785,6 @@ a.view-projects-button:active {
 
   .hi-fi-mockup2, .hi-fi-mockup4 {
     justify-self: end;
-    padding-right: 340px;
   }
 
   .us-image img {
@@ -2818,23 +2839,22 @@ a.view-projects-button:active {
   }
 
   .hi-fi-mockup1 img, .hi-fi-mockup2 img, .hi-fi-mockup3 img, .hi-fi-mockup4 img {
-    height: 265px;
-    width: 450px;
+    height: 100%;
+    width: 100%;
   }
 
   .logo-sketches-image img, .mind-map-image img, .mood-board-image img, .color-palette img, .typography-image img {
      height: auto;
-     width:775px;
+     width: 77vw;
   }
 
-  .vl1, .vl3 {
+  .v13 {
+    padding-left: 0;
+  }
+
+  /* .vl1, .vl3 {
     grid-row: 8;
     padding-top: 38px;
-  }
-
-  .vl1 {
-    justify-self: start;
-    padding-left: 300px;
   }
 
   .vl2, .hi-fi-vl2 {
@@ -2868,7 +2888,7 @@ a.view-projects-button:active {
   .hi-fi-vl4 {
      justify-self: end;
      padding-right: 300px;
-  }
+  } */
 
   .login-button {
    grid-column: 1;
@@ -3116,7 +3136,7 @@ a.view-projects-button:active {
   }
 
 /* CASE STUDY LARGER DESKTOP STYLES */
-  main {
+  /* main {
     width: 100%;
   }
 
@@ -3146,7 +3166,7 @@ a.view-projects-button:active {
 
   .h53 {
      margin-right: 90px;
-  }
+  } */
 
   .user-survey-button, .personas-button, .user-stories-button, .user-flows-button, .content-strategy-button, .site-map-button {
     margin-left: 410px;
