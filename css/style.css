@@ -471,7 +471,7 @@ h4 {
 .user-survey, .user-stories {
   grid-column: 1;
   grid-row: 9;
-  padding-left: 35px;
+  margin-left: 36px;
 }
 
 .user-stories {
@@ -508,7 +508,7 @@ h4 {
 }
 
 .color-logo {
-  grid-row: 10;
+  grid-row: 8;
 }
 
 .mind-map {
@@ -561,6 +561,7 @@ h4 {
 
 .survey-text3 {
   grid-row: 12;
+  margin: 3% auto;
 }
 
 .multitasker-text {
@@ -569,7 +570,7 @@ h4 {
 
 .persona-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 87vw;
   justify-content: center;
   margin: 0 auto;
@@ -590,8 +591,12 @@ h4 {
   grid-row: 6;
 }
 
-.user-flow-text, .sketch-text2 {
+.sketch-text2 {
   grid-row: 9;
+}
+
+.user-flow-text {
+  grid-row: 15;
 }
 
 .content-strategy-text1, .sketch-text3, .style-guide-text {
@@ -849,6 +854,11 @@ a.user-survey-button:visited {
   background: #fff;
   border-color: #cda74e;
   color: #cda74e;
+}
+
+a.user-survey-button {
+  margin: 5% auto 0 auto;
+  display: block;
 }
 
 /* hover over link */
@@ -1309,9 +1319,17 @@ a.logo-sketch-button:active {
   color: #2d3152;
 }
 
+.vaultage-logo-container1, .vaultage-logo-container2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 .vl1, .vl2, .vl3 {
   grid-column: 1;
   justify-self: center;
+  margin-bottom: 30px;
 }
 
 .vl1 {
@@ -1324,11 +1342,13 @@ a.logo-sketch-button:active {
 
 .vl3 {
   grid-row: 9;
+  padding-left: 116px;
 }
 
 .hi-fi-vl1, .hi-fi-vl2, .hi-fi-vl3, .hi-fi-vl4 {
   grid-column: 1;
   place-self: center;
+  margin-bottom: 37px;
 }
 
 .hi-fi-vl1 {
@@ -1345,6 +1365,7 @@ a.logo-sketch-button:active {
 
 .hi-fi-vl4 {
   grid-row: 14;
+  padding-left: 118px;
 }
 
 .mind-map-image, .mood-board-image {
@@ -2360,7 +2381,12 @@ a.view-projects-button:active {
   .vaultage-logo-container1, .vaultage-logo-container2 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center;   
+    margin-left: 97px; 
+  }
+
+  .vaultage-logo-container1 figure, .vaultage-logo-container2 figure {
+    margin: 0 30px;
   }
 
   .summary-text, .problem-text, .solution-text, .competitive-text1, .competitive-text2, .survey-text1, .survey-text2, .user-stories-text, .user-flow-text, .content-strategy-text1, .content-strategy-text2, .site-map-text, .sketch-text1, .sketch-text2, .sketch-text3, .logo-text, .mind-map-text, .mood-board-text, .style-guide-text, .preference-text1, .preference-text5, .thoughts-text1, .thoughts-text2, .thoughts-text3, .thoughts-text4, .thoughts-text5 {
@@ -3049,6 +3075,7 @@ a.view-projects-button:active {
 
   .send-button {
     margin-bottom: 100px;
+    width: 60%;
  }
 
   .thank-you {
@@ -3063,7 +3090,7 @@ a.view-projects-button:active {
     justify-self: end;
     margin-right: 105px;
     margin-top: 40px;
-    width: 200px;
+    width: 280px;
   }
 
   ul.links2 {
